@@ -14,3 +14,33 @@ I successfully found a workaround here, and the gradient is computed, but I don'
 it involves an entirely unnecessary mutation and it is not compositional.
 
 We are going to try again.
+
+---
+
+The straight functional refactor does not work. We document it as `unsuccessful-refactor-of-gradient-of-relu-on-dict.ipynb`.
+
+This is also an extremely small Jupyter notebook, but it just took me 3 reloads to render it on GitHub (use `nbviewer` if necessary).
+
+The first problem here is that `map` is not provided for the dictionary, and the explanations for that are quite unsatisfying.
+
+So, here is a horrible mutable workaround which works:
+
+```julia
+function my_map(my_f, my_dict)
+    new_dict = deepcopy(my_dict)
+    map!(my_f, values(new_dict))
+    new_dict
+end
+```
+
+But then we bumping into this diagnostics: https://github.com/FluxML/Zygote.jl/issues/408
+
+So here we at least have a compositional solution, although still with encapsulated mutations (which are unfortunate),
+but it does not work with the current Zygote. 
+
+OK, the question of how to make this without mutations is a deeper Julia-related question (we have to implement `map`,
+if Julia would not want to provide one of the box, and in some sense, all those immutable operations do mutate
+newly allocated memory, so in some sense one can argue that `my_map` is already that), but we need to make another
+at making gradients for a compositional solution work.
+
+
