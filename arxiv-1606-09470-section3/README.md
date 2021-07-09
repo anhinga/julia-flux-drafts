@@ -43,4 +43,31 @@ if Julia would not want to provide one of the box, and in some sense, all those 
 newly allocated memory, so in some sense one can argue that `my_map` is already that), but we need to make another
 at making gradients for a compositional solution work.
 
+---
 
+So, I tried a few things in `second-unsuccessful-refactor-of-gradient-of-relu-on-dict.ipynb`.
+
+I tried to add type annotation to `my_map`, and I tried to replace it with
+
+```julia
+function my_map(my_f, my_dict::Dict{Any, Float32})
+    new_dict = Dict{Any, Float32}()
+    for k in keys(my_dict)
+        new_dict[k] = f(my_dict[k])
+    end
+    new_dict
+end
+```
+
+and I tried to incorporate adjoints from this unintegrated pull request
+
+https://github.com/FluxML/Zygote.jl/pull/412
+
+(not that I expected it to work, since I don't have explicit get or get!, but
+I don't really know the internals of the system, so I thought to give it a chance),
+
+but I was still getting
+
+`MethodError: no method matching getindex(::Dict{Any, Any})`
+
+diagnostics.
