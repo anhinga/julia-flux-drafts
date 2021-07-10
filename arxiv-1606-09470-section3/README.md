@@ -71,3 +71,11 @@ but I was still getting
 `MethodError: no method matching getindex(::Dict{Any, Any})`
 
 diagnostics.
+
+---
+
+Julia Flux `relu` is more tastefully written, compared to my `f(x)=max(0,x)`, although this difference did not play any role in the above notebooks so far:
+
+```julia
+relu(x) = max(zero(x), x)
+```
