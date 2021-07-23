@@ -527,3 +527,98 @@ iterate(v::SimpleVector, i=1) = (length(v) < i ? nothing : (v[i], i + 1))
 ```
 
 And yes, `getindex` is an operation which Zygote hates in many situations.
+
+I am going to record what I've done (FunctionalCollectionsMod is my local copy
+of FunctionalCollections.jl which I am modifying).
+
+```julia
+julia> cd("Desktop/Julia/FunctionalCollectionsMod.jl/src")
+
+julia> using Flux
+
+julia> import Base: zero
+
+julia> zero(x::String) = ""
+zero (generic function with 48 methods)
+
+julia> zero(x::Symbol) = Symbol("")
+zero (generic function with 49 methods)
+
+julia> push!(LOAD_PATH, pwd())
+4-element Vector{String}:
+ "@"
+ "@v#.#"
+ "@stdlib"
+ "C:\\Users\\anhin\\Desktop\\Julia\\FunctionalCollectionsMod.jl\\src"
+
+julia> using FunctionalCollectionsMod
+
+julia> test_pers = @Persistent Dict(:x=>0f0, "y"=>4f0, 8=>-3f0)
+Persistent{Any, Float32}[y => 4.0, x => 0.0, 8 => -3.0]
+
+julia> mapvalues(f, m::PersistentHashMap) = map(kv -> (kv[1], f(kv[2])), m)
+mapvalues (generic function with 1 method)
+
+julia> mapvalues(relu, test_pers)
+Persistent{Any, Float32}[y => 4.0, x => 0.0, 8 => 0.0]
+
+julia> sum(values(mapvalues(relu, test_pers)))
+4.0f0
+
+julia> p = params(test_pers)
+Params([])
+
+julia> grads = gradient(()->sum(values(mapvalues(relu, test_pers))), p)
+ERROR: Can't differentiate foreigncall expression
+Stacktrace:
+  [1] error(s::String)
+    @ Base .\error.jl:33
+  [2] Pullback
+    @ .\essentials.jl:591 [inlined]
+  [3] (::typeof(∂(getindex)))(Δ::Nothing)
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\compiler\interface2.jl:0
+  [4] Pullback
+    @ .\essentials.jl:599 [inlined]
+  [5] (::typeof(∂(iterate)))(Δ::Nothing)
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\compiler\interface2.jl:0
+  [6] Pullback
+    @ .\tuple.jl:94 [inlined]
+  [7] (::typeof(∂(indexed_iterate)))(Δ::Nothing)
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\compiler\interface2.jl:0
+  [8] Pullback
+    @ C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\tools\builtins.jl:17 [inlined]
+  [9] (::typeof(∂(literal_indexed_iterate)))(Δ::Nothing)
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\compiler\interface2.jl:0
+ [10] Pullback
+    @ C:\Users\anhin\Desktop\Julia\FunctionalCollectionsMod.jl\src\PersistentMap.jl:86 [inlined]
+ [11] (::typeof(∂(PersistentHashMap)))(Δ::NamedTuple{(:trie, :length), Tuple{NamedTuple{(:arr, :shift, :length, :maxlength, :bitmap), Tuple{Vector{NamedTuple{(:arr, :shift, :length, :maxlength, :bitmap), T} where T<:Tuple}, Nothing, Nothing, Nothing, Nothing}}, Nothing}})
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\compiler\interface2.jl:0
+ [12] Pullback
+    @ C:\Users\anhin\Desktop\Julia\FunctionalCollectionsMod.jl\src\PersistentMap.jl:99 [inlined]
+ [13] (::typeof(∂(PersistentHashMap)))(Δ::NamedTuple{(:trie, :length), Tuple{NamedTuple{(:arr, :shift, :length, :maxlength, :bitmap), Tuple{Vector{NamedTuple{(:arr, :shift, :length, :maxlength, :bitmap), T} where T<:Tuple}, Nothing, Nothing, Nothing, Nothing}}, Nothing}})
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\compiler\interface2.jl:0
+ [14] #209
+    @ C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\lib\lib.jl:203 [inlined]
+ [15] #1746#back
+    @ C:\Users\anhin\.julia\packages\ZygoteRules\OjfTt\src\adjoint.jl:59 [inlined]
+ [16] Pullback
+    @ C:\Users\anhin\Desktop\Julia\FunctionalCollectionsMod.jl\src\PersistentMap.jl:185 [inlined]
+ [17] (::typeof(∂(map)))(Δ::NamedTuple{(:trie, :length), Tuple{NamedTuple{(:arr, :shift, :length, :maxlength, :bitmap), Tuple{Vector{NamedTuple{(:arr, :shift, :length, :maxlength, :bitmap), T} where T<:Tuple}, Nothing, Nothing, Nothing, Nothing}}, Nothing}})
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\compiler\interface2.jl:0
+ [18] Pullback
+    @ .\REPL[10]:1 [inlined]
+ [19] (::typeof(∂(mapvalues)))(Δ::NamedTuple{(:trie, :length), Tuple{NamedTuple{(:arr, :shift, :length, :maxlength, :bitmap), Tuple{Vector{NamedTuple{(:arr, :shift, :length, :maxlength, :bitmap), T} where T<:Tuple}, Nothing, Nothing, Nothing, Nothing}}, Nothing}})
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\compiler\interface2.jl:0
+ [20] Pullback
+    @ .\REPL[14]:1 [inlined]
+ [21] (::typeof(∂(#3)))(Δ::Float32)
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\compiler\interface2.jl:0
+ [22] (::Zygote.var"#90#91"{Zygote.Params, typeof(∂(#3)), Zygote.Context})(Δ::Float32)
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\compiler\interface.jl:348
+ [23] gradient(f::Function, args::Zygote.Params)
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\compiler\interface.jl:76
+ [24] top-level scope
+    @ REPL[14]:1
+ [25] top-level scope
+    @ C:\Users\anhin\.julia\packages\CUDA\lwSps\src\initialization.jl:52
+```
