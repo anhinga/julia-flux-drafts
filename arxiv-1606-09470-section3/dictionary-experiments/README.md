@@ -664,3 +664,14 @@ more specifically, from its line 86
 Now we need to figure out why it references `indexed_iterate` with the
 first parameter being `SimpleVector` (which refers to a piece of C code)
 instead of something more Julian.
+
+Hmmm... I was about to say that we did not need to figure this out, we just needed
+to block this line with `Zygote.@ignore` and I had done that in this fashion
+
+```julia
+    K, V = Zygote.@ignore typejoin(map(typeof, itr)...).types
+```
+
+but strangely enough, the diagnostics did not change. Now, if the problem is in
+variable destructuring, `K, V =`, then we have a problem because blocking
+assignments with Zygote.@ignore causes all kinds of troubles in my recent experience.
