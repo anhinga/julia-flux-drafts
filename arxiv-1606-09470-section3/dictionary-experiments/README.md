@@ -622,3 +622,45 @@ Stacktrace:
  [25] top-level scope
     @ C:\Users\anhin\.julia\packages\CUDA\lwSps\src\initialization.jl:52
 ```
+
+So, let's see what's going on here. This line 599 of `essentials.jl`
+
+```julia
+iterate(v::SimpleVector, i=1) = (length(v) < i ? nothing : (v[i], i + 1))
+```
+
+is called from line 94 of https://github.com/JuliaLang/julia/blob/v1.6.2/base/tuple.jl
+
+```julia
+function indexed_iterate(I, i, state)
+    x = iterate(I, state)
+    x === nothing && throw(BoundsError(I, i))
+    x
+end
+```
+
+and that presumably comes from https://github.com/JuliaCollections/FunctionalCollections.jl/blob/master/src/PersistentMap.jl
+
+```
+function PersistentHashMap(itr)
+    if length(itr) == 0
+        return PersistentHashMap()
+    end
+    K, V = typejoin(map(typeof, itr)...).types
+    m = PersistentHashMap{K, V}()
+    for (k, v) in itr
+        m = assoc(m, k, v)
+    end
+    m
+end
+```
+
+more specifically, from its line 86
+
+```julia
+    K, V = typejoin(map(typeof, itr)...).types
+```
+
+Now we need to figure out why it references `indexed_iterate` with the
+first parameter being `SimpleVector` (which refers to a piece of C code)
+instead of something more Julian.
