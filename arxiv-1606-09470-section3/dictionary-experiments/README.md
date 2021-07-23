@@ -686,3 +686,7 @@ Yes, actually, if we rewrite the above as
 then the trace complains about the second of these lines. So we probably don't
 even need `Zygote.@ignore` in the first one, but we need to figure out
 what to do with this destructuring.
+
+There is an open issue associated with destructuring:
+
+https://github.com/FluxML/Zygote.jl/issues/303
