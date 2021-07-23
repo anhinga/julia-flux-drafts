@@ -451,3 +451,31 @@ julia> grads = gradient(()->sum(values(mapvalues(relu, t2))), p2)
 ERROR: Mutating arrays is not supported -- called pop!(::Vector{Int64}, _...)
 Stacktrace:
 ```
+
+And the `pop!` it is complaining about is probably this `pop!` at line 264 of
+https://github.com/JuliaCollections/FunctionalCollections.jl/blob/master/src/BitmappedVectorTrie.jl
+
+```julia
+function Base.iterate(t::SparseBitmappedTrie, state = initial_state(t))
+    if isempty(state)
+        return nothing
+    else
+        item = directindex(t, state)
+        while true
+            index = pop!(state)
+            node = directindex(t, state)
+            if length(node) > index
+                push!(state, index + 1)
+                return item, vcat(state, ones(Int, 1 + round(Int, t.shift / shiftby) -
+                                                   length(state)))
+            elseif node === arrayof(t)
+                return item, Int[]
+            end
+        end
+    end
+end
+```
+
+So, I suppose, I can try to fork or copy this functionality from
+`FunctionalCollections` and get inside it and tell Zygote not
+to mess with it.
