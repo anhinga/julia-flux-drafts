@@ -81,3 +81,12 @@ Julia Flux `relu` is more tastefully written, compared to my `f(x)=max(0,x)`, al
 ```julia
 relu(x) = max(zero(x), x)
 ```
+
+---
+
+The right thing to do is to stop using mutable dictionaries and start using `PersistentHashMap` from https://github.com/JuliaCollections/FunctionalCollections.jl
+
+After all, mutability of the underlying data structure here is just an annoyance,
+I really want immutable dictionaries with shared common parts here. And it turns out
+that `FunctionalCollections.jl` implements that, so hopefully this will just work
+for us.
