@@ -125,3 +125,61 @@ relu (generic function with 1 method)
 julia> mapvalues(relu, test_pers)
 Persistent{Any, Float32}[y => 4.0, x => 0.0, 8 => 0.0]
 ```
+
+But, frustratingly enough, this still does not work with Flux/Zygote:
+
+```julia
+julia> using Flux
+
+julia> # it does not matter which of our ReLU will get used, my definition is the same as what's in Flux
+
+julia> p = params(test_pers)
+Params([])
+
+julia> sum(values(mapvalues(relu, test_pers)))
+4.0f0
+
+julia> grads = gradient(()->sum(values(mapvalues(relu, test_pers))), p)
+ERROR: map is not defined on dictionaries
+Stacktrace:
+  [1] error(s::String)
+    @ Base .\error.jl:33
+  [2] map(f::Zygote.StaticGetter{1}, #unused#::PersistentHashMap{Tuple{Any, Float32}, typeof(∂(#3))})
+    @ Base .\abstractarray.jl:2325
+  [3] macro expansion
+    @ C:\Users\anhin\.julia\packages\Zygote\0da6K\src\lib\array.jl:197 [inlined]
+  [4] _unzip(tuples::PersistentHashMap{Tuple{Any, Float32}, typeof(∂(#3))}, #unused#::Val{2})
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\0da6K\src\lib\array.jl:197
+  [5] unzip(tuples::PersistentHashMap{Tuple{Any, Float32}, typeof(∂(#3))})
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\0da6K\src\lib\array.jl:202
+  [6] ∇map(cx::Zygote.Context, f::Function, args::PersistentHashMap{Any, Float32})
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\0da6K\src\lib\array.jl:222
+  [7] _pullback
+    @ C:\Users\anhin\.julia\packages\Zygote\0da6K\src\lib\array.jl:256 [inlined]
+  [8] _pullback
+    @ C:\Users\anhin\.julia\packages\FunctionalCollections\1e7f3\src\PersistentMap.jl:185 [inlined]
+  [9] _pullback(::Zygote.Context, ::typeof(map), ::var"#3#4"{typeof(relu)}, ::PersistentHashMap{Any, Float32})
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\0da6K\src\compiler\interface2.jl:0
+ [10] _pullback
+    @ .\REPL[11]:1 [inlined]
+ [11] _pullback(::Zygote.Context, ::typeof(mapvalues), ::typeof(relu), ::PersistentHashMap{Any, Float32})
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\0da6K\src\compiler\interface2.jl:0
+ [12] _pullback
+    @ .\REPL[18]:1 [inlined]
+ [13] _pullback(::Zygote.Context, ::var"#5#6")
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\0da6K\src\compiler\interface2.jl:0
+ [14] pullback(f::Function, ps::Zygote.Params)
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\0da6K\src\compiler\interface.jl:250
+ [15] gradient(f::Function, args::Zygote.Params)
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\0da6K\src\compiler\interface.jl:58
+ [16] top-level scope
+    @ REPL[18]:1
+ [17] top-level scope
+    @ C:\Users\anhin\.julia\packages\CUDA\Ozu5O\src\initialization.jl:52
+```
+
+I do not have any dictionaries here, I have PersistentHashMap, but Zygote manages to
+actually create a dictionary in the process, to apply `map` to it, and then to report
+that, of course, map does not work on the built-in dictionaries!
+
+I really hope `Diffractor.jl` will be a solution to this mess.
