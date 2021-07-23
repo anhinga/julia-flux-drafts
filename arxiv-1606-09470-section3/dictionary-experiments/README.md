@@ -380,3 +380,19 @@ Stacktrace:
     @ C:\Users\anhin\.julia\packages\CUDA\lwSps\src\initialization.jl:52
 ```
 
+A similar diagnostics if we make all keys to be symbols:
+
+```julia
+julia> t3 = @Persistent Dict(:x=>0f0, :y=>4f0, :s8=>-3f0)
+Persistent{Symbol, Float32}[x => 0.0, y => 4.0, s8 => -3.0]
+
+julia> p3 = params(t3)
+Params([])
+
+julia> sum(values(mapvalues(relu, t3)))
+4.0f0
+
+julia> grads = gradient(()->sum(values(mapvalues(relu, t3))), p3)
+ERROR: MethodError: no method matching zero(::Symbol)
+[and so on]
+```
