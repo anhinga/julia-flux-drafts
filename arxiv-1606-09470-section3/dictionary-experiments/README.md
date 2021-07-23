@@ -183,3 +183,115 @@ actually create a dictionary in the process, to apply `map` to it, and then to r
 that, of course, map does not work on the built-in dictionaries!
 
 I really hope `Diffractor.jl` will be a solution to this mess.
+
+Well, my Zygote is v0.6.14 and my Flux is 0.12.4, and we now have v0.6.17 and v0.12.5
+respectively, and also, who knows, perhaps it is better to say `using Flux`
+at the very beginning. Let's upgrade and try again (this is Julia 1.6.1).
+
+The diagnostics is now different, but it still does not work (now Zygote has managed to
+create a mutating array in the process, although my program is completely
+immutable):
+
+```julia
+julia> using Flux
+┌ Warning: The NVIDIA driver on this system only supports up to CUDA 10.2.0.
+│ For performance reasons, it is recommended to upgrade to a driver that supports CUDA 11.2 or higher.
+└ @ CUDA C:\Users\anhin\.julia\packages\CUDA\lwSps\src\initialization.jl:42
+
+julia> using FunctionalCollections
+
+julia> test_pers = @Persistent Dict(:x=>0f0, "y"=>4f0, 8=>-3f0)
+Persistent{Any, Float32}[y => 4.0, x => 0.0, 8 => -3.0]
+
+julia> mapvalues(f, m::PersistentHashMap) = map(kv -> (kv[1], f(kv[2])), m)
+mapvalues (generic function with 1 method)
+
+julia> mapvalues(relu, test_pers)
+Persistent{Any, Float32}[y => 4.0, x => 0.0, 8 => 0.0]
+
+julia> p = params(test_pers)
+Params([])
+
+julia> sum(values(mapvalues(relu, test_pers)))
+4.0f0
+
+julia> grads = gradient(()->sum(values(mapvalues(relu, test_pers))), p)
+ERROR: Mutating arrays is not supported -- called pop!(::Vector{Int64}, _...)
+Stacktrace:
+  [1] error(s::String)
+    @ Base .\error.jl:33
+  [2] (::Zygote.var"#450#451"{Vector{Int64}})(#unused#::Nothing)
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\lib\array.jl:83
+  [3] (::Zygote.var"#2371#back#452"{Zygote.var"#450#451"{Vector{Int64}}})(Δ::Nothing)
+    @ Zygote C:\Users\anhin\.julia\packages\ZygoteRules\OjfTt\src\adjoint.jl:59
+  [4] Pullback
+    @ C:\Users\anhin\.julia\packages\FunctionalCollections\1e7f3\src\BitmappedVectorTrie.jl:264 [inlined]
+  [5] (::typeof(∂(iterate)))(Δ::Tuple{NamedTuple{(:kvs,), Tuple{Vector{Union{Nothing, NamedTuple{(:first, :second), Tuple{Int64, Float32}}}}}}, Nothing})
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\compiler\interface2.jl:0
+  [6] Pullback
+    @ C:\Users\anhin\.julia\packages\FunctionalCollections\1e7f3\src\PersistentMap.jl:176 [inlined]
+  [7] (::typeof(∂(iterate)))(Δ::Tuple{NamedTuple{(:first, :second), Tuple{Int64, Float32}}, Nothing})
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\compiler\interface2.jl:0
+  [8] #209
+    @ C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\lib\lib.jl:203 [inlined]
+  [9] (::Zygote.var"#1746#back#211"{Zygote.var"#209#210"{Tuple{Tuple{Nothing}, Tuple{Nothing}}, typeof(∂(iterate))}})(Δ::Tuple{NamedTuple{(:first, :second), Tuple{Int64, Float32}}, Nothing})
+    @ Zygote C:\Users\anhin\.julia\packages\ZygoteRules\OjfTt\src\adjoint.jl:59
+ [10] Pullback
+    @ .\abstractdict.jl:64 [inlined]
+ [11] (::typeof(∂(iterate)))(Δ::Tuple{Float32, Nothing})
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\compiler\interface2.jl:0
+ [12] Pullback
+    @ .\reduce.jl:60 [inlined]
+ [13] (::typeof(∂(_foldl_impl)))(Δ::Float32)
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\compiler\interface2.jl:0
+ [14] Pullback
+    @ .\reduce.jl:48 [inlined]
+ [15] (::typeof(∂(foldl_impl)))(Δ::Float32)
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\compiler\interface2.jl:0
+ [16] Pullback
+    @ .\reduce.jl:44 [inlined]
+ [17] (::typeof(∂(mapfoldl_impl)))(Δ::Float32)
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\compiler\interface2.jl:0
+ [18] Pullback (repeats 2 times)
+    @ .\reduce.jl:160 [inlined]
+ [19] (::typeof(∂(mapfoldl)))(Δ::Float32)
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\compiler\interface2.jl:0
+ [20] Pullback
+    @ .\reduce.jl:287 [inlined]
+ [21] (::typeof(∂(#mapreduce#218)))(Δ::Float32)
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\compiler\interface2.jl:0
+ [22] Pullback
+    @ .\reduce.jl:287 [inlined]
+ [23] (::typeof(∂(mapreduce)))(Δ::Float32)
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\compiler\interface2.jl:0
+ [24] Pullback
+    @ .\reduce.jl:501 [inlined]
+ [25] (::typeof(∂(#sum#221)))(Δ::Float32)
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\compiler\interface2.jl:0
+ [26] Pullback
+    @ .\reduce.jl:501 [inlined]
+ [27] (::typeof(∂(sum)))(Δ::Float32)
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\compiler\interface2.jl:0
+ [28] Pullback
+    @ .\reduce.jl:528 [inlined]
+ [29] (::typeof(∂(#sum#222)))(Δ::Float32)
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\compiler\interface2.jl:0
+ [30] Pullback
+    @ .\reduce.jl:528 [inlined]
+ [31] (::typeof(∂(sum)))(Δ::Float32)
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\compiler\interface2.jl:0
+ [32] Pullback
+    @ .\REPL[8]:1 [inlined]
+ [33] (::typeof(∂(#3)))(Δ::Float32)
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\compiler\interface2.jl:0
+ [34] (::Zygote.var"#90#91"{Zygote.Params, typeof(∂(#3)), Zygote.Context})(Δ::Float32)
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\compiler\interface.jl:348
+ [35] gradient(f::Function, args::Zygote.Params)
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\compiler\interface.jl:76
+ [36] top-level scope
+    @ REPL[8]:1
+ [37] top-level scope
+    @ C:\Users\anhin\.julia\packages\CUDA\lwSps\src\initialization.jl:52
+```
+
+
