@@ -396,3 +396,5 @@ julia> grads = gradient(()->sum(values(mapvalues(relu, t3))), p3)
 ERROR: MethodError: no method matching zero(::Symbol)
 [and so on]
 ```
+
+Same behavior for Julia 1.6.2 (as expected).
