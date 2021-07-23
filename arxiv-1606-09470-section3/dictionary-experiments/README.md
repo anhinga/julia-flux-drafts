@@ -736,4 +736,55 @@ julia> length(grads)
 
 So this does not break outright anymore, but `params(test_pers)` creates an empty collection of parameters.
 
+---
+
+Note that in our very first example we had a similar pathological situation, but strangely enough things worked:
+
+```julia
+pars = Dict(:x=>0f0, "y"=>4f0, 8=>-3f0)
+Dict{Any, Float32} with 3 entries:
+  "y" => 4.0
+  8   => -3.0
+  :x  => 0.0
+
+julia> pd = params(pars)
+Params([])
+
+julia> length(pd)
+0
+
+julia> function sum_relu_dict(d)
+           s = 0f0
+           for k in keys(d)
+               s += relu(d[k])
+           end
+           s
+       end
+sum_relu_dict (generic function with 1 method)
+
+julia> sum_relu_dict(pars)
+4.0f0
+
+julia> gr = gradient(()->sum_relu_dict(pars), pd)
+Grads(...)
+
+julia> length(gr)
+0
+
+julia> gr[pars]
+Dict{Any, Any} with 3 entries:
+  "y" => 1.0
+  8   => 0.0
+  :x  => 0.0
+
+julia> keys(gr)
+Params([])
+```
+
+It's weird in the case of a dictionary; `gr` and `pd` seem empty on inspection, but somehow
+`gr` still can access the correct result.
+
+Unfortunately, this miracle did not manifest for PersistentHashMap. Let's investigate
+what's going on.
+
 _Time for a pause_
