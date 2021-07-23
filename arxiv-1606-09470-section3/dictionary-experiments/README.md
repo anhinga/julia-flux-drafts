@@ -690,3 +690,34 @@ what to do with this destructuring.
 There is an open issue associated with destructuring:
 
 https://github.com/FluxML/Zygote.jl/issues/303
+
+So, let's rewrite like this:
+
+```julia
+    K_and_V = typejoin(map(typeof, itr)...).types
+	K = K_and_V[1]
+	V = K_and_V[2]
+```
+
+Remarkably enough, it breaks at the `getindex` triggered by the last of these 3 lines:
+
+```julia
+	V = K_and_V[2]
+```
+
+And it breaks because K_and_V is an `svec` (a SimpleVector), and indexing those
+involve a `ccall`, as we have seen above.
+
+But this is fixable in a more standard way:
+
+```julia
+	K = Zygote.@ignore K_and_V[1]
+	V = Zygote.@ignore K_and_V[2]
+```
+
+And it looks like it might be the last error; at least, we have finally got
+
+```julia
+julia> grads = gradient(()->sum(values(mapvalues(relu, test_pers))), p)
+Grads(...)
+```
