@@ -90,3 +90,36 @@ After all, mutability of the underlying data structure here is just an annoyance
 I really want immutable dictionaries with shared common parts here. And it turns out
 that `FunctionalCollections.jl` implements that, so hopefully this will just work
 for us.
+
+At least, `map` works for these structures. There are some caveats about how they can and can't be created:
+
+```julia
+julia> using FunctionalCollections
+
+julia> test_dict = Dict(:x=>0f0, "y"=>4f0, 8=>-3f0)
+Dict{Any, Float32} with 3 entries:
+  "y" => 4.0
+  8   => -3.0
+  :x  => 0.0
+
+julia> test_pers = @Persistent test_dict
+ERROR: LoadError: Unsupported @Persistent syntax
+Stacktrace:
+ [1] error(s::String)
+   @ Base .\error.jl:33
+ [2] var"@Persistent"(__source__::LineNumberNode, __module__::Module, ex::Any)
+   @ FunctionalCollections C:\Users\anhin\.julia\packages\FunctionalCollections\1e7f3\src\FunctionalCollections.jl:68
+in expression starting at REPL[9]:1
+
+julia> test_pers = @Persistent Dict(:x=>0f0, "y"=>4f0, 8=>-3f0)
+Persistent{Any, Float32}[y => 4.0, x => 0.0, 8 => -3.0]
+
+julia> mapvalues(f, m::PersistentHashMap) = map(kv -> (kv[1], f(kv[2])), m)
+mapvalues (generic function with 1 method)
+
+julia> relu(x) = max(zero(x), x)
+relu (generic function with 1 method)
+
+julia> mapvalues(relu, test_pers)
+Persistent{Any, Float32}[y => 4.0, x => 0.0, 8 => 0.0]
+```
