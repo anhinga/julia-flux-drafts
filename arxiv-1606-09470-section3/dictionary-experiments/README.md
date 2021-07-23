@@ -433,3 +433,21 @@ Closest candidates are:
 ```
 
 diagnostics, so I obviously need help here.
+
+OK, the right way to do this is
+
+```julia
+julia> import Base.zero
+
+julia> zero(x::String)=""
+zero (generic function with 23 methods)
+```
+
+but then we back to the original error diagnostics for the case of
+mixed type keys:
+
+```julia
+julia> grads = gradient(()->sum(values(mapvalues(relu, t2))), p2)
+ERROR: Mutating arrays is not supported -- called pop!(::Vector{Int64}, _...)
+Stacktrace:
+```
