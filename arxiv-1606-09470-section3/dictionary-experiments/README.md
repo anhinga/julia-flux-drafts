@@ -680,7 +680,7 @@ Yes, actually, if we rewrite the above as
 
 ```julia
     K_and_V = Zygote.@ignore typejoin(map(typeof, itr)...).types
-	K, V = K_and_V
+    K, V = K_and_V
 ```
 
 then the trace complains about the second of these lines. So we probably don't
