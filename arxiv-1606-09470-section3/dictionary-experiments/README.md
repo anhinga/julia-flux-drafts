@@ -675,3 +675,14 @@ to block this line with `Zygote.@ignore` and I had done that in this fashion
 but strangely enough, the diagnostics did not change. Now, if the problem is in
 variable destructuring, `K, V =`, then we have a problem because blocking
 assignments with `Zygote.@ignore` causes all kinds of troubles in my recent experience.
+
+Yes, actually, if we rewrite the above as
+
+```julia
+    K_and_V = Zygote.@ignore typejoin(map(typeof, itr)...).types
+	K, V = K_and_V
+```
+
+then the trace complains about the second of these lines. So we probably don't
+even need `Zygote.@ignore` in the first one, but we need to figure out
+what to do with this destructuring.
