@@ -721,3 +721,19 @@ And it looks like it might be the last error; at least, we have finally got
 julia> grads = gradient(()->sum(values(mapvalues(relu, test_pers))), p)
 Grads(...)
 ```
+
+But not so simple, alas (it seems that no one has tried anything like that,
+and this is why everything is so flaky when I am trying to use Zygote in
+this apparently rather non-standard way):
+
+```julia
+julia> grads[test_pers]
+ERROR: KeyError: key PersistentHashMap{Any, Float32}("y" => 4.0, :x => 0.0, 8 => -3.0) not found
+
+julia> length(grads)
+0
+```
+
+So this does not break outright anymore, but `params(test_pers)` creates an empty collection of parameters.
+
+_Time for a pause_
