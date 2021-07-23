@@ -413,3 +413,23 @@ but this did not change anything (it is trying to include keys in the derivative
 computations, and this causes failure; I hoped that `Zygote.@nograd String` and
 `Zygote.@nograd Symbol` would prevent this, at least in cases where I used all strings or
 all symbols for keys, but that did not work.
+
+But even if I start my REPL session with
+
+```julia
+zero(x::String)=""
+```
+
+I am still getting the
+
+```julia
+julia> grads = gradient(()->sum(values(mapvalues(relu, t2))), p2)
+ERROR: MethodError: no method matching zero(::String)
+Closest candidates are:
+  zero(::Union{Type{P}, P}) where P<:Dates.Period at C:\buildbot\worker\package_win64\build\usr\share\julia\stdlib\v1.6\Dates\src\periods.jl:53
+  zero(::SA) where SA<:StaticArrays.StaticArray at C:\Users\anhin\.julia\packages\StaticArrays\AHT47\src\linalg.jl:88
+  zero(::ForwardDiff.Partials) at C:\Users\anhin\.julia\packages\ForwardDiff\QOqCN\src\partials.jl:39
+  ...
+```
+
+diagnostics, so I obviously need help here.
