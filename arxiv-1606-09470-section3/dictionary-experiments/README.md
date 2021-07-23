@@ -294,4 +294,89 @@ Stacktrace:
     @ C:\Users\anhin\.julia\packages\CUDA\lwSps\src\initialization.jl:52
 ```
 
+OK, let's make all keys to be strings. Still does not work, but the diagnostics is different again:
+
+```julia
+julia> t2 = @Persistent Dict(":x"=>0f0, "y"=>4f0, "8"=>-3f0)
+Persistent{String, Float32}[y => 4.0, 8 => -3.0, :x => 0.0]
+
+julia> p2 = params(t2)
+Params([])
+
+julia> sum(values(mapvalues(relu, t2)))
+4.0f0
+
+julia> grads = gradient(()->sum(values(mapvalues(relu, t2))), p2)
+ERROR: MethodError: no method matching zero(::String)
+Closest candidates are:
+  zero(::Union{Type{P}, P}) where P<:Dates.Period at C:\buildbot\worker\package_win64\build\usr\share\julia\stdlib\v1.6\Dates\src\periods.jl:53
+  zero(::SparseArrays.AbstractSparseArray) at C:\buildbot\worker\package_win64\build\usr\share\julia\stdlib\v1.6\SparseArrays\src\SparseArrays.jl:55
+  zero(::LinearAlgebra.UniformScaling{T}) where T at C:\buildbot\worker\package_win64\build\usr\share\julia\stdlib\v1.6\LinearAlgebra\src\uniformscaling.jl:136
+  ...
+Stacktrace:
+  [1] pair_getfield
+    @ C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\lib\base.jl:134 [inlined]
+  [2] #2100#back
+    @ C:\Users\anhin\.julia\packages\ZygoteRules\OjfTt\src\adjoint.jl:59 [inlined]
+  [3] Pullback
+    @ .\pair.jl:59 [inlined]
+  [4] (::typeof(∂(getindex)))(Δ::Float32)
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\compiler\interface2.jl:0
+  [5] Pullback
+    @ .\abstractdict.jl:66 [inlined]
+  [6] (::typeof(∂(iterate)))(Δ::Tuple{Float32, Nothing})
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\compiler\interface2.jl:0
+  [7] Pullback
+    @ .\reduce.jl:60 [inlined]
+  [8] (::typeof(∂(_foldl_impl)))(Δ::Float32)
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\compiler\interface2.jl:0
+  [9] Pullback
+    @ .\reduce.jl:48 [inlined]
+ [10] (::typeof(∂(foldl_impl)))(Δ::Float32)
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\compiler\interface2.jl:0
+ [11] Pullback
+    @ .\reduce.jl:44 [inlined]
+ [12] (::typeof(∂(mapfoldl_impl)))(Δ::Float32)
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\compiler\interface2.jl:0
+ [13] Pullback (repeats 2 times)
+    @ .\reduce.jl:160 [inlined]
+ [14] (::typeof(∂(mapfoldl)))(Δ::Float32)
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\compiler\interface2.jl:0
+ [15] Pullback
+    @ .\reduce.jl:287 [inlined]
+ [16] (::typeof(∂(#mapreduce#218)))(Δ::Float32)
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\compiler\interface2.jl:0
+ [17] Pullback
+    @ .\reduce.jl:287 [inlined]
+ [18] (::typeof(∂(mapreduce)))(Δ::Float32)
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\compiler\interface2.jl:0
+ [19] Pullback
+    @ .\reduce.jl:501 [inlined]
+ [20] (::typeof(∂(#sum#221)))(Δ::Float32)
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\compiler\interface2.jl:0
+ [21] Pullback
+    @ .\reduce.jl:501 [inlined]
+ [22] (::typeof(∂(sum)))(Δ::Float32)
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\compiler\interface2.jl:0
+ [23] Pullback
+    @ .\reduce.jl:528 [inlined]
+ [24] (::typeof(∂(#sum#222)))(Δ::Float32)
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\compiler\interface2.jl:0
+ [25] Pullback
+    @ .\reduce.jl:528 [inlined]
+ [26] (::typeof(∂(sum)))(Δ::Float32)
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\compiler\interface2.jl:0
+ [27] Pullback
+    @ .\REPL[12]:1 [inlined]
+ [28] (::typeof(∂(#5)))(Δ::Float32)
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\compiler\interface2.jl:0
+ [29] (::Zygote.var"#90#91"{Zygote.Params, typeof(∂(#5)), Zygote.Context})(Δ::Float32)
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\compiler\interface.jl:348
+ [30] gradient(f::Function, args::Zygote.Params)
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\compiler\interface.jl:76
+ [31] top-level scope
+    @ REPL[12]:1
+ [32] top-level scope
+    @ C:\Users\anhin\.julia\packages\CUDA\lwSps\src\initialization.jl:52
+```
 
