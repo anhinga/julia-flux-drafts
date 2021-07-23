@@ -479,3 +479,51 @@ end
 So, I suppose, I can try to fork or copy this functionality from
 `FunctionalCollections` and get inside it and tell Zygote not
 to mess with it.
+
+---
+
+So, we indeed can get past this by replacing the above function with
+
+```julia
+import Zygote
+
+function Base.iterate(t::SparseBitmappedTrie, state = initial_state(t))
+    if isempty(state)
+        return nothing
+    else
+        item = directindex(t, state)
+        while true
+            index = Zygote.@ignore pop!(state)
+            node = directindex(t, state)
+            if length(node) > index
+                Zygote.@ignore push!(state, index + 1)
+                return item, vcat(state, ones(Int, 1 + round(Int, t.shift / shiftby) -
+                                                   length(state)))
+            elseif node === arrayof(t)
+                return item, Int[]
+            end
+        end
+    end
+end
+```
+
+and by similarly applying `Zygote.@ignore` to a couple of instances of `push!` in
+https://github.com/JuliaCollections/FunctionalCollections.jl/blob/master/src/PersistentMap.jl
+
+Then we are getting a new bug, a complaint about foreign function call in line 591 of
+https://github.com/JuliaLang/julia/blob/v1.6.2/base/essentials.jl
+
+which is the `ccall` in the function `getindex` which is called by function `iterate` in line 599.
+
+```julia
+function getindex(v::SimpleVector, i::Int)
+    @boundscheck if !(1 <= i <= length(v))
+        throw(BoundsError(v,i))
+    end
+    return ccall(:jl_svec_ref, Any, (Any, Int), v, i - 1)
+end
+
+iterate(v::SimpleVector, i=1) = (length(v) < i ? nothing : (v[i], i + 1))
+```
+
+And yes, `getindex` is an operation which Zygote hates in many situations.
