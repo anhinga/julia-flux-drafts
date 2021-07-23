@@ -398,3 +398,18 @@ ERROR: MethodError: no method matching zero(::Symbol)
 ```
 
 Same behavior for Julia 1.6.2 (as expected).
+
+I tried to use
+
+```julia
+Zygote.@nograd String
+
+Zygote.@nograd Symbol
+```
+
+as per https://discourse.julialang.org/t/zygote-differentiation-issues/54130
+
+but this did not change anything (it is trying to include keys in the derivative
+computations, and this causes failure; I hoped that `Zygote.@nograd String` and
+`Zygote.@nograd Symbol` would prevent this, at least when I use all strings or
+all symbols for keys, but that did not work.
