@@ -674,4 +674,4 @@ to block this line with `Zygote.@ignore` and I had done that in this fashion
 
 but strangely enough, the diagnostics did not change. Now, if the problem is in
 variable destructuring, `K, V =`, then we have a problem because blocking
-assignments with Zygote.@ignore causes all kinds of troubles in my recent experience.
+assignments with `Zygote.@ignore` causes all kinds of troubles in my recent experience.
