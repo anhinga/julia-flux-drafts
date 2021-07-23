@@ -83,6 +83,8 @@ relu(x) = max(zero(x), x)
 ```
 
 ---
+---
+---
 
 The right thing to do is to stop using mutable dictionaries and start using `PersistentHashMap` from https://github.com/JuliaCollections/FunctionalCollections.jl
 
