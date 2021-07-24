@@ -941,6 +941,50 @@ julia> grads = gradient(()->sum(values(mapvalues(relu, phmap_from_dict(pars)))),
 ERROR: Need an adjoint for constructor PersistentHashMap{Any, Float32}. Gradient is of type Vector{Nothing}
 ```
 
+We can use an ugly hack to avoid using a constructor:
+
+```julia
+julia> @Persistent Dict(:dummy=>0f0, "dummy"=>0f0)
+Persistent{Any, Float32}[dummy => 0.0, dummy => 0.0]
+
+julia> keys(ans)
+KeySet for a PersistentHashMap{Any, Float32} with 2 entries. Keys:
+  "dummy"
+  :dummy
+
+julia> function phmap_from_dict_hack(d)
+           pers = @Persistent Dict(:dummy=>0f0, "dummy"=>0f0)
+           for k in keys(d)
+               pers = assoc(pers, k, d[k])
+           end
+           pers
+       end
+phmap_from_dict_hack (generic function with 1 method)
+
+julia> my_pers = phmap_from_dict_hack(pars)
+Persistent{Any, Float32}[y => 4.0, dummy => 0.0, x => 0.0, 8 => -3.0, dummy => 0.0]
+
+julia> mapvalues(relu, phmap_from_dict_hack(pars))
+Persistent{Any, Float32}[y => 4.0, dummy => 0.0, x => 0.0, 8 => 0.0, dummy => 0.0]
+
+julia> sum(values(mapvalues(relu, phmap_from_dict_hack(pars))))
+4.0f0
+
+julia> grads = gradient(()->sum(values(mapvalues(relu, phmap_from_dict_hack(pars)))), params())
+ERROR: Mutating arrays is not supported -- called setindex!(::Vector{FunctionalCollectionsMod.SparseBitmappedTrie{PersistentArrayMap{Any, Float32}}}, _...)
+Stacktrace:
+  [1] error(s::String)
+    @ Base .\error.jl:33
+  [2] (::Zygote.var"#438#439"{Vector{FunctionalCollectionsMod.SparseBitmappedTrie{PersistentArrayMap{Any, Float32}}}})(#unused#::Nothing)
+    @ Zygote C:\Users\anhin\.julia\packages\Zygote\TaBlo\src\lib\array.jl:76
+  [3] (::Zygote.var"#2341#back#440"{Zygote.var"#438#439"{Vector{FunctionalCollectionsMod.SparseBitmappedTrie{PersistentArrayMap{Any, Float32}}}}})(Δ::Nothing)
+    @ Zygote C:\Users\anhin\.julia\packages\ZygoteRules\OjfTt\src\adjoint.jl:59
+  [4] Pullback
+    @ C:\Users\anhin\Desktop\Julia\FunctionalCollectionsMod.jl\src\BitmappedVectorTrie.jl:236 [inlined]
+```
+
+
+
 ---
 
 _Time for a pause_
