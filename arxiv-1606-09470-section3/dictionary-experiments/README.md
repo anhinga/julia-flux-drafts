@@ -848,9 +848,21 @@ julia> p.order
 Zygote.Buffer{Any, Vector{Any}}(Any[], false)
 ```
 
-In the above, `gr.grads` is the only field with the information
-(I doubt that `pd = params(pars)` could have had anything to do with that, but it needs to
-be double-checked).
+In the above, `gr.grads` is the only field with the information.
+
+I have just double-checked that `pd = params(pars)` does not have anything to do with that, 
+and one can simply use `gradient(()->sum_relu_dict(pars), params())`.
+
+I have also double-checked that out of
+
+```julia
+julia> gr.grads
+IdDict{Any, Any} with 2 entries:
+  :(Main.pars)                                   => Dict{Any, Any}("y"=>1.0, 8=>0.0, :x=>0.0)
+  Dict{Any, Float32}("y"=>4.0, 8=>-3.0, :x=>0.0) => Dict{Any, Any}("y"=>1.0, 8=>0.0, :x=>0.0)
+```
+
+it is the second of these key-value pairs which works during the normal use `gr[pars]`.
 
 ---
 
