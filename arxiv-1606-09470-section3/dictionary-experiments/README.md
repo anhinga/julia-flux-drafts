@@ -789,4 +789,28 @@ what's going on.
 
 Upgraded to newly release Flux 0.12.6. This has not changed anything.
 
+Let's take a note of the Flux's `params` which is defined here: https://github.com/FluxML/Flux.jl/blob/v0.12.6/src/functor.jl
+
+```julia
+params!(p::Params, x::AbstractArray{<:Number}, seen = IdSet()) = push!(p, x)
+
+function params!(p::Params, x, seen = IdSet())
+  x in seen && return
+  push!(seen, x)
+  for child in trainable(x)
+    params!(p, child, seen)
+  end
+end
+
+function params(m...)
+  ps = Params()
+  params!(ps, m)
+  return ps
+end
+```
+
+Here `Params` is from `using Zygote: Params` statement, and we indeed see
+that the treatment is separate for `x::AbstractArray{<:Number}` and for
+all other types of parameters.
+
 _Time for a pause_
