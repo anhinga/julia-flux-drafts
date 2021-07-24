@@ -815,6 +815,43 @@ all other types of parameters.
 
 `Params` and `Grads` live here: https://github.com/FluxML/Zygote.jl/blob/master/src/compiler/interface.jl
 
+Looking at our two examples, we see that Params and Grads.params are non-informative
+in both case, but Grads.grads has information for our Dict example and does not have
+information for our PersistentHashMap example:
+
+```julia
+julia> gr.params
+Params([])
+
+julia> gr.grads
+IdDict{Any, Any} with 2 entries:
+  :(Main.pars)                                   => Dict{Any, Any}("y"=>1.0, 8=>0.0, :x=>0.0)
+  Dict{Any, Float32}("y"=>4.0, 8=>-3.0, :x=>0.0) => Dict{Any, Any}("y"=>1.0, 8=>0.0, :x=>0.0)
+
+julia> grads.params
+Params([])
+
+julia> grads.grads
+IdDict{Any, Any} with 1 entry:
+  :(Main.test_pers) => [nothing, nothing, nothing]
+
+julia> pd
+Params([])
+
+julia> pd.order
+Zygote.Buffer{Any, Vector{Any}}(Any[], false)
+
+julia> pd.params
+Zygote.IdSet{Any}(IdDict{Any, Nothing}())
+
+julia> p.order
+Zygote.Buffer{Any, Vector{Any}}(Any[], false)
+```
+
+In the above, `gr.grads` is the only field with the information
+(I doubt that `params` had anything to do with that, but it needs to
+be double-checked).
+
 ---
 
 **I want to record a strange idea**.
