@@ -813,4 +813,25 @@ Here `Params` is from `using Zygote: Params` statement, and we indeed see
 that the treatment is separate for `x::AbstractArray{<:Number}` and for
 all other types of parameters.
 
+`Params` and `Grads` live here: https://github.com/FluxML/Zygote.jl/blob/master/src/compiler/interface.jl
+
+---
+
+**I want to record a strange idea**.
+
+So far things were breaking when one created new Dict via map-like operations, and things were
+breaking when one used PersistentHashMap as Params.
+
+However, creating new PersistentHashMap via map-like operations seems to work, and
+taking Dict as Params seems to work (in some strange way which feels like a hack).
+
+So, in principle, there is an option of starting with Dict as Params, and
+generating new PersistentHashMap from that via map-like operations, and
+things might just work.
+
+I would still rather do everything with PersistentHashMap, but this is
+a decent backup idea for the time being.
+
+---
+
 _Time for a pause_
