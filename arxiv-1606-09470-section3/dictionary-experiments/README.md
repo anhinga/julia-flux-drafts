@@ -883,4 +883,64 @@ a decent backup idea for the time being.
 
 ---
 
+When I try to implement this idea I see that a custom adjoint is actually needed here:
+
+```julia
+julia> cd("Desktop/Julia/FunctionalCollectionsMod.jl/src")
+
+julia> using Flux
+
+julia> import Base: zero
+
+julia> zero(x::String) = ""
+zero (generic function with 48 methods)
+
+julia> zero(x::Symbol) = Symbol("")
+zero (generic function with 49 methods)
+
+julia> push!(LOAD_PATH, pwd())
+4-element Vector{String}:
+ "@"
+ "@v#.#"
+ "@stdlib"
+ "C:\\Users\\anhin\\Desktop\\Julia\\FunctionalCollectionsMod.jl\\src"
+
+julia> using FunctionalCollectionsMod
+
+julia> empty_pers = phmap{Any, Float32}()
+Persistent{Any, Float32}[]
+
+julia> pars = Dict(:x=>0f0, "y"=>4f0, 8=>-3f0)
+Dict{Any, Float32} with 3 entries:
+  "y" => 4.0
+  8   => -3.0
+  :x  => 0.0
+  
+julia> function phmap_from_dict(d)
+           pers = phmap{Any, Float32}()
+           for k in keys(d)
+               pers = assoc(pers, k, d[k])
+           end
+           pers
+       end
+phmap_from_dict (generic function with 1 method)
+
+julia> my_pers = phmap_from_dict(pars)
+Persistent{Any, Float32}[y => 4.0, x => 0.0, 8 => -3.0]
+
+julia> mapvalues(f, m::PersistentHashMap) = map(kv -> (kv[1], f(kv[2])), m)
+mapvalues (generic function with 1 method)
+
+julia> mapvalues(relu, phmap_from_dict(pars))
+Persistent{Any, Float32}[y => 4.0, x => 0.0, 8 => 0.0]
+
+julia> sum(values(mapvalues(relu, phmap_from_dict(pars))))
+4.0f0
+
+julia> grads = gradient(()->sum(values(mapvalues(relu, phmap_from_dict(pars)))), params())
+ERROR: Need an adjoint for constructor PersistentHashMap{Any, Float32}. Gradient is of type Vector{Nothing}
+```
+
+---
+
 _Time for a pause_
