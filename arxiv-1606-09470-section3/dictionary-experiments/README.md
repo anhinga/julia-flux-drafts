@@ -983,7 +983,11 @@ Stacktrace:
     @ C:\Users\anhin\Desktop\Julia\FunctionalCollectionsMod.jl\src\BitmappedVectorTrie.jl:236 [inlined]
 ```
 
+There is a substantial use of array mutation here. Now it's really time to think what to do next.
 
+Now it's time to read the code of Zygote and to read what people are saying about such issues, 
+and perhaps to wait and see how Diffractor performs in this sense (it should be
+available no later than 3 days from now, I think).
 
 ---
 
