@@ -787,4 +787,6 @@ It's weird in the case of a dictionary; `gr` and `pd` seem empty on inspection, 
 Unfortunately, this miracle did not manifest for PersistentHashMap. Let's investigate
 what's going on.
 
+Upgraded to newly release Flux 0.12.6. This has not changed anything.
+
 _Time for a pause_
