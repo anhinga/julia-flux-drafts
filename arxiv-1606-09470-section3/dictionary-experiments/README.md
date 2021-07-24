@@ -816,7 +816,7 @@ all other types of parameters.
 `Params` and `Grads` live here: https://github.com/FluxML/Zygote.jl/blob/master/src/compiler/interface.jl
 
 Looking at our two examples, we see that Params and Grads.params are non-informative
-in both case, but Grads.grads has information for our Dict example and does not have
+in both cases, but Grads.grads has information for our Dict example and does not have
 information for our PersistentHashMap example:
 
 ```julia
@@ -849,7 +849,7 @@ Zygote.Buffer{Any, Vector{Any}}(Any[], false)
 ```
 
 In the above, `gr.grads` is the only field with the information
-(I doubt that `params` had anything to do with that, but it needs to
+(I doubt that `pd = params(pars)` could have had anything to do with that, but it needs to
 be double-checked).
 
 ---
