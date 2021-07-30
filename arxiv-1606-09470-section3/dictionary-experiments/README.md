@@ -991,4 +991,40 @@ available no later than 3 days from now, I think).
 
 ---
 
+Insights from JuliaCon 2021.
+
+1) The Julia AD ecosystem is way more complex and rapidly evolving than I realized.
+   
+Things are almost certainly doable, but the "right way" to do things is often
+non-obvious (between Zygote, Diffractor, ChainRules, and Enzyme as the main players).
+
+2) I received this advice on the "hackaton" channel of the conference Discord:
+
+Look at implementing the following open issue, "Differential for AbstractDict",
+as a hackaton task:
+
+https://github.com/JuliaDiff/ChainRulesCore.jl/issues/186
+
+And this might make sense as both `PersistentHashMap` and `Dict` are subtypes of
+`AbstractDict`. Although if that's enough it's not clear why my attempts with Dict
+would not work, given that "Dictionary differentials",
+
+https://github.com/JuliaDiff/ChainRulesCore.jl/pull/183
+
+was merged a year ago.
+
+3) There is a new brilliant Dictionaries.jl (and it is **not** a subtype of AbstractDict).
+
+So if I want to play with
+
+https://github.com/andyferris/Dictionaries.jl
+
+then `issue 186` does not have anything to do with that, since this is not an
+`AbstractDict`, but an `AbstractDictionary` with a very different interface.
+
+The only warning is that the author have not tried to autodiff through
+these new dictionaries at all.
+
+---
+
 _Time for a pause_
