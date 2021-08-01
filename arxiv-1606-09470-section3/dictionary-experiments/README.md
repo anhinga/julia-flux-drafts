@@ -1027,4 +1027,82 @@ these new dictionaries at all.
 
 ---
 
+Let's revisit the "params" problem above. It turns out that the problem is deeper than that:
+
+```julia
+julia> cd("Desktop/Julia/FunctionalCollectionsMod.jl/src")
+
+julia> import Base: zero
+
+julia> zero(x::String) = ""
+zero (generic function with 48 methods)
+
+julia> zero(x::Symbol) = Symbol("")
+zero (generic function with 49 methods)
+
+julia> push!(LOAD_PATH, pwd())
+4-element Vector{String}:
+ "@"
+ "@v#.#"
+ "@stdlib"
+ "C:\\Users\\anhin\\Desktop\\Julia\\FunctionalCollectionsMod.jl\\src"
+
+julia> using FunctionalCollectionsMod
+[ Info: Precompiling FunctionalCollectionsMod [top-level]
+
+julia> test_pers = @Persistent Dict(:x=>0f0, "y"=>4f0, 8=>-3f0)
+Persistent{Any, Float32}[y => 4.0, x => 0.0, 8 => -3.0]
+
+julia> mapvalues(f, m::PersistentHashMap) = map(kv -> (kv[1], f(kv[2])), m)
+mapvalues (generic function with 1 method)
+
+julia> mapvalues(relu, test_pers)
+Persistent{Any, Float32}[y => 4.0, x => 0.0, 8 => 0.0]
+
+julia> sum(values(mapvalues(relu, test_pers)))
+4.0f0
+
+julia> gradient(pers_hash_map -> sum(values(mapvalues(relu, pers_hash_map))), test_pers)
+([nothing, nothing, nothing],)
+```
+
+so the result is still meaningless, even though
+
+```julia
+julia> (pers_hash_map -> sum(values(mapvalues(relu, pers_hash_map))))(test_pers)
+4.0f0
+```
+
+whereas with array this all works:
+
+```julia
+julia> x = [3f0, -4f0, 8f0]
+3-element Vector{Float32}:
+  3.0
+ -4.0
+  8.0
+
+julia> map(relu, x)
+3-element Vector{Float32}:
+ 3.0
+ 0.0
+ 8.0
+
+julia> sum(map(relu, x))
+11.0f0
+
+julia> gradient(y -> sum(map(relu, y)), x)
+
+(Float32[1.0, 0.0, 1.0],)
+
+julia> gradient(y -> sum(map(relu, y)), x)[1]
+3-element Vector{Float32}:
+ 1.0
+ 0.0
+ 1.0
+```
+
+
+---
+
 _Time for a pause_
