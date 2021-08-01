@@ -1,4 +1,4 @@
-### mostly unsuccessful experiments (various attempts to take gradients through dictionaries)
+## Mostly unsuccessful experiments (various attempts to **take gradients through dictionaries**)
 
 ### (here we tried to do this without adding new custom rules, and it seems that one does need to add new custom rules to accomplish this)
 
