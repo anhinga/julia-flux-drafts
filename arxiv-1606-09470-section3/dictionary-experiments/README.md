@@ -1,3 +1,7 @@
+### mostly unsuccessful experiments (various attempts to take gradients through dictionaries)
+
+### (here we tried to do this without adding new custom rules, and it seems that one does need to add new custom rules to accomplish this)
+
 Since the ability to transform dictionary in the differentiable fashion is central to my approach,
 and since it is going less smoothly than I was hoping for, let's dedicate a separate subdirectory
 to experiments which involve taking gradients through dictionaries.
