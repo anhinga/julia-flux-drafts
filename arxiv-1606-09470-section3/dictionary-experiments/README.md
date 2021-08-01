@@ -1105,4 +1105,8 @@ julia> gradient(y -> sum(map(relu, y)), x)[1]
 
 ---
 
-_Time for a pause_
+_So, the final conclusion is that this does require adding custom adjoints (to Zygote itself, or to ChainRules/ChainRulesCore)_
+
+_No, it's unreasonable to expect that this would just differential through a complicated implementation without adding custom rules_
+
+_Which is a pity, but that's the current state-of-the-art_
