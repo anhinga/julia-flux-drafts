@@ -18,7 +18,8 @@ correct way to do these things.)
 In February 2022 I was able to do that in JAX: https://github.com/anhinga/jax-pytree-example
 
 So I was able to formulate a better question to the creators of Zygote.jl and to get an advice which allowed to solve
-the problems I had in July 2021: https://github.com/FluxML/Flux.jl/issues/628
+the problems I had in July 2021: https://github.com/FluxML/Flux.jl/issues/628 (also there was an interesting remark in that discussion 
+that named tuples might be a better fit if all keys are strings (and if we want immutable dictionaries), this is something to ponder)
 
 It turns out that
    * the key is to avoid using the legacy interface based on **Params** (that interface is not flexible enough)
