@@ -21,8 +21,8 @@ So I was able to formulate a better question to the creators of Zygote.jl and to
 the problems I had in July 2021: https://github.com/FluxML/Flux.jl/issues/628
 
 It turns out that
-   * the key is to avoid using the legacy interface based on **Params**, where this does not work
-   * a lot of improvements have happened since July 2021, and a lot of new adjoints are now available out of the box.
+   * the key is to avoid using the legacy interface based on **Params** (that interface is not flexible enough)
+   * many improvements have happened since July 2021, and a lot of new adjoints are now available out of the box.
 
 ```julia
 julia> using Flux
