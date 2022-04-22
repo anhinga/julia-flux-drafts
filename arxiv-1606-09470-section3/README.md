@@ -53,7 +53,7 @@ julia> gradient(sum_relu_dict, pars)
 
 and now with nested dictionaries:
 
-```
+```julia
 julia> function sum_relu_nested(d::Number)
          relu(d)
        end
