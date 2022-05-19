@@ -98,3 +98,63 @@ julia> sum_relu_nested(pars)
 julia> gradient(sum_relu_nested, pars)
 (Dict{Any, Any}(:x => 1.0f0, "heh" => Dict{Any, Any}(4 => 0.0f0, "oh oh" => 1.0f0), 8 => 0.0f0, "y" => 1.0f0),)
 ```
+
+Moreover, taking gradients through dictionary creation:
+
+```julia
+julia> using Flux
+
+julia> pars = Dict("x" => 0f0, "y" => 4f0, "8" => -3f0)
+Dict{String, Float32} with 3 entries:
+  "8" => -3.0
+  "x" => 0.0
+  "y" => 4.0
+
+julia> function my_map(my_f, my_dict)
+           new_dict = Dict()
+           for k in keys(my_dict)
+               new_dict[k] = my_f(my_dict[k])
+           end
+           new_dict
+       end
+my_map (generic function with 1 method)
+
+julia> function my_sum(my_dict)
+           s = 0f0
+           for k in keys(my_dict)
+               s += my_dict[k]
+           end
+           s
+       end
+my_sum (generic function with 1 method)
+
+julia> my_sum(my_map(relu, pars))
+4.0f0
+
+julia> my_map(relu, pars)
+Dict{Any, Any} with 3 entries:
+  "y" => 4.0
+  "x" => 0.0
+  "8" => 0.0
+
+julia> gradient(pars -> my_sum(my_map(relu, pars)), pars)
+(Dict{Any, Any}("8" => 0.0f0, "x" => 0.0f0, "y" => 1.0f0),)
+
+julia> pars2 = Dict(:x=>0f0, "y"=>4f0, 8=>-3f0)
+Dict{Any, Float32} with 3 entries:
+  "y" => 4.0
+  8   => -3.0
+  :x  => 0.0
+
+julia> my_map(relu, pars2)
+Dict{Any, Any} with 3 entries:
+  :x  => 0.0
+  8   => 0.0
+  "y" => 4.0
+
+julia> my_sum(my_map(relu, pars2))
+4.0f0
+
+julia> gradient(pars -> my_sum(my_map(relu, pars)), pars2)
+(Dict{Any, Any}("y" => 1.0f0, 8 => 0.0f0, :x => 0.0f0),)
+```
