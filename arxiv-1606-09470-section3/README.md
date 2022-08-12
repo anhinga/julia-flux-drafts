@@ -158,3 +158,36 @@ julia> my_sum(my_map(relu, pars2))
 julia> gradient(pars -> my_sum(my_map(relu, pars)), pars2)
 (Dict{Any, Any}("y" => 1.0f0, 8 => 0.0f0, :x => 0.0f0),)
 ```
+
+Actually, the last example does not quite demonstrate the loss of type info, because `my_map` already loses type info.
+
+Let's redo that:
+
+```
+julia> pars
+Dict{String, Float32} with 3 entries:
+  "8" => -3.0
+  "x" => 0.0
+  "y" => 4.0
+  
+julia> function my_map_typed(my_f, my_dict::Dict{T, T1}) where {T, T1}
+                         new_dict = Dict{T, T1}()
+                        for k in keys(my_dict)
+                             new_dict[k] = my_f(my_dict[k])
+                         end
+                         new_dict
+                     end
+my_map_typed (generic function with 1 method)
+
+julia> my_map_typed(relu, pars)
+Dict{String, Float32} with 3 entries:
+  "y" => 4.0
+  "x" => 0.0
+  "8" => 0.0
+
+julia> my_sum(my_map_typed(relu, pars))
+4.0f0
+
+julia> gradient(pars -> my_sum(my_map_typed(relu, pars)), pars)
+(Dict{Any, Any}("8" => 0.0f0, "x" => 0.0f0, "y" => 1.0f0),)
+```
