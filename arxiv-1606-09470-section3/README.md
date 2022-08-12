@@ -163,7 +163,7 @@ Actually, the last example does not quite demonstrate the loss of type info, bec
 
 Let's redo that:
 
-```
+```julia
 julia> pars
 Dict{String, Float32} with 3 entries:
   "8" => -3.0
