@@ -164,7 +164,7 @@ Actually, the last example does not quite demonstrate the loss of type info, bec
 Let's redo that:
 
 ```julia
-julia> pars
+julia> pars = Dict("x" => 0f0, "y" => 4f0, "8" => -3f0)
 Dict{String, Float32} with 3 entries:
   "8" => -3.0
   "x" => 0.0
