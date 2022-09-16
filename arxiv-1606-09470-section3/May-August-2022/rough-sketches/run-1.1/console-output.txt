@@ -1,0 +1,4024 @@
+               _
+   _       _ _(_)_     |  Documentation: https://docs.julialang.org
+  (_)     | (_) (_)    |
+   _ _   _| |_  __ _   |  Type "?" for help, "]?" for Pkg help.
+  | | | | | | |/ _` |  |
+  | | |_| | | | (_| |  |  Version 1.7.3 (2022-05-06)
+ _/ |\__'_|_|_|\__'_|  |  Official https://julialang.org/ release
+|__/                   |
+
+julia> cd("Desktop/GitHub/sandbox_mishka/arxiv-1606-09470-section3/rough-sketches")
+
+julia> include("train-v0-0-1.jl")
+Computing gradient
+
+TreeADAM included
+
+DEFINED: opt
+prereg loss 2.4201107 regularization 11583.905
+loss 14.004017
+DONE: adam_step!
+Dict{String, Dict{String, Dict{String, Dict{String, Float32}}}} with 23 entries:
+  "timer"     => Dict("timer"=>Dict("timer"=>Dict("timer"=>1.0)))
+  "output"    => Dict("dict-2"=>Dict("const_1"=>Dict("const_1"=>-0.185591), "norm-5"=>Dict("dict"=>-0.0243447, "true"=>…
+  "norm-5"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0914422), "norm-5"=>Dict("dict"=>0.256498, "true"=>0.13…
+  "accum-4"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.163911), "norm-5"=>Dict("dict"=>-0.169589, "true"=>-0.…
+  "dot-2"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.0903257), "norm-5"=>Dict("dict"=>-0.105769, "true"=>-0…
+  "norm-1"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.166052), "norm-5"=>Dict("dict"=>0.224922, "true"=>0.033…
+  "compare-5" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.173146), "norm-5"=>Dict("dict"=>-0.372431, "true"=>-0.…
+  "accum-3"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.174649), "norm-5"=>Dict("dict"=>-0.105347, "true"=>0.17…
+  "norm-4"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.151256), "norm-5"=>Dict("dict"=>0.55311, "true"=>-0.200…
+  "accum-1"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.48065), "norm-5"=>Dict("dict"=>-0.26162, "true"=>-0.12…
+  "compare-4" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.333428), "norm-5"=>Dict("dict"=>0.117192, "true"=>-0.25…
+  "compare-2" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.244845), "norm-5"=>Dict("dict"=>-0.27459, "true"=>0.000…
+  "dot-1"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.0684959), "norm-5"=>Dict("dict"=>0.167408, "true"=>0.1…
+  "dot-3"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.229223), "norm-5"=>Dict("dict"=>0.0145549, "true"=>-0.…
+  "input"     => Dict("timer"=>Dict("timer"=>Dict("timer"=>1.0)))
+  "norm-3"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.176153), "norm-5"=>Dict("dict"=>0.348762, "true"=>0.07…
+  "compare-3" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.195101), "norm-5"=>Dict("dict"=>-0.0234599, "true"=>-0.…
+  "accum-5"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.245517), "norm-5"=>Dict("dict"=>-0.270132, "true"=>-0.…
+  "accum-2"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.0283694), "norm-5"=>Dict("dict"=>-0.048681, "true"=>0.…
+  "compare-1" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.274177), "norm-5"=>Dict("dict"=>0.211276, "true"=>0.06…
+  "dot-4"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.245491), "norm-5"=>Dict("dict"=>-0.263982, "true"=>-0.0…
+  "dot-5"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0598613), "norm-5"=>Dict("dict"=>-0.260952, "true"=>0.0…
+  "norm-2"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.467293), "norm-5"=>Dict("dict"=>0.0311713, "true"=>-0.0…
+
+julia> for i in 1:32
+           printlog_v(io, "STEP ", i, " ================================")
+           training_step!()
+       end
+STEP 1 ================================
+prereg loss 1.9800447 regularization 11501.422
+loss 13.481467
+STEP 2 ================================
+prereg loss 1.6259469 regularization 11419.307
+loss 13.045254
+STEP 3 ================================
+prereg loss 1.3666483 regularization 11337.798
+loss 12.704447
+STEP 4 ================================
+prereg loss 1.1960784 regularization 11256.73
+loss 12.452809
+STEP 5 ================================
+prereg loss 1.1126298 regularization 11176.185
+loss 12.288815
+STEP 6 ================================
+prereg loss 1.102849 regularization 11096.064
+loss 12.198914
+STEP 7 ================================
+prereg loss 1.1401772 regularization 11016.466
+loss 12.156643
+STEP 8 ================================
+prereg loss 1.1956134 regularization 10937.232
+loss 12.132847
+STEP 9 ================================
+prereg loss 1.2532386 regularization 10858.512
+loss 12.111751
+STEP 10 ================================
+prereg loss 1.2927519 regularization 10780.328
+loss 12.073081
+STEP 11 ================================
+prereg loss 1.304514 regularization 10702.678
+loss 12.007193
+STEP 12 ================================
+prereg loss 1.2936522 regularization 10625.437
+loss 11.919089
+STEP 13 ================================
+prereg loss 1.268869 regularization 10548.758
+loss 11.817628
+STEP 14 ================================
+prereg loss 1.2401608 regularization 10472.623
+loss 11.712785
+STEP 15 ================================
+prereg loss 1.2149819 regularization 10397.048
+loss 11.61203
+STEP 16 ================================
+prereg loss 1.1780884 regularization 10321.958
+loss 11.500047
+STEP 17 ================================
+prereg loss 1.140901 regularization 10247.381
+loss 11.388282
+STEP 18 ================================
+prereg loss 1.1146035 regularization 10173.314
+loss 11.287918
+STEP 19 ================================
+prereg loss 1.0973868 regularization 10099.772
+loss 11.197161
+STEP 20 ================================
+prereg loss 1.0877676 regularization 10026.78
+loss 11.114549
+STEP 21 ================================
+prereg loss 1.0839807 regularization 9954.306
+loss 11.038287
+STEP 22 ================================
+prereg loss 1.0873204 regularization 9882.2705
+loss 10.969591
+STEP 23 ================================
+prereg loss 1.0920895 regularization 9810.817
+loss 10.902907
+STEP 24 ================================
+prereg loss 1.0956966 regularization 9739.837
+loss 10.835534
+STEP 25 ================================
+prereg loss 1.0974166 regularization 9669.336
+loss 10.766753
+STEP 26 ================================
+prereg loss 1.0964843 regularization 9599.426
+loss 10.69591
+STEP 27 ================================
+prereg loss 1.092569 regularization 9530.004
+loss 10.622574
+STEP 28 ================================
+prereg loss 1.0860682 regularization 9460.961
+loss 10.5470295
+STEP 29 ================================
+prereg loss 1.0780222 regularization 9392.526
+loss 10.470549
+STEP 30 ================================
+prereg loss 1.0695142 regularization 9324.556
+loss 10.394071
+STEP 31 ================================
+prereg loss 1.0615193 regularization 9257.075
+loss 10.318595
+STEP 32 ================================
+prereg loss 1.0548775 regularization 9190.09
+loss 10.244967
+
+julia> a_32 = deepcopy(trainable["network_matrix"])
+Dict{String, Dict{String, Dict{String, Dict{String, Float32}}}} with 23 entries:
+  "timer"     => Dict("timer"=>Dict("timer"=>Dict("timer"=>1.0)))
+  "output"    => Dict("dict-2"=>Dict("const_1"=>Dict("const_1"=>-0.186872), "norm-5"=>Dict("dict"=>0.00303099, "true"=>…
+  "norm-5"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.060206), "norm-5"=>Dict("dict"=>0.224831, "true"=>0.105…
+  "accum-4"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.132398), "norm-5"=>Dict("dict"=>-0.138063, "true"=>-0.…
+  "dot-2"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.0590962), "norm-5"=>Dict("dict"=>-0.074456, "true"=>-0…
+  "norm-1"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.161481), "norm-5"=>Dict("dict"=>0.193295, "true"=>0.002…
+  "compare-5" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.141611), "norm-5"=>Dict("dict"=>-0.340669, "true"=>-0.…
+  "accum-3"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.143111), "norm-5"=>Dict("dict"=>-0.0740362, "true"=>0.1…
+  "norm-4"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.146299), "norm-5"=>Dict("dict"=>0.521276, "true"=>-0.16…
+  "accum-1"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.448838), "norm-5"=>Dict("dict"=>-0.229947, "true"=>-0.…
+  "compare-4" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.301692), "norm-5"=>Dict("dict"=>0.0858276, "true"=>-0.2…
+  "compare-2" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.213191), "norm-5"=>Dict("dict"=>-0.242903, "true"=>-0.0…
+  "dot-1"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.0374266), "norm-5"=>Dict("dict"=>0.135887, "true"=>0.1…
+  "dot-3"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.19759), "norm-5"=>Dict("dict"=>0.00134849, "true"=>-0.…
+  "input"     => Dict("timer"=>Dict("timer"=>Dict("timer"=>1.0)))
+  "norm-3"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.163243), "norm-5"=>Dict("dict"=>0.317015, "true"=>0.04…
+  "compare-3" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.163522), "norm-5"=>Dict("dict"=>0.00296559, "true"=>-0.…
+  "accum-5"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.213863), "norm-5"=>Dict("dict"=>-0.238451, "true"=>-0.…
+  "accum-2"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.00166242), "norm-5"=>Dict("dict"=>-0.0178276, "true"=>0…
+  "compare-1" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.242491), "norm-5"=>Dict("dict"=>0.17967, "true"=>0.030…
+  "dot-4"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.213837), "norm-5"=>Dict("dict"=>-0.232307, "true"=>-0.0…
+  "dot-5"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0288753), "norm-5"=>Dict("dict"=>-0.22928, "true"=>0.03…
+  "norm-2"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.462785), "norm-5"=>Dict("dict"=>0.000612348, "true"=>-0…
+
+julia> count(a_32)
+20308
+
+julia> count_neg_interval(a_32, -0.8f0, 0.8f0)
+4
+
+julia> count_neg_interval(a_32, -0.7f0, 0.7f0)
+10
+
+julia> count_neg_interval(a_32, -0.6f0, 0.6f0)
+39
+
+julia> count_neg_interval(a_32, -0.5f0, 0.5f0)
+194
+
+julia> count_neg_interval(a_32, -0.4f0, 0.4f0)
+640
+
+julia> count_neg_interval(a_32, -0.3f0, 0.3f0)
+2033
+
+julia> count_neg_interval(a_32, -0.2f0, 0.2f0)
+5173
+
+julia> count_neg_interval(a_32, -0.1f0, 0.1f0)
+10564
+
+julia> count_neg_interval(a_32, -0.01f0, 0.01f0)
+17126
+
+julia> for i in 1:100
+           printlog_v(io, "STEP ", i, " ================================")
+           training_step!()
+       end
+STEP 1 ================================
+prereg loss 1.049972 regularization 9123.646
+loss 10.173618
+STEP 2 ================================
+prereg loss 1.0474299 regularization 9057.653
+loss 10.105083
+STEP 3 ================================
+prereg loss 1.0456363 regularization 8992.142
+loss 10.037778
+STEP 4 ================================
+prereg loss 1.0452701 regularization 8927.228
+loss 9.972498
+STEP 5 ================================
+prereg loss 1.045437 regularization 8862.718
+loss 9.908155
+STEP 6 ================================
+prereg loss 1.0442262 regularization 8798.693
+loss 9.84292
+STEP 7 ================================
+prereg loss 1.0443065 regularization 8735.196
+loss 9.779504
+STEP 8 ================================
+prereg loss 1.0423177 regularization 8672.189
+loss 9.714507
+STEP 9 ================================
+prereg loss 1.0380368 regularization 8609.709
+loss 9.647747
+STEP 10 ================================
+prereg loss 1.0324781 regularization 8547.683
+loss 9.580161
+STEP 11 ================================
+prereg loss 1.0268981 regularization 8486.18
+loss 9.513079
+STEP 12 ================================
+prereg loss 1.0222807 regularization 8425.14
+loss 9.447421
+STEP 13 ================================
+prereg loss 1.0179881 regularization 8364.595
+loss 9.382584
+STEP 14 ================================
+prereg loss 1.0140182 regularization 8304.517
+loss 9.318535
+STEP 15 ================================
+prereg loss 1.0102724 regularization 8244.916
+loss 9.255188
+STEP 16 ================================
+prereg loss 1.0066987 regularization 8185.7705
+loss 9.19247
+STEP 17 ================================
+prereg loss 1.0033764 regularization 8127.127
+loss 9.130504
+STEP 18 ================================
+prereg loss 1.0005294 regularization 8068.963
+loss 9.069492
+STEP 19 ================================
+prereg loss 0.99728996 regularization 8011.231
+loss 9.008521
+STEP 20 ================================
+prereg loss 0.99384797 regularization 7953.93
+loss 8.947779
+STEP 21 ================================
+prereg loss 0.9903301 regularization 7897.0293
+loss 8.88736
+STEP 22 ================================
+prereg loss 0.9868159 regularization 7840.5596
+loss 8.827375
+STEP 23 ================================
+prereg loss 0.9833374 regularization 7784.5728
+loss 8.76791
+STEP 24 ================================
+prereg loss 0.9799211 regularization 7729.0327
+loss 8.708954
+STEP 25 ================================
+prereg loss 0.9765277 regularization 7673.952
+loss 8.65048
+STEP 26 ================================
+prereg loss 0.973153 regularization 7619.3013
+loss 8.592455
+STEP 27 ================================
+prereg loss 0.9702187 regularization 7565.008
+loss 8.535227
+STEP 28 ================================
+prereg loss 0.96770746 regularization 7511.1675
+loss 8.478875
+STEP 29 ================================
+prereg loss 0.9654377 regularization 7457.799
+loss 8.423237
+STEP 30 ================================
+prereg loss 0.963158 regularization 7404.7656
+loss 8.367924
+STEP 31 ================================
+prereg loss 0.9602387 regularization 7352.1455
+loss 8.312385
+STEP 32 ================================
+prereg loss 0.95663744 regularization 7299.8984
+loss 8.2565365
+STEP 33 ================================
+prereg loss 0.95312977 regularization 7248.038
+loss 8.201168
+STEP 34 ================================
+prereg loss 0.949915 regularization 7196.6206
+loss 8.146536
+STEP 35 ================================
+prereg loss 0.9468884 regularization 7145.579
+loss 8.092467
+STEP 36 ================================
+prereg loss 0.94406456 regularization 7094.943
+loss 8.039007
+STEP 37 ================================
+prereg loss 0.9416189 regularization 7044.695
+loss 7.9863143
+STEP 38 ================================
+prereg loss 0.9387988 regularization 6994.865
+loss 7.9336643
+STEP 39 ================================
+prereg loss 0.93563664 regularization 6945.3813
+loss 7.881018
+STEP 40 ================================
+prereg loss 0.9321409 regularization 6896.289
+loss 7.82843
+STEP 41 ================================
+prereg loss 0.9291494 regularization 6847.541
+loss 7.7766905
+STEP 42 ================================
+prereg loss 0.9261784 regularization 6799.1753
+loss 7.725354
+STEP 43 ================================
+prereg loss 0.923696 regularization 6751.263
+loss 7.6749597
+STEP 44 ================================
+prereg loss 0.9213861 regularization 6703.6533
+loss 7.62504
+STEP 45 ================================
+prereg loss 0.91804534 regularization 6656.359
+loss 7.5744047
+STEP 46 ================================
+prereg loss 0.9145597 regularization 6609.4644
+loss 7.5240245
+STEP 47 ================================
+prereg loss 0.91178346 regularization 6562.92
+loss 7.474704
+STEP 48 ================================
+prereg loss 0.90877914 regularization 6516.7817
+loss 7.4255614
+STEP 49 ================================
+prereg loss 0.90663356 regularization 6470.9775
+loss 7.377611
+STEP 50 ================================
+prereg loss 0.90523905 regularization 6425.527
+loss 7.330766
+STEP 51 ================================
+prereg loss 0.90333784 regularization 6380.464
+loss 7.283802
+STEP 52 ================================
+prereg loss 0.9001781 regularization 6335.66
+loss 7.2358384
+STEP 53 ================================
+prereg loss 0.89607954 regularization 6291.1533
+loss 7.187233
+STEP 54 ================================
+prereg loss 0.89332205 regularization 6247.068
+loss 7.1403904
+STEP 55 ================================
+prereg loss 0.89087826 regularization 6203.2676
+loss 7.0941463
+STEP 56 ================================
+prereg loss 0.88835955 regularization 6159.8574
+loss 7.0482173
+STEP 57 ================================
+prereg loss 0.88635856 regularization 6116.752
+loss 7.003111
+STEP 58 ================================
+prereg loss 0.88480103 regularization 6073.9634
+loss 6.9587646
+STEP 59 ================================
+prereg loss 0.8820854 regularization 6031.478
+loss 6.9135637
+STEP 60 ================================
+prereg loss 0.87920594 regularization 5989.327
+loss 6.868533
+STEP 61 ================================
+prereg loss 0.8767654 regularization 5947.4204
+loss 6.824186
+STEP 62 ================================
+prereg loss 0.8742066 regularization 5905.8623
+loss 6.7800694
+STEP 63 ================================
+prereg loss 0.8719375 regularization 5864.682
+loss 6.73662
+STEP 64 ================================
+prereg loss 0.8692322 regularization 5823.8027
+loss 6.693035
+STEP 65 ================================
+prereg loss 0.8666297 regularization 5783.24
+loss 6.64987
+STEP 66 ================================
+prereg loss 0.8643207 regularization 5742.9307
+loss 6.6072516
+STEP 67 ================================
+prereg loss 0.8616907 regularization 5702.954
+loss 6.564645
+STEP 68 ================================
+prereg loss 0.85932094 regularization 5663.278
+loss 6.522599
+STEP 69 ================================
+prereg loss 0.85695 regularization 5623.8877
+loss 6.480838
+STEP 70 ================================
+prereg loss 0.854705 regularization 5584.7754
+loss 6.4394803
+STEP 71 ================================
+prereg loss 0.85293746 regularization 5546.0225
+loss 6.39896
+STEP 72 ================================
+prereg loss 0.85085285 regularization 5507.552
+loss 6.358405
+STEP 73 ================================
+prereg loss 0.84892344 regularization 5469.3696
+loss 6.3182936
+STEP 74 ================================
+prereg loss 0.8472179 regularization 5431.4355
+loss 6.2786536
+STEP 75 ================================
+prereg loss 0.845429 regularization 5393.773
+loss 6.239202
+STEP 76 ================================
+prereg loss 0.8436962 regularization 5356.4062
+loss 6.200103
+STEP 77 ================================
+prereg loss 0.8417346 regularization 5319.256
+loss 6.1609907
+STEP 78 ================================
+prereg loss 0.8403111 regularization 5282.455
+loss 6.1227665
+STEP 79 ================================
+prereg loss 0.837852 regularization 5245.966
+loss 6.083818
+STEP 80 ================================
+prereg loss 0.8363423 regularization 5209.7383
+loss 6.046081
+STEP 81 ================================
+prereg loss 0.8348666 regularization 5173.7583
+loss 6.008625
+STEP 82 ================================
+prereg loss 0.8331159 regularization 5138.092
+loss 5.971208
+STEP 83 ================================
+prereg loss 0.8310275 regularization 5102.6104
+loss 5.933638
+STEP 84 ================================
+prereg loss 0.8287034 regularization 5067.368
+loss 5.896072
+STEP 85 ================================
+prereg loss 0.82739395 regularization 5032.4233
+loss 5.8598175
+STEP 86 ================================
+prereg loss 0.8259313 regularization 4997.7397
+loss 5.8236713
+STEP 87 ================================
+prereg loss 0.82440525 regularization 4963.3203
+loss 5.787726
+STEP 88 ================================
+prereg loss 0.82272756 regularization 4929.0933
+loss 5.751821
+STEP 89 ================================
+prereg loss 0.82113475 regularization 4895.1357
+loss 5.7162704
+STEP 90 ================================
+prereg loss 0.8198165 regularization 4861.4585
+loss 5.6812754
+STEP 91 ================================
+prereg loss 0.81848764 regularization 4828.027
+loss 5.646515
+STEP 92 ================================
+prereg loss 0.8170926 regularization 4794.8306
+loss 5.611923
+STEP 93 ================================
+prereg loss 0.81564504 regularization 4761.921
+loss 5.577566
+STEP 94 ================================
+prereg loss 0.8142003 regularization 4729.1904
+loss 5.543391
+STEP 95 ================================
+prereg loss 0.81273293 regularization 4696.735
+loss 5.509468
+STEP 96 ================================
+prereg loss 0.811262 regularization 4664.506
+loss 5.475768
+STEP 97 ================================
+prereg loss 0.8098091 regularization 4632.5596
+loss 5.442369
+STEP 98 ================================
+prereg loss 0.8083888 regularization 4600.8076
+loss 5.4091964
+STEP 99 ================================
+prereg loss 0.8069911 regularization 4569.285
+loss 5.3762765
+STEP 100 ================================
+prereg loss 0.805564 regularization 4537.9844
+loss 5.3435483
+
+julia> a_132 = deepcopy(trainable["network_matrix"])
+Dict{String, Dict{String, Dict{String, Dict{String, Float32}}}} with 23 entries:
+  "timer"     => Dict("timer"=>Dict("timer"=>Dict("timer"=>1.0)))
+  "output"    => Dict("dict-2"=>Dict("const_1"=>Dict("const_1"=>-0.166665), "norm-5"=>Dict("dict"=>-0.000104656, "true"…
+  "norm-5"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.000687321), "norm-5"=>Dict("dict"=>0.136471, "true"=>0.…
+  "accum-4"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.0498641), "norm-5"=>Dict("dict"=>-0.0550126, "true"=>0…
+  "dot-2"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.000660201), "norm-5"=>Dict("dict"=>0.000320342, "true"…
+  "norm-1"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.179355), "norm-5"=>Dict("dict"=>0.106437, "true"=>0.000…
+  "compare-5" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.0582533), "norm-5"=>Dict("dict"=>-0.248856, "true"=>5.…
+  "accum-3"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0596258), "norm-5"=>Dict("dict"=>0.000561525, "true"=>0…
+  "norm-4"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.130392), "norm-5"=>Dict("dict"=>0.426866, "true"=>-0.08…
+  "accum-1"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.355244), "norm-5"=>Dict("dict"=>-0.141375, "true"=>-0.…
+  "compare-4" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.210789), "norm-5"=>Dict("dict"=>0.00905148, "true"=>-0.…
+  "compare-2" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.125345), "norm-5"=>Dict("dict"=>-0.153826, "true"=>-0.0…
+  "dot-1"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>8.87954f-6), "norm-5"=>Dict("dict"=>0.0530313, "true"=>0.…
+  "dot-3"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.110505), "norm-5"=>Dict("dict"=>-5.27128f-5, "true"=>-…
+  "input"     => Dict("timer"=>Dict("timer"=>Dict("timer"=>1.0)))
+  "norm-3"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.148642), "norm-5"=>Dict("dict"=>0.225731, "true"=>-0.0…
+  "compare-3" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0784797), "norm-5"=>Dict("dict"=>-0.000468159, "true"=>…
+  "accum-5"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.125985), "norm-5"=>Dict("dict"=>-0.149542, "true"=>-0.…
+  "accum-2"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.000398359), "norm-5"=>Dict("dict"=>-0.000212897, "true"…
+  "compare-1" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.15343), "norm-5"=>Dict("dict"=>0.0935856, "true"=>-6.6…
+  "dot-4"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.12596), "norm-5"=>Dict("dict"=>-0.143639, "true"=>1.066…
+  "dot-5"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>9.21837f-5), "norm-5"=>Dict("dict"=>-0.140735, "true"=>-0…
+  "norm-2"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.450605), "norm-5"=>Dict("dict"=>-0.000230081, "true"=>8…
+
+julia> count_neg_interval(a_132, -0.8f0, 0.8f0)
+2
+
+julia> count_neg_interval(a_132, -0.7f0, 0.7f0)
+6
+
+julia> count_neg_interval(a_132, -0.6f0, 0.6f0)
+13
+
+julia> count_neg_interval(a_132, -0.5f0, 0.5f0)
+55
+
+julia> count_neg_interval(a_132, -0.4f0, 0.4f0)
+219
+
+julia> count_neg_interval(a_132, -0.3f0, 0.3f0)
+737
+
+julia> count_neg_interval(a_132, -0.2f0, 0.2f0)
+2357
+
+julia> count_neg_interval(a_132, -0.1f0, 0.1f0)
+5977
+
+julia> count_neg_interval(a_132, -0.01f0, 0.01f0)
+11581
+
+julia> count_neg_interval(a_132, -0.001f0, 0.001f0)
+12809
+
+julia> count_neg_interval(a_132, -0.0001f0, 0.0001f0)
+17185
+
+julia> for i in 1:100
+           printlog_v(io, "STEP ", i, " ================================")
+           training_step!()
+       end
+STEP 1 ================================
+prereg loss 0.8040942 regularization 4506.8696
+loss 5.310964
+STEP 2 ================================
+prereg loss 0.8028764 regularization 4476.064
+loss 5.2789407
+STEP 3 ================================
+prereg loss 0.8016563 regularization 4445.438
+loss 5.2470946
+STEP 4 ================================
+prereg loss 0.80040795 regularization 4415.0347
+loss 5.2154427
+STEP 5 ================================
+prereg loss 0.7994525 regularization 4384.8726
+loss 5.184325
+STEP 6 ================================
+prereg loss 0.7983805 regularization 4354.903
+loss 5.1532836
+STEP 7 ================================
+prereg loss 0.7972511 regularization 4325.152
+loss 5.122403
+STEP 8 ================================
+prereg loss 0.79608923 regularization 4295.6143
+loss 5.0917034
+STEP 9 ================================
+prereg loss 0.7949242 regularization 4266.3003
+loss 5.061225
+STEP 10 ================================
+prereg loss 0.79378843 regularization 4237.194
+loss 5.0309825
+STEP 11 ================================
+prereg loss 0.7927376 regularization 4208.299
+loss 5.0010366
+STEP 12 ================================
+prereg loss 0.7916982 regularization 4179.6157
+loss 4.9713144
+STEP 13 ================================
+prereg loss 0.7906403 regularization 4151.128
+loss 4.9417686
+STEP 14 ================================
+prereg loss 0.78958666 regularization 4122.8506
+loss 4.9124374
+STEP 15 ================================
+prereg loss 0.7884685 regularization 4094.7961
+loss 4.8832645
+STEP 16 ================================
+prereg loss 0.7875542 regularization 4066.946
+loss 4.8545003
+STEP 17 ================================
+prereg loss 0.7866594 regularization 4039.3232
+loss 4.8259826
+STEP 18 ================================
+prereg loss 0.7857726 regularization 4011.8838
+loss 4.797657
+STEP 19 ================================
+prereg loss 0.78482914 regularization 3984.632
+loss 4.7694616
+STEP 20 ================================
+prereg loss 0.7839938 regularization 3957.6067
+loss 4.7416005
+STEP 21 ================================
+prereg loss 0.78317624 regularization 3930.7305
+loss 4.713907
+STEP 22 ================================
+prereg loss 0.7820744 regularization 3904.0916
+loss 4.6861663
+STEP 23 ================================
+prereg loss 0.7811357 regularization 3877.6511
+loss 4.658787
+STEP 24 ================================
+prereg loss 0.78031605 regularization 3851.379
+loss 4.6316953
+STEP 25 ================================
+prereg loss 0.7793256 regularization 3825.2688
+loss 4.6045947
+STEP 26 ================================
+prereg loss 0.77843916 regularization 3799.356
+loss 4.5777955
+STEP 27 ================================
+prereg loss 0.777668 regularization 3773.649
+loss 4.551317
+STEP 28 ================================
+prereg loss 0.77668595 regularization 3748.119
+loss 4.524805
+STEP 29 ================================
+prereg loss 0.7758602 regularization 3722.8047
+loss 4.498665
+STEP 30 ================================
+prereg loss 0.7749995 regularization 3697.6423
+loss 4.472642
+STEP 31 ================================
+prereg loss 0.77431214 regularization 3672.6462
+loss 4.4469585
+STEP 32 ================================
+prereg loss 0.77363515 regularization 3647.8384
+loss 4.4214735
+STEP 33 ================================
+prereg loss 0.77266705 regularization 3623.2083
+loss 4.3958755
+STEP 34 ================================
+prereg loss 0.77167547 regularization 3598.7847
+loss 4.3704605
+STEP 35 ================================
+prereg loss 0.7708197 regularization 3574.503
+loss 4.345323
+STEP 36 ================================
+prereg loss 0.7700639 regularization 3550.382
+loss 4.320446
+STEP 37 ================================
+prereg loss 0.76929605 regularization 3526.426
+loss 4.295722
+STEP 38 ================================
+prereg loss 0.7683444 regularization 3502.6936
+loss 4.271038
+STEP 39 ================================
+prereg loss 0.76753706 regularization 3479.1135
+loss 4.2466507
+STEP 40 ================================
+prereg loss 0.76676625 regularization 3455.7017
+loss 4.222468
+STEP 41 ================================
+prereg loss 0.7660109 regularization 3432.4702
+loss 4.198481
+STEP 42 ================================
+prereg loss 0.76524556 regularization 3409.3938
+loss 4.1746397
+STEP 43 ================================
+prereg loss 0.76457304 regularization 3386.4768
+loss 4.15105
+STEP 44 ================================
+prereg loss 0.76390505 regularization 3363.7407
+loss 4.127646
+STEP 45 ================================
+prereg loss 0.7630792 regularization 3341.1912
+loss 4.1042705
+STEP 46 ================================
+prereg loss 0.7623764 regularization 3318.7964
+loss 4.081173
+STEP 47 ================================
+prereg loss 0.7616869 regularization 3296.557
+loss 4.0582438
+STEP 48 ================================
+prereg loss 0.7609765 regularization 3274.4734
+loss 4.03545
+STEP 49 ================================
+prereg loss 0.7602256 regularization 3252.5562
+loss 4.012782
+STEP 50 ================================
+prereg loss 0.7594616 regularization 3230.7869
+loss 3.9902487
+STEP 51 ================================
+prereg loss 0.7587007 regularization 3209.1902
+loss 3.9678912
+STEP 52 ================================
+prereg loss 0.7579594 regularization 3187.745
+loss 3.9457047
+STEP 53 ================================
+prereg loss 0.75726676 regularization 3166.4668
+loss 3.9237337
+STEP 54 ================================
+prereg loss 0.7566129 regularization 3145.344
+loss 3.901957
+STEP 55 ================================
+prereg loss 0.75589633 regularization 3124.3525
+loss 3.880249
+STEP 56 ================================
+prereg loss 0.7551741 regularization 3103.5662
+loss 3.8587406
+STEP 57 ================================
+prereg loss 0.754459 regularization 3082.8774
+loss 3.8373365
+STEP 58 ================================
+prereg loss 0.75378525 regularization 3062.3696
+loss 3.816155
+STEP 59 ================================
+prereg loss 0.7531302 regularization 3041.9968
+loss 3.7951272
+STEP 60 ================================
+prereg loss 0.7524794 regularization 3021.7769
+loss 3.7742562
+STEP 61 ================================
+prereg loss 0.75181055 regularization 3001.6716
+loss 3.7534823
+STEP 62 ================================
+prereg loss 0.7511766 regularization 2981.7388
+loss 3.7329154
+STEP 63 ================================
+prereg loss 0.750543 regularization 2961.9873
+loss 3.7125306
+STEP 64 ================================
+prereg loss 0.7499033 regularization 2942.3594
+loss 3.6922626
+STEP 65 ================================
+prereg loss 0.749252 regularization 2922.9019
+loss 3.6721542
+STEP 66 ================================
+prereg loss 0.74860317 regularization 2903.5542
+loss 3.6521575
+STEP 67 ================================
+prereg loss 0.7478869 regularization 2884.3496
+loss 3.6322367
+STEP 68 ================================
+prereg loss 0.74714667 regularization 2865.2827
+loss 3.6124294
+STEP 69 ================================
+prereg loss 0.7465272 regularization 2846.3662
+loss 3.5928936
+STEP 70 ================================
+prereg loss 0.74590206 regularization 2827.58
+loss 3.5734823
+STEP 71 ================================
+prereg loss 0.74520284 regularization 2808.9182
+loss 3.554121
+STEP 72 ================================
+prereg loss 0.744579 regularization 2790.391
+loss 3.5349703
+STEP 73 ================================
+prereg loss 0.74395156 regularization 2771.9932
+loss 3.515945
+STEP 74 ================================
+prereg loss 0.74331295 regularization 2753.7334
+loss 3.4970465
+STEP 75 ================================
+prereg loss 0.7427437 regularization 2735.5964
+loss 3.4783404
+STEP 76 ================================
+prereg loss 0.7421424 regularization 2717.6125
+loss 3.4597552
+STEP 77 ================================
+prereg loss 0.7415346 regularization 2699.737
+loss 3.4412718
+STEP 78 ================================
+prereg loss 0.74082136 regularization 2682.0107
+loss 3.4228323
+STEP 79 ================================
+prereg loss 0.7402455 regularization 2664.423
+loss 3.4046688
+STEP 80 ================================
+prereg loss 0.73961425 regularization 2646.9473
+loss 3.3865616
+STEP 81 ================================
+prereg loss 0.73892015 regularization 2629.6062
+loss 3.3685265
+STEP 82 ================================
+prereg loss 0.73848814 regularization 2612.425
+loss 3.3509133
+STEP 83 ================================
+prereg loss 0.7378995 regularization 2595.3274
+loss 3.3332272
+STEP 84 ================================
+prereg loss 0.73722315 regularization 2578.3418
+loss 3.315565
+STEP 85 ================================
+prereg loss 0.73663133 regularization 2561.479
+loss 3.2981105
+STEP 86 ================================
+prereg loss 0.73606557 regularization 2544.743
+loss 3.2808087
+STEP 87 ================================
+prereg loss 0.73550034 regularization 2528.1348
+loss 3.2636352
+STEP 88 ================================
+prereg loss 0.7349239 regularization 2511.652
+loss 3.246576
+STEP 89 ================================
+prereg loss 0.7343752 regularization 2495.3052
+loss 3.2296805
+STEP 90 ================================
+prereg loss 0.7338873 regularization 2479.0627
+loss 3.2129502
+STEP 91 ================================
+prereg loss 0.73338497 regularization 2462.9368
+loss 3.196322
+STEP 92 ================================
+prereg loss 0.7328315 regularization 2446.9211
+loss 3.1797528
+STEP 93 ================================
+prereg loss 0.7322428 regularization 2431.017
+loss 3.16326
+STEP 94 ================================
+prereg loss 0.7316365 regularization 2415.2405
+loss 3.146877
+STEP 95 ================================
+prereg loss 0.7310666 regularization 2399.5771
+loss 3.1306438
+STEP 96 ================================
+prereg loss 0.73048586 regularization 2384.028
+loss 3.114514
+STEP 97 ================================
+prereg loss 0.7299723 regularization 2368.5728
+loss 3.0985453
+STEP 98 ================================
+prereg loss 0.7293167 regularization 2353.25
+loss 3.0825667
+STEP 99 ================================
+prereg loss 0.72907114 regularization 2338.037
+loss 3.0671084
+STEP 100 ================================
+prereg loss 0.728535 regularization 2322.913
+loss 3.051448
+
+julia> a_232 = deepcopy(trainable["network_matrix"])
+Dict{String, Dict{String, Dict{String, Dict{String, Float32}}}} with 23 entries:
+  "timer"     => Dict("timer"=>Dict("timer"=>Dict("timer"=>1.0)))
+  "output"    => Dict("dict-2"=>Dict("const_1"=>Dict("const_1"=>-0.143793), "norm-5"=>Dict("dict"=>0.00012875, "true"=>…
+  "norm-5"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.000146607), "norm-5"=>Dict("dict"=>0.0673619, "true"=>-…
+  "accum-4"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.00124052), "norm-5"=>Dict("dict"=>0.00015048, "true"=>-…
+  "dot-2"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-7.67681f-5), "norm-5"=>Dict("dict"=>-9.72935f-5, "true"=…
+  "norm-1"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.181472), "norm-5"=>Dict("dict"=>0.0413505, "true"=>-0.0…
+  "compare-5" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.00230611), "norm-5"=>Dict("dict"=>-0.170402, "true"=>7…
+  "accum-3"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.00335452), "norm-5"=>Dict("dict"=>0.000288371, "true"=>…
+  "norm-4"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.119583), "norm-5"=>Dict("dict"=>0.34141, "true"=>-0.022…
+  "accum-1"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.271979), "norm-5"=>Dict("dict"=>-0.0716941, "true"=>8.…
+  "compare-4" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.134801), "norm-5"=>Dict("dict"=>-5.82485f-5, "true"=>-0…
+  "compare-2" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0576146), "norm-5"=>Dict("dict"=>-0.0827843, "true"=>2.…
+  "dot-1"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-9.73778f-6), "norm-5"=>Dict("dict"=>-0.00120175, "true"=…
+  "dot-3"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.0448146), "norm-5"=>Dict("dict"=>-2.91153f-5, "true"=>…
+  "input"     => Dict("timer"=>Dict("timer"=>Dict("timer"=>1.0)))
+  "norm-3"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.142586), "norm-5"=>Dict("dict"=>0.148711, "true"=>0.00…
+  "compare-3" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0181837), "norm-5"=>Dict("dict"=>0.000239134, "true"=>-…
+  "accum-5"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.0581725), "norm-5"=>Dict("dict"=>-0.0789547, "true"=>-…
+  "accum-2"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.00040591), "norm-5"=>Dict("dict"=>-0.000272884, "true"…
+  "compare-1" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.0824293), "norm-5"=>Dict("dict"=>0.0305523, "true"=>-4…
+  "dot-4"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0581509), "norm-5"=>Dict("dict"=>-0.0737018, "true"=>7.…
+  "dot-5"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>9.50169f-5), "norm-5"=>Dict("dict"=>-0.0711277, "true"=>6…
+  "norm-2"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.442637), "norm-5"=>Dict("dict"=>-0.000274397, "true"=>-…
+
+julia> count_neg_interval(a_232, -0.8f0, 0.8f0)
+2
+
+julia> count_neg_interval(a_232, -0.7f0, 0.7f0)
+3
+
+julia> count_neg_interval(a_232, -0.6f0, 0.6f0)
+7
+
+julia> count_neg_interval(a_232, -0.5f0, 0.5f0)
+24
+
+julia> count_neg_interval(a_232, -0.4f0, 0.4f0)
+81
+
+julia> count_neg_interval(a_232, -0.3f0, 0.3f0)
+291
+
+julia> count_neg_interval(a_232, -0.2f0, 0.2f0)
+1056
+
+julia> count_neg_interval(a_232, -0.1f0, 0.1f0)
+3223
+
+julia> count_neg_interval(a_232, -0.01f0, 0.01f0)
+7773
+
+julia> count_neg_interval(a_232, -0.001f0, 0.001f0)
+8737
+
+julia> count_neg_interval(a_232, -0.0001f0, 0.0001f0)
+14281
+
+julia> for i in 1:100
+           printlog_v(io, "STEP ", i, " ================================")
+           training_step!()
+       end
+STEP 1 ================================
+prereg loss 0.7278242 regularization 2307.8726
+loss 3.035697
+STEP 2 ================================
+prereg loss 0.72733104 regularization 2292.9346
+loss 3.0202656
+STEP 3 ================================
+prereg loss 0.7271551 regularization 2278.123
+loss 3.005278
+STEP 4 ================================
+prereg loss 0.7262615 regularization 2263.4565
+loss 2.989718
+STEP 5 ================================
+prereg loss 0.72582114 regularization 2248.9053
+loss 2.9747267
+STEP 6 ================================
+prereg loss 0.72538 regularization 2234.4539
+loss 2.9598339
+STEP 7 ================================
+prereg loss 0.7249159 regularization 2220.1074
+loss 2.9450235
+STEP 8 ================================
+prereg loss 0.7243863 regularization 2205.8643
+loss 2.9302506
+STEP 9 ================================
+prereg loss 0.7237968 regularization 2191.7224
+loss 2.9155195
+STEP 10 ================================
+prereg loss 0.7232568 regularization 2177.6658
+loss 2.9009228
+STEP 11 ================================
+prereg loss 0.7227316 regularization 2163.7222
+loss 2.8864539
+STEP 12 ================================
+prereg loss 0.7221829 regularization 2149.888
+loss 2.872071
+STEP 13 ================================
+prereg loss 0.7216216 regularization 2136.179
+loss 2.8578005
+STEP 14 ================================
+prereg loss 0.72131413 regularization 2122.544
+loss 2.8438582
+STEP 15 ================================
+prereg loss 0.7207674 regularization 2108.9824
+loss 2.82975
+STEP 16 ================================
+prereg loss 0.7201194 regularization 2095.5154
+loss 2.815635
+STEP 17 ================================
+prereg loss 0.7196533 regularization 2082.1362
+loss 2.8017898
+STEP 18 ================================
+prereg loss 0.71958685 regularization 2068.9211
+loss 2.7885082
+STEP 19 ================================
+prereg loss 0.7187691 regularization 2055.773
+loss 2.774542
+STEP 20 ================================
+prereg loss 0.71844393 regularization 2042.6678
+loss 2.7611117
+STEP 21 ================================
+prereg loss 0.71847755 regularization 2029.7015
+loss 2.7481792
+STEP 22 ================================
+prereg loss 0.71767527 regularization 2016.8428
+loss 2.734518
+STEP 23 ================================
+prereg loss 0.7166355 regularization 2004.1007
+loss 2.7207363
+STEP 24 ================================
+prereg loss 0.7161356 regularization 1991.4528
+loss 2.7075884
+STEP 25 ================================
+prereg loss 0.71572405 regularization 1978.8673
+loss 2.6945915
+STEP 26 ================================
+prereg loss 0.7151882 regularization 1966.3885
+loss 2.681577
+STEP 27 ================================
+prereg loss 0.71444 regularization 1954.0142
+loss 2.6684542
+STEP 28 ================================
+prereg loss 0.71350557 regularization 1941.7454
+loss 2.655251
+STEP 29 ================================
+prereg loss 0.7127023 regularization 1929.5697
+loss 2.642272
+STEP 30 ================================
+prereg loss 0.7118731 regularization 1917.4675
+loss 2.6293406
+STEP 31 ================================
+prereg loss 0.7114828 regularization 1905.436
+loss 2.616919
+STEP 32 ================================
+prereg loss 0.7108584 regularization 1893.489
+loss 2.6043475
+STEP 33 ================================
+prereg loss 0.7096904 regularization 1881.6565
+loss 2.591347
+STEP 34 ================================
+prereg loss 0.7089812 regularization 1869.8918
+loss 2.5788732
+STEP 35 ================================
+prereg loss 0.7087711 regularization 1858.2365
+loss 2.5670075
+STEP 36 ================================
+prereg loss 0.70757985 regularization 1846.6414
+loss 2.5542212
+STEP 37 ================================
+prereg loss 0.7068468 regularization 1835.1472
+loss 2.541994
+STEP 38 ================================
+prereg loss 0.70589143 regularization 1823.7456
+loss 2.529637
+STEP 39 ================================
+prereg loss 0.70497715 regularization 1812.4167
+loss 2.517394
+STEP 40 ================================
+prereg loss 0.70409614 regularization 1801.1844
+loss 2.5052807
+STEP 41 ================================
+prereg loss 0.70320415 regularization 1790.0276
+loss 2.4932318
+STEP 42 ================================
+prereg loss 0.70226383 regularization 1778.9747
+loss 2.4812386
+STEP 43 ================================
+prereg loss 0.70105684 regularization 1767.9932
+loss 2.46905
+STEP 44 ================================
+prereg loss 0.7002949 regularization 1757.127
+loss 2.457422
+STEP 45 ================================
+prereg loss 0.6987569 regularization 1746.3191
+loss 2.445076
+STEP 46 ================================
+prereg loss 0.6976268 regularization 1735.5968
+loss 2.4332237
+STEP 47 ================================
+prereg loss 0.69597596 regularization 1724.9731
+loss 2.4209492
+STEP 48 ================================
+prereg loss 0.6952937 regularization 1714.4524
+loss 2.4097462
+STEP 49 ================================
+prereg loss 0.69356924 regularization 1703.959
+loss 2.3975284
+STEP 50 ================================
+prereg loss 0.6925586 regularization 1693.5417
+loss 2.3861005
+STEP 51 ================================
+prereg loss 0.69066215 regularization 1683.2391
+loss 2.3739014
+STEP 52 ================================
+prereg loss 0.6881194 regularization 1673.0535
+loss 2.361173
+STEP 53 ================================
+prereg loss 0.6855864 regularization 1662.9822
+loss 2.3485687
+STEP 54 ================================
+prereg loss 0.6830329 regularization 1652.9747
+loss 2.3360076
+STEP 55 ================================
+prereg loss 0.6795287 regularization 1643.0294
+loss 2.3225582
+STEP 56 ================================
+prereg loss 0.6773472 regularization 1633.1772
+loss 2.3105245
+STEP 57 ================================
+prereg loss 0.67477214 regularization 1623.3494
+loss 2.2981215
+STEP 58 ================================
+prereg loss 0.67267686 regularization 1613.6542
+loss 2.2863312
+STEP 59 ================================
+prereg loss 0.66761625 regularization 1604.0585
+loss 2.2716746
+STEP 60 ================================
+prereg loss 0.66096634 regularization 1594.5951
+loss 2.2555616
+STEP 61 ================================
+prereg loss 0.6597122 regularization 1585.2292
+loss 2.2449415
+STEP 62 ================================
+prereg loss 0.65002537 regularization 1575.8295
+loss 2.2258549
+STEP 63 ================================
+prereg loss 0.6462397 regularization 1566.5327
+loss 2.2127724
+STEP 64 ================================
+prereg loss 0.6400621 regularization 1557.3654
+loss 2.1974275
+STEP 65 ================================
+prereg loss 0.6306755 regularization 1548.3396
+loss 2.1790152
+STEP 66 ================================
+prereg loss 0.62514573 regularization 1539.4741
+loss 2.16462
+STEP 67 ================================
+prereg loss 0.61450756 regularization 1530.6129
+loss 2.1451206
+STEP 68 ================================
+prereg loss 0.605069 regularization 1521.7627
+loss 2.1268318
+STEP 69 ================================
+prereg loss 0.59559625 regularization 1513.0948
+loss 2.1086912
+STEP 70 ================================
+prereg loss 0.5823816 regularization 1504.5844
+loss 2.086966
+STEP 71 ================================
+prereg loss 0.5735672 regularization 1496.2124
+loss 2.0697796
+STEP 72 ================================
+prereg loss 0.56243795 regularization 1487.8877
+loss 2.0503256
+STEP 73 ================================
+prereg loss 0.54926956 regularization 1479.6451
+loss 2.028915
+STEP 74 ================================
+prereg loss 0.53442234 regularization 1471.4883
+loss 2.0059106
+STEP 75 ================================
+prereg loss 0.51800567 regularization 1463.4468
+loss 1.9814525
+STEP 76 ================================
+prereg loss 0.5044163 regularization 1455.5195
+loss 1.9599359
+STEP 77 ================================
+prereg loss 0.48445547 regularization 1447.7256
+loss 1.9321811
+STEP 78 ================================
+prereg loss 0.46450397 regularization 1440.0388
+loss 1.9045429
+STEP 79 ================================
+prereg loss 0.44474474 regularization 1432.4266
+loss 1.8771714
+STEP 80 ================================
+prereg loss 0.42393824 regularization 1424.8999
+loss 1.8488382
+STEP 81 ================================
+prereg loss 0.39890435 regularization 1417.4701
+loss 1.8163745
+STEP 82 ================================
+prereg loss 0.38167503 regularization 1410.1174
+loss 1.7917925
+STEP 83 ================================
+prereg loss 0.35404965 regularization 1402.8901
+loss 1.7569399
+STEP 84 ================================
+prereg loss 0.4039959 regularization 1395.54
+loss 1.799536
+STEP 85 ================================
+prereg loss 0.70198727 regularization 1388.3801
+loss 2.0903673
+STEP 86 ================================
+prereg loss 0.48191583 regularization 1380.5675
+loss 1.8624834
+STEP 87 ================================
+prereg loss 0.60632306 regularization 1372.7759
+loss 1.979099
+STEP 88 ================================
+prereg loss 0.5367834 regularization 1364.9575
+loss 1.901741
+STEP 89 ================================
+prereg loss 0.43173456 regularization 1357.1102
+loss 1.7888448
+STEP 90 ================================
+prereg loss 0.38266122 regularization 1349.3143
+loss 1.7319757
+STEP 91 ================================
+prereg loss 0.431025 regularization 1341.6208
+loss 1.772646
+STEP 92 ================================
+prereg loss 0.4444873 regularization 1333.9932
+loss 1.7784805
+STEP 93 ================================
+prereg loss 0.40387598 regularization 1326.4318
+loss 1.7303078
+STEP 94 ================================
+prereg loss 0.41587463 regularization 1318.9595
+loss 1.7348342
+STEP 95 ================================
+prereg loss 0.43111464 regularization 1311.5619
+loss 1.7426766
+STEP 96 ================================
+prereg loss 0.43821242 regularization 1304.2706
+loss 1.7424831
+STEP 97 ================================
+prereg loss 0.43746796 regularization 1297.0753
+loss 1.7345433
+STEP 98 ================================
+prereg loss 0.42768317 regularization 1289.9789
+loss 1.7176621
+STEP 99 ================================
+prereg loss 0.4094256 regularization 1282.9635
+loss 1.6923891
+STEP 100 ================================
+prereg loss 0.38705325 regularization 1276.0117
+loss 1.6630651
+
+julia> a_332 = deepcopy(trainable["network_matrix"])
+Dict{String, Dict{String, Dict{String, Dict{String, Float32}}}} with 23 entries:
+  "timer"     => Dict("timer"=>Dict("timer"=>Dict("timer"=>1.0)))
+  "output"    => Dict("dict-2"=>Dict("const_1"=>Dict("const_1"=>-0.12349), "norm-5"=>Dict("dict"=>-0.000128297, "true"=…
+  "norm-5"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-2.13047f-5), "norm-5"=>Dict("dict"=>0.0177368, "true"=>-…
+  "accum-4"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.000109955), "norm-5"=>Dict("dict"=>0.000177448, "true"…
+  "dot-2"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>5.29075f-5), "norm-5"=>Dict("dict"=>1.37948f-5, "true"=>-…
+  "norm-1"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.182879), "norm-5"=>Dict("dict"=>-0.00109121, "true"=>0.…
+  "compare-5" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-1.3795f-5), "norm-5"=>Dict("dict"=>-0.1059, "true"=>-6.4…
+  "accum-3"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>1.87214f-5), "norm-5"=>Dict("dict"=>-0.000171699, "true"=…
+  "norm-4"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.132292), "norm-5"=>Dict("dict"=>0.265282, "true"=>0.000…
+  "accum-1"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.199506), "norm-5"=>Dict("dict"=>-0.0211925, "true"=>-9…
+  "compare-4" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0743203), "norm-5"=>Dict("dict"=>1.696f-5, "true"=>-0.0…
+  "compare-2" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0100823), "norm-5"=>Dict("dict"=>-0.0301741, "true"=>-6…
+  "dot-1"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.000224615), "norm-5"=>Dict("dict"=>-2.41364f-5, "true"…
+  "dot-3"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.000316505), "norm-5"=>Dict("dict"=>4.55589f-5, "true"=…
+  "input"     => Dict("timer"=>Dict("timer"=>Dict("timer"=>1.0)))
+  "norm-3"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.155758), "norm-5"=>Dict("dict"=>0.0865545, "true"=>-0.…
+  "compare-3" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>6.91644f-5), "norm-5"=>Dict("dict"=>0.000282437, "true"=>…
+  "accum-5"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.0105156), "norm-5"=>Dict("dict"=>-0.0270516, "true"=>-…
+  "accum-2"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-5.7116f-5), "norm-5"=>Dict("dict"=>-0.000289207, "true"=…
+  "compare-1" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.0298838), "norm-5"=>Dict("dict"=>-4.99245f-6, "true"=>…
+  "dot-4"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0104989), "norm-5"=>Dict("dict"=>-0.0228044, "true"=>-1…
+  "dot-5"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>8.35954f-5), "norm-5"=>Dict("dict"=>-0.020739, "true"=>0.…
+  "norm-2"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.445653), "norm-5"=>Dict("dict"=>0.00046459, "true"=>-0.…
+
+julia> count_neg_interval(a_232, -0.8f0, 0.8f0)
+2
+
+julia> count_neg_interval(a_332, -0.8f0, 0.8f0)
+2
+
+julia> count_neg_interval(a_332, -0.7f0, 0.7f0)
+3
+
+julia> count_neg_interval(a_332, -0.6f0, 0.6f0)
+5
+
+julia> count_neg_interval(a_332, -0.5f0, 0.5f0)
+18
+
+julia> count_neg_interval(a_332, -0.4f0, 0.4f0)
+42
+
+julia> count_neg_interval(a_332, -0.3f0, 0.3f0)
+144
+
+julia> count_neg_interval(a_332, -0.2f0, 0.2f0)
+520
+
+julia> count_neg_interval(a_332, -0.1f0, 0.1f0)
+1769
+
+julia> count_neg_interval(a_332, -0.01f0, 0.01f0)
+5170
+
+julia> count_neg_interval(a_332, -0.001f0, 0.001f0)
+5866
+
+julia> count_neg_interval(a_332, -0.0001f0, 0.0001f0)
+11853
+
+julia> for i in 1:100
+           printlog_v(io, "STEP ", i, " ================================")
+           training_step!()
+       end
+STEP 1 ================================
+prereg loss 0.36567575 regularization 1269.1671
+loss 1.6348429
+STEP 2 ================================
+prereg loss 0.35652044 regularization 1262.4031
+loss 1.6189235
+STEP 3 ================================
+prereg loss 0.35973415 regularization 1255.7056
+loss 1.6154398
+STEP 4 ================================
+prereg loss 0.34053794 regularization 1248.9937
+loss 1.5895317
+STEP 5 ================================
+prereg loss 0.33161002 regularization 1242.3342
+loss 1.5739443
+STEP 6 ================================
+prereg loss 0.3339003 regularization 1235.7595
+loss 1.56966
+STEP 7 ================================
+prereg loss 0.32782796 regularization 1229.2551
+loss 1.5570831
+STEP 8 ================================
+prereg loss 0.3063528 regularization 1222.8328
+loss 1.5291855
+STEP 9 ================================
+prereg loss 0.29788747 regularization 1216.4839
+loss 1.5143714
+STEP 10 ================================
+prereg loss 0.29256013 regularization 1210.15
+loss 1.5027102
+STEP 11 ================================
+prereg loss 0.28327408 regularization 1203.8187
+loss 1.4870929
+STEP 12 ================================
+prereg loss 0.28050095 regularization 1197.5896
+loss 1.4780905
+STEP 13 ================================
+prereg loss 0.26413682 regularization 1191.4761
+loss 1.4556129
+STEP 14 ================================
+prereg loss 0.25793138 regularization 1185.3691
+loss 1.4433006
+STEP 15 ================================
+prereg loss 0.25324485 regularization 1179.2762
+loss 1.4325212
+STEP 16 ================================
+prereg loss 0.25048032 regularization 1173.2585
+loss 1.4237388
+STEP 17 ================================
+prereg loss 0.22640306 regularization 1167.3312
+loss 1.3937342
+STEP 18 ================================
+prereg loss 0.26054013 regularization 1161.4641
+loss 1.4220043
+STEP 19 ================================
+prereg loss 0.23507862 regularization 1155.5822
+loss 1.3906608
+STEP 20 ================================
+prereg loss 0.225311 regularization 1149.7476
+loss 1.3750587
+STEP 21 ================================
+prereg loss 0.20947188 regularization 1143.9589
+loss 1.3534307
+STEP 22 ================================
+prereg loss 0.22562155 regularization 1138.2036
+loss 1.3638252
+STEP 23 ================================
+prereg loss 0.24239887 regularization 1132.4728
+loss 1.3748717
+STEP 24 ================================
+prereg loss 0.22867945 regularization 1126.729
+loss 1.3554084
+STEP 25 ================================
+prereg loss 0.20429176 regularization 1121.0029
+loss 1.3252947
+STEP 26 ================================
+prereg loss 0.21410371 regularization 1115.3177
+loss 1.3294215
+STEP 27 ================================
+prereg loss 0.28383267 regularization 1109.6403
+loss 1.393473
+STEP 28 ================================
+prereg loss 0.22976051 regularization 1103.9877
+loss 1.3337482
+STEP 29 ================================
+prereg loss 0.25081372 regularization 1098.4054
+loss 1.3492192
+STEP 30 ================================
+prereg loss 0.22934808 regularization 1092.7605
+loss 1.3221086
+STEP 31 ================================
+prereg loss 0.3525069 regularization 1087.1666
+loss 1.4396735
+STEP 32 ================================
+prereg loss 0.19768743 regularization 1081.5834
+loss 1.2792708
+STEP 33 ================================
+prereg loss 0.32005754 regularization 1076.0765
+loss 1.3961341
+STEP 34 ================================
+prereg loss 0.22299697 regularization 1070.4624
+loss 1.2934594
+STEP 35 ================================
+prereg loss 0.38346925 regularization 1064.91
+loss 1.4483793
+STEP 36 ================================
+prereg loss 0.30099434 regularization 1059.3964
+loss 1.3603907
+STEP 37 ================================
+prereg loss 0.19207317 regularization 1053.9248
+loss 1.2459979
+STEP 38 ================================
+prereg loss 0.24164435 regularization 1048.5577
+loss 1.2902021
+STEP 39 ================================
+prereg loss 0.21579327 regularization 1043.1849
+loss 1.2589782
+STEP 40 ================================
+prereg loss 0.19041802 regularization 1037.8636
+loss 1.2282817
+STEP 41 ================================
+prereg loss 0.20393081 regularization 1032.5996
+loss 1.2365305
+STEP 42 ================================
+prereg loss 0.22387263 regularization 1027.4083
+loss 1.251281
+STEP 43 ================================
+prereg loss 0.21068183 regularization 1022.285
+loss 1.2329668
+STEP 44 ================================
+prereg loss 0.18856268 regularization 1017.2306
+loss 1.2057933
+STEP 45 ================================
+prereg loss 0.19369154 regularization 1012.2267
+loss 1.2059182
+STEP 46 ================================
+prereg loss 0.20223197 regularization 1007.26843
+loss 1.2095004
+STEP 47 ================================
+prereg loss 0.19410631 regularization 1002.3614
+loss 1.1964678
+STEP 48 ================================
+prereg loss 0.17900869 regularization 997.51013
+loss 1.1765189
+STEP 49 ================================
+prereg loss 0.18429391 regularization 992.7047
+loss 1.1769986
+STEP 50 ================================
+prereg loss 0.18895549 regularization 987.9491
+loss 1.1769047
+STEP 51 ================================
+prereg loss 0.17745815 regularization 983.24
+loss 1.1606982
+STEP 52 ================================
+prereg loss 0.16434905 regularization 978.56976
+loss 1.1429188
+STEP 53 ================================
+prereg loss 0.16983928 regularization 973.94763
+loss 1.143787
+STEP 54 ================================
+prereg loss 0.16770956 regularization 969.37384
+loss 1.1370834
+STEP 55 ================================
+prereg loss 0.15360881 regularization 964.82153
+loss 1.1184304
+STEP 56 ================================
+prereg loss 0.15458015 regularization 960.3158
+loss 1.1148959
+STEP 57 ================================
+prereg loss 0.15809599 regularization 955.86237
+loss 1.1139584
+STEP 58 ================================
+prereg loss 0.14730597 regularization 951.4677
+loss 1.0987737
+STEP 59 ================================
+prereg loss 0.13967352 regularization 947.11206
+loss 1.0867856
+STEP 60 ================================
+prereg loss 0.14371659 regularization 942.7781
+loss 1.0864947
+STEP 61 ================================
+prereg loss 0.13402858 regularization 938.4786
+loss 1.0725073
+STEP 62 ================================
+prereg loss 0.13177516 regularization 934.22626
+loss 1.0660014
+STEP 63 ================================
+prereg loss 0.13142785 regularization 930.0003
+loss 1.0614282
+STEP 64 ================================
+prereg loss 0.1290125 regularization 925.8061
+loss 1.0548186
+STEP 65 ================================
+prereg loss 0.122664556 regularization 921.65497
+loss 1.0443195
+STEP 66 ================================
+prereg loss 0.11919178 regularization 917.5438
+loss 1.0367357
+STEP 67 ================================
+prereg loss 0.11691658 regularization 913.4617
+loss 1.0303782
+STEP 68 ================================
+prereg loss 0.11447376 regularization 909.41144
+loss 1.0238853
+STEP 69 ================================
+prereg loss 0.113721855 regularization 905.3845
+loss 1.0191064
+STEP 70 ================================
+prereg loss 0.11083268 regularization 901.3773
+loss 1.01221
+STEP 71 ================================
+prereg loss 0.106667444 regularization 897.40155
+loss 1.004069
+STEP 72 ================================
+prereg loss 0.1078479 regularization 893.4372
+loss 1.0012852
+STEP 73 ================================
+prereg loss 0.10672006 regularization 889.50415
+loss 0.9962243
+STEP 74 ================================
+prereg loss 0.10254565 regularization 885.6092
+loss 0.9881549
+STEP 75 ================================
+prereg loss 0.1138627 regularization 881.7467
+loss 0.99560946
+STEP 76 ================================
+prereg loss 0.106311776 regularization 877.8764
+loss 0.98418826
+STEP 77 ================================
+prereg loss 0.10923164 regularization 874.04504
+loss 0.9832767
+STEP 78 ================================
+prereg loss 0.10034748 regularization 870.2577
+loss 0.9706052
+STEP 79 ================================
+prereg loss 0.10167523 regularization 866.4847
+loss 0.9681599
+STEP 80 ================================
+prereg loss 0.10119962 regularization 862.73706
+loss 0.96393675
+STEP 81 ================================
+prereg loss 0.09627132 regularization 859.0038
+loss 0.9552752
+STEP 82 ================================
+prereg loss 0.09827537 regularization 855.28864
+loss 0.95356405
+STEP 83 ================================
+prereg loss 0.09600159 regularization 851.59546
+loss 0.9475971
+STEP 84 ================================
+prereg loss 0.089582 regularization 847.93396
+loss 0.93751603
+STEP 85 ================================
+prereg loss 0.10655113 regularization 844.30695
+loss 0.9508581
+STEP 86 ================================
+prereg loss 0.10939151 regularization 840.6772
+loss 0.9500687
+STEP 87 ================================
+prereg loss 0.12819922 regularization 837.0712
+loss 0.96527046
+STEP 88 ================================
+prereg loss 0.08471708 regularization 833.4873
+loss 0.9182044
+STEP 89 ================================
+prereg loss 0.35716587 regularization 829.9469
+loss 1.1871128
+STEP 90 ================================
+prereg loss 1.0714502 regularization 826.22363
+loss 1.8976738
+STEP 91 ================================
+prereg loss 1.105138 regularization 822.257
+loss 1.927395
+STEP 92 ================================
+prereg loss 0.9798538 regularization 818.20654
+loss 1.7980604
+STEP 93 ================================
+prereg loss 0.8489335 regularization 814.10474
+loss 1.6630383
+STEP 94 ================================
+prereg loss 0.7515389 regularization 809.95996
+loss 1.5614989
+STEP 95 ================================
+prereg loss 0.6741395 regularization 805.8077
+loss 1.4799472
+STEP 96 ================================
+prereg loss 0.6275109 regularization 801.65735
+loss 1.4291682
+STEP 97 ================================
+prereg loss 0.60755366 regularization 797.5472
+loss 1.4051008
+STEP 98 ================================
+prereg loss 0.60223824 regularization 793.5208
+loss 1.3957591
+STEP 99 ================================
+prereg loss 0.6030561 regularization 789.5785
+loss 1.3926346
+STEP 100 ================================
+prereg loss 0.6051089 regularization 785.71295
+loss 1.3908219
+
+julia> a_432 = deepcopy(trainable["network_matrix"])
+Dict{String, Dict{String, Dict{String, Dict{String, Float32}}}} with 23 entries:
+  "timer"     => Dict("timer"=>Dict("timer"=>Dict("timer"=>1.0)))
+  "output"    => Dict("dict-2"=>Dict("const_1"=>Dict("const_1"=>-0.101951), "norm-5"=>Dict("dict"=>0.000129164, "true"=…
+  "norm-5"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>5.1206f-5), "norm-5"=>Dict("dict"=>2.24008f-5, "true"=>1.…
+  "accum-4"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>6.80846f-6), "norm-5"=>Dict("dict"=>2.46265f-5, "true"=>-…
+  "dot-2"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-6.18594f-5), "norm-5"=>Dict("dict"=>-1.05373f-5, "true"=…
+  "norm-1"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.190908), "norm-5"=>Dict("dict"=>1.34086f-5, "true"=>-0.…
+  "compare-5" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-2.21511f-5), "norm-5"=>Dict("dict"=>-0.0552531, "true"=>…
+  "accum-3"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>4.82385f-5), "norm-5"=>Dict("dict"=>-0.000214151, "true"=…
+  "norm-4"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.143789), "norm-5"=>Dict("dict"=>0.198709, "true"=>4.315…
+  "accum-1"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.138031), "norm-5"=>Dict("dict"=>5.78407f-5, "true"=>3.…
+  "compare-4" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0289262), "norm-5"=>Dict("dict"=>-6.58836f-5, "true"=>1…
+  "compare-2" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-9.58346f-5), "norm-5"=>Dict("dict"=>-0.000348755, "true"…
+  "dot-1"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.000206703), "norm-5"=>Dict("dict"=>7.36349f-5, "true"=>…
+  "dot-3"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-6.9319f-6), "norm-5"=>Dict("dict"=>-6.47783f-5, "true"=>…
+  "input"     => Dict("timer"=>Dict("timer"=>Dict("timer"=>1.0)))
+  "norm-3"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.170245), "norm-5"=>Dict("dict"=>0.0389912, "true"=>0.0…
+  "compare-3" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-1.86787f-5), "norm-5"=>Dict("dict"=>-0.000473492, "true"…
+  "accum-5"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>5.77897f-5), "norm-5"=>Dict("dict"=>3.55857f-5, "true"=>5…
+  "accum-2"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.000423188), "norm-5"=>Dict("dict"=>-0.00029597, "true"=…
+  "compare-1" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.000270469), "norm-5"=>Dict("dict"=>-1.69207f-6, "true"…
+  "dot-4"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.000155884), "norm-5"=>Dict("dict"=>-6.05849f-5, "true"=…
+  "dot-5"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.000118055), "norm-5"=>Dict("dict"=>-6.94465f-5, "true"…
+  "norm-2"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.448222), "norm-5"=>Dict("dict"=>-0.00024123, "true"=>6.…
+
+julia> count_neg_interval(a_432, -0.8f0, 0.8f0)
+2
+
+julia> count_neg_interval(a_432, -0.7f0, 0.7f0)
+3
+
+julia> count_neg_interval(a_432, -0.6f0, 0.6f0)
+6
+
+julia> count_neg_interval(a_432, -0.5f0, 0.5f0)
+13
+
+julia> count_neg_interval(a_432, -0.4f0, 0.4f0)
+34
+
+julia> count_neg_interval(a_432, -0.3f0, 0.3f0)
+89
+
+julia> count_neg_interval(a_432, -0.2f0, 0.2f0)
+329
+
+julia> count_neg_interval(a_432, -0.1f0, 0.1f0)
+1028
+
+julia> count_neg_interval(a_432, -0.01f0, 0.01f0)
+3310
+
+julia> count_neg_interval(a_432, -0.001f0, 0.001f0)
+3818
+
+julia> count_neg_interval(a_432, -0.0001f0, 0.0001f0)
+10066
+
+julia> for i in 1:100
+           printlog_v(io, "STEP ", i, " ================================")
+           training_step!()
+       end
+STEP 1 ================================
+prereg loss 0.5993142 regularization 781.93085
+loss 1.3812451
+STEP 2 ================================
+prereg loss 0.5883953 regularization 778.2383
+loss 1.3666337
+STEP 3 ================================
+prereg loss 0.5747849 regularization 774.6151
+loss 1.3494
+STEP 4 ================================
+prereg loss 0.5610307 regularization 771.0739
+loss 1.3321047
+STEP 5 ================================
+prereg loss 0.548801 regularization 767.59674
+loss 1.3163978
+STEP 6 ================================
+prereg loss 0.5382391 regularization 764.1738
+loss 1.302413
+STEP 7 ================================
+prereg loss 0.5291826 regularization 760.8014
+loss 1.289984
+STEP 8 ================================
+prereg loss 0.52091324 regularization 757.47595
+loss 1.2783892
+STEP 9 ================================
+prereg loss 0.5119626 regularization 754.20465
+loss 1.2661673
+STEP 10 ================================
+prereg loss 0.5004047 regularization 750.9774
+loss 1.2513821
+STEP 11 ================================
+prereg loss 0.48364845 regularization 747.79944
+loss 1.2314479
+STEP 12 ================================
+prereg loss 0.46711633 regularization 744.6331
+loss 1.2117494
+STEP 13 ================================
+prereg loss 0.45239338 regularization 741.51294
+loss 1.1939063
+STEP 14 ================================
+prereg loss 0.43883815 regularization 738.45
+loss 1.1772882
+STEP 15 ================================
+prereg loss 0.42675188 regularization 735.42847
+loss 1.1621804
+STEP 16 ================================
+prereg loss 0.4144226 regularization 732.4584
+loss 1.146881
+STEP 17 ================================
+prereg loss 0.40048665 regularization 729.51874
+loss 1.1300054
+STEP 18 ================================
+prereg loss 0.38345262 regularization 726.6144
+loss 1.110067
+STEP 19 ================================
+prereg loss 0.36554977 regularization 723.7585
+loss 1.0893083
+STEP 20 ================================
+prereg loss 0.34959444 regularization 720.9578
+loss 1.0705523
+STEP 21 ================================
+prereg loss 0.33515406 regularization 718.19055
+loss 1.0533447
+STEP 22 ================================
+prereg loss 0.32045648 regularization 715.4808
+loss 1.0359373
+STEP 23 ================================
+prereg loss 0.3053917 regularization 712.81525
+loss 1.018207
+STEP 24 ================================
+prereg loss 0.29212597 regularization 710.17395
+loss 1.0022999
+STEP 25 ================================
+prereg loss 0.2853692 regularization 707.58154
+loss 0.9929508
+STEP 26 ================================
+prereg loss 0.27831578 regularization 705.0184
+loss 0.9833342
+STEP 27 ================================
+prereg loss 0.27122712 regularization 702.4808
+loss 0.9737079
+STEP 28 ================================
+prereg loss 0.26339865 regularization 699.9857
+loss 0.9633844
+STEP 29 ================================
+prereg loss 0.25423276 regularization 697.52295
+loss 0.95175576
+STEP 30 ================================
+prereg loss 0.24399573 regularization 695.0645
+loss 0.9390603
+STEP 31 ================================
+prereg loss 0.23534763 regularization 692.6238
+loss 0.9279714
+STEP 32 ================================
+prereg loss 0.2276392 regularization 690.1964
+loss 0.91783565
+STEP 33 ================================
+prereg loss 0.21978512 regularization 687.7967
+loss 0.9075818
+STEP 34 ================================
+prereg loss 0.21349546 regularization 685.4399
+loss 0.8989353
+STEP 35 ================================
+prereg loss 0.20612976 regularization 683.089
+loss 0.8892188
+STEP 36 ================================
+prereg loss 0.19699436 regularization 680.74664
+loss 0.87774104
+STEP 37 ================================
+prereg loss 0.186148 regularization 678.4285
+loss 0.8645765
+STEP 38 ================================
+prereg loss 0.17512387 regularization 676.1468
+loss 0.8512707
+STEP 39 ================================
+prereg loss 0.16614385 regularization 673.86975
+loss 0.8400136
+STEP 40 ================================
+prereg loss 0.15914202 regularization 671.62256
+loss 0.8307646
+STEP 41 ================================
+prereg loss 0.15085082 regularization 669.3838
+loss 0.82023466
+STEP 42 ================================
+prereg loss 0.14253892 regularization 667.1467
+loss 0.80968565
+STEP 43 ================================
+prereg loss 0.13793893 regularization 664.92676
+loss 0.8028657
+STEP 44 ================================
+prereg loss 0.13379966 regularization 662.7264
+loss 0.7965261
+STEP 45 ================================
+prereg loss 0.1297609 regularization 660.5419
+loss 0.7903028
+STEP 46 ================================
+prereg loss 0.123522095 regularization 658.38727
+loss 0.7819094
+STEP 47 ================================
+prereg loss 0.11517392 regularization 656.2405
+loss 0.77141446
+STEP 48 ================================
+prereg loss 0.11740943 regularization 654.0952
+loss 0.77150464
+STEP 49 ================================
+prereg loss 0.1114153 regularization 651.96
+loss 0.7633754
+STEP 50 ================================
+prereg loss 0.10692891 regularization 649.82983
+loss 0.75675875
+STEP 51 ================================
+prereg loss 0.110775545 regularization 647.7146
+loss 0.75849015
+STEP 52 ================================
+prereg loss 0.10824609 regularization 645.63605
+loss 0.75388217
+STEP 53 ================================
+prereg loss 0.10027122 regularization 643.57104
+loss 0.7438423
+STEP 54 ================================
+prereg loss 0.11254584 regularization 641.52057
+loss 0.75406647
+STEP 55 ================================
+prereg loss 0.10183152 regularization 639.4379
+loss 0.74126947
+STEP 56 ================================
+prereg loss 0.11208574 regularization 637.38086
+loss 0.74946666
+STEP 57 ================================
+prereg loss 0.11218613 regularization 635.3382
+loss 0.7475244
+STEP 58 ================================
+prereg loss 0.10053741 regularization 633.3244
+loss 0.73386186
+STEP 59 ================================
+prereg loss 0.08617426 regularization 631.34045
+loss 0.71751475
+STEP 60 ================================
+prereg loss 0.11539921 regularization 629.3642
+loss 0.7447635
+STEP 61 ================================
+prereg loss 0.09703532 regularization 627.33246
+loss 0.72436786
+STEP 62 ================================
+prereg loss 0.1246384 regularization 625.31934
+loss 0.74995774
+STEP 63 ================================
+prereg loss 0.13150422 regularization 623.3192
+loss 0.7548235
+STEP 64 ================================
+prereg loss 0.10913391 regularization 621.35596
+loss 0.7304899
+STEP 65 ================================
+prereg loss 0.08057428 regularization 619.42145
+loss 0.69999576
+STEP 66 ================================
+prereg loss 0.14485164 regularization 617.5002
+loss 0.7623518
+STEP 67 ================================
+prereg loss 0.08683918 regularization 615.4923
+loss 0.70233154
+STEP 68 ================================
+prereg loss 0.12881076 regularization 613.52496
+loss 0.74233574
+STEP 69 ================================
+prereg loss 0.13500074 regularization 611.6
+loss 0.74660075
+STEP 70 ================================
+prereg loss 0.096060075 regularization 609.71106
+loss 0.7057712
+STEP 71 ================================
+prereg loss 0.06962661 regularization 607.8392
+loss 0.67746586
+STEP 72 ================================
+prereg loss 0.22906019 regularization 605.966
+loss 0.8350262
+STEP 73 ================================
+prereg loss 0.07095449 regularization 604.074
+loss 0.6750285
+STEP 74 ================================
+prereg loss 0.09711266 regularization 602.20166
+loss 0.69931436
+STEP 75 ================================
+prereg loss 0.116946585 regularization 600.3454
+loss 0.717292
+STEP 76 ================================
+prereg loss 0.11146791 regularization 598.5166
+loss 0.70998454
+STEP 77 ================================
+prereg loss 0.08733866 regularization 596.6979
+loss 0.6840366
+STEP 78 ================================
+prereg loss 0.066947475 regularization 594.896
+loss 0.6618435
+STEP 79 ================================
+prereg loss 0.15889545 regularization 593.12476
+loss 0.75202024
+STEP 80 ================================
+prereg loss 0.07356153 regularization 591.34827
+loss 0.66490984
+STEP 81 ================================
+prereg loss 0.08732962 regularization 589.57025
+loss 0.6768999
+STEP 82 ================================
+prereg loss 0.10428011 regularization 587.8203
+loss 0.69210047
+STEP 83 ================================
+prereg loss 0.09867352 regularization 586.09705
+loss 0.6847706
+STEP 84 ================================
+prereg loss 0.07829161 regularization 584.36884
+loss 0.6626605
+STEP 85 ================================
+prereg loss 0.07152443 regularization 582.6636
+loss 0.65418804
+STEP 86 ================================
+prereg loss 0.102262706 regularization 580.9631
+loss 0.68322575
+STEP 87 ================================
+prereg loss 0.06005597 regularization 579.2458
+loss 0.6393018
+STEP 88 ================================
+prereg loss 0.07004795 regularization 577.56635
+loss 0.64761436
+STEP 89 ================================
+prereg loss 0.074879706 regularization 575.9142
+loss 0.6507939
+STEP 90 ================================
+prereg loss 0.068654515 regularization 574.2747
+loss 0.64292926
+STEP 91 ================================
+prereg loss 0.057654683 regularization 572.6682
+loss 0.63032293
+STEP 92 ================================
+prereg loss 0.059275657 regularization 571.0817
+loss 0.6303574
+STEP 93 ================================
+prereg loss 0.06344512 regularization 569.48596
+loss 0.6329311
+STEP 94 ================================
+prereg loss 0.05652181 regularization 567.89844
+loss 0.6244203
+STEP 95 ================================
+prereg loss 0.06572874 regularization 566.302
+loss 0.6320307
+STEP 96 ================================
+prereg loss 0.06894681 regularization 564.719
+loss 0.6336658
+STEP 97 ================================
+prereg loss 0.061301503 regularization 563.1596
+loss 0.6244612
+STEP 98 ================================
+prereg loss 0.05083217 regularization 561.62305
+loss 0.61245525
+STEP 99 ================================
+prereg loss 0.05787066 regularization 560.0979
+loss 0.6179686
+STEP 100 ================================
+prereg loss 0.058727097 regularization 558.59216
+loss 0.6173193
+
+julia> # THIS IS EXACTLY THE REPEAT OF First Run
+
+julia> a_532 = deepcopy(trainable["network_matrix"])
+Dict{String, Dict{String, Dict{String, Dict{String, Float32}}}} with 23 entries:
+  "timer"     => Dict("timer"=>Dict("timer"=>Dict("timer"=>1.0)))
+  "output"    => Dict("dict-2"=>Dict("const_1"=>Dict("const_1"=>-0.0788173), "norm-5"=>Dict("dict"=>-0.000129615, "true…
+  "norm-5"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>4.15613f-5), "norm-5"=>Dict("dict"=>4.0632f-5, "true"=>7.…
+  "accum-4"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>8.48059f-6), "norm-5"=>Dict("dict"=>-0.000245691, "true"=…
+  "dot-2"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>6.3808f-5), "norm-5"=>Dict("dict"=>0.000197381, "true"=>-…
+  "norm-1"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.1913), "norm-5"=>Dict("dict"=>1.87883f-5, "true"=>0.000…
+  "compare-5" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-2.66453f-5), "norm-5"=>Dict("dict"=>-0.0175411, "true"=>…
+  "accum-3"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-4.21921f-5), "norm-5"=>Dict("dict"=>0.000377025, "true"=…
+  "norm-4"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.147464), "norm-5"=>Dict("dict"=>0.141731, "true"=>9.638…
+  "accum-1"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.0874249), "norm-5"=>Dict("dict"=>-8.06783f-5, "true"=>…
+  "compare-4" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.000445906), "norm-5"=>Dict("dict"=>-4.60805f-5, "true"…
+  "compare-2" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>7.33042f-5), "norm-5"=>Dict("dict"=>-0.000139746, "true"=…
+  "dot-1"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.000195995), "norm-5"=>Dict("dict"=>-3.67717f-5, "true"…
+  "dot-3"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-2.94031f-5), "norm-5"=>Dict("dict"=>-3.02316f-5, "true"=…
+  "input"     => Dict("timer"=>Dict("timer"=>Dict("timer"=>1.0)))
+  "norm-3"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.179237), "norm-5"=>Dict("dict"=>0.00475087, "true"=>-0…
+  "compare-3" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>2.72702f-5), "norm-5"=>Dict("dict"=>0.00024445, "true"=>4…
+  "accum-5"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-8.82468f-5), "norm-5"=>Dict("dict"=>2.3887f-5, "true"=>-…
+  "accum-2"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.000416023), "norm-5"=>Dict("dict"=>-0.000300063, "true…
+  "compare-1" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-9.73462f-5), "norm-5"=>Dict("dict"=>-4.85088f-5, "true"=…
+  "dot-4"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>2.77545f-5), "norm-5"=>Dict("dict"=>3.70459f-5, "true"=>-…
+  "dot-5"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>6.25081f-5), "norm-5"=>Dict("dict"=>-8.59446f-5, "true"=>…
+  "norm-2"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.44541), "norm-5"=>Dict("dict"=>-0.000282697, "true"=>8.…
+
+julia> count_neg_interval(a_532, -0.8f0, 0.8f0)
+2
+
+julia> count_neg_interval(a_532, -0.7f0, 0.7f0)
+3
+
+julia> count_neg_interval(a_532, -0.6f0, 0.6f0)
+5
+
+julia> count_neg_interval(a_532, -0.5f0, 0.5f0)
+14
+
+julia> count_neg_interval(a_532, -0.4f0, 0.4f0)
+29
+
+julia> count_neg_interval(a_532, -0.3f0, 0.3f0)
+81
+
+julia> count_neg_interval(a_532, -0.2f0, 0.2f0)
+232
+
+julia> count_neg_interval(a_532, -0.1f0, 0.1f0)
+690
+
+julia> count_neg_interval(a_532, -0.01f0, 0.01f0)
+2171
+
+julia> count_neg_interval(a_532, -0.001f0, 0.001f0)
+2537
+
+julia> count_neg_interval(a_532, -0.0001f0, 0.0001f0)
+9151
+
+julia> using Dates
+
+julia> function steps!(n_steps)
+           printlog_v(io, now())
+           for i in 1:n_steps
+               printlog_v(io, "STEP ", i, " ================================")
+               training_step!()
+           end
+           printlog_v(io, now())
+       end
+steps! (generic function with 1 method)
+
+julia> steps!(100)
+2022-06-02T20:51:51.487
+STEP 1 ================================
+prereg loss 0.0514502 regularization 557.10504
+loss 0.60855526
+STEP 2 ================================
+prereg loss 0.04971842 regularization 555.60394
+loss 0.6053224
+STEP 3 ================================
+prereg loss 0.054804794 regularization 554.1073
+loss 0.6089121
+STEP 4 ================================
+prereg loss 0.053804167 regularization 552.6304
+loss 0.6064346
+STEP 5 ================================
+prereg loss 0.047256302 regularization 551.1698
+loss 0.5984261
+STEP 6 ================================
+prereg loss 0.04613883 regularization 549.72516
+loss 0.595864
+STEP 7 ================================
+prereg loss 0.046706017 regularization 548.27954
+loss 0.5949856
+STEP 8 ================================
+prereg loss 0.0486038 regularization 546.8355
+loss 0.5954393
+STEP 9 ================================
+prereg loss 0.04242262 regularization 545.4162
+loss 0.5878388
+STEP 10 ================================
+prereg loss 0.04458887 regularization 544.01605
+loss 0.5886049
+STEP 11 ================================
+prereg loss 0.045258567 regularization 542.6308
+loss 0.58788943
+STEP 12 ================================
+prereg loss 0.042512957 regularization 541.2507
+loss 0.58376366
+STEP 13 ================================
+prereg loss 0.042380705 regularization 539.88196
+loss 0.5822627
+STEP 14 ================================
+prereg loss 0.042231202 regularization 538.51544
+loss 0.58074665
+STEP 15 ================================
+prereg loss 0.042205445 regularization 537.1574
+loss 0.57936287
+STEP 16 ================================
+prereg loss 0.03881206 regularization 535.8054
+loss 0.5746175
+STEP 17 ================================
+prereg loss 0.03910826 regularization 534.4567
+loss 0.573565
+STEP 18 ================================
+prereg loss 0.0409956 regularization 533.1376
+loss 0.5741332
+STEP 19 ================================
+prereg loss 0.038733914 regularization 531.83405
+loss 0.57056797
+STEP 20 ================================
+prereg loss 0.037068598 regularization 530.513
+loss 0.56758165
+STEP 21 ================================
+prereg loss 0.036910992 regularization 529.19763
+loss 0.56610864
+STEP 22 ================================
+prereg loss 0.03700234 regularization 527.8942
+loss 0.5648966
+STEP 23 ================================
+prereg loss 0.03834909 regularization 526.5957
+loss 0.5649448
+STEP 24 ================================
+prereg loss 0.034321986 regularization 525.32513
+loss 0.55964714
+STEP 25 ================================
+prereg loss 0.036732398 regularization 524.0622
+loss 0.5607946
+STEP 26 ================================
+prereg loss 0.038552385 regularization 522.79645
+loss 0.56134886
+STEP 27 ================================
+prereg loss 0.036362525 regularization 521.5394
+loss 0.557902
+STEP 28 ================================
+prereg loss 0.034875195 regularization 520.284
+loss 0.5551592
+STEP 29 ================================
+prereg loss 0.033792797 regularization 519.027
+loss 0.5528198
+STEP 30 ================================
+prereg loss 0.037758213 regularization 517.79376
+loss 0.555552
+STEP 31 ================================
+prereg loss 0.03190464 regularization 516.57623
+loss 0.54848087
+STEP 32 ================================
+prereg loss 0.03342166 regularization 515.35205
+loss 0.5487737
+STEP 33 ================================
+prereg loss 0.035319827 regularization 514.1496
+loss 0.5494694
+STEP 34 ================================
+prereg loss 0.03247687 regularization 512.953
+loss 0.5454299
+STEP 35 ================================
+prereg loss 0.031209705 regularization 511.75638
+loss 0.5429661
+STEP 36 ================================
+prereg loss 0.03105191 regularization 510.56378
+loss 0.5416157
+STEP 37 ================================
+prereg loss 0.034141727 regularization 509.37033
+loss 0.54351205
+STEP 38 ================================
+prereg loss 0.02965019 regularization 508.19165
+loss 0.53784186
+STEP 39 ================================
+prereg loss 0.030595273 regularization 507.02386
+loss 0.5376191
+STEP 40 ================================
+prereg loss 0.03255841 regularization 505.86194
+loss 0.5384203
+STEP 41 ================================
+prereg loss 0.03219931 regularization 504.7053
+loss 0.53690463
+STEP 42 ================================
+prereg loss 0.02960243 regularization 503.55893
+loss 0.53316134
+STEP 43 ================================
+prereg loss 0.02820546 regularization 502.41162
+loss 0.5306171
+STEP 44 ================================
+prereg loss 0.028600657 regularization 501.26572
+loss 0.5298664
+STEP 45 ================================
+prereg loss 0.031712648 regularization 500.13925
+loss 0.53185195
+STEP 46 ================================
+prereg loss 0.030177902 regularization 499.03085
+loss 0.5292088
+STEP 47 ================================
+prereg loss 0.043848023 regularization 497.91855
+loss 0.5417666
+STEP 48 ================================
+prereg loss 0.041073054 regularization 496.81284
+loss 0.5378859
+STEP 49 ================================
+prereg loss 0.02813175 regularization 495.71246
+loss 0.52384424
+STEP 50 ================================
+prereg loss 0.03022273 regularization 494.60843
+loss 0.5248312
+STEP 51 ================================
+prereg loss 0.033085607 regularization 493.52545
+loss 0.5266111
+STEP 52 ================================
+prereg loss 0.034730576 regularization 492.4576
+loss 0.5271882
+STEP 53 ================================
+prereg loss 0.05874181 regularization 491.39584
+loss 0.5501377
+STEP 54 ================================
+prereg loss 0.046583362 regularization 490.33768
+loss 0.5369211
+STEP 55 ================================
+prereg loss 0.031708717 regularization 489.27805
+loss 0.5209868
+STEP 56 ================================
+prereg loss 0.04381412 regularization 488.2065
+loss 0.5320206
+STEP 57 ================================
+prereg loss 0.030136857 regularization 487.13803
+loss 0.5172749
+STEP 58 ================================
+prereg loss 0.05661334 regularization 486.09662
+loss 0.54271
+STEP 59 ================================
+prereg loss 0.055815987 regularization 485.05295
+loss 0.54086894
+STEP 60 ================================
+prereg loss 0.031809006 regularization 484.0167
+loss 0.51582575
+STEP 61 ================================
+prereg loss 0.02703366 regularization 482.98593
+loss 0.5100196
+STEP 62 ================================
+prereg loss 0.1292209 regularization 481.9561
+loss 0.61117697
+STEP 63 ================================
+prereg loss 0.11658042 regularization 480.94443
+loss 0.5975249
+STEP 64 ================================
+prereg loss 0.33068216 regularization 479.9389
+loss 0.8106211
+STEP 65 ================================
+prereg loss 0.24092379 regularization 478.8378
+loss 0.7197616
+STEP 66 ================================
+prereg loss 0.0783001 regularization 477.69925
+loss 0.5559994
+STEP 67 ================================
+prereg loss 0.09941026 regularization 476.5794
+loss 0.57598966
+STEP 68 ================================
+prereg loss 0.18837537 regularization 475.47815
+loss 0.6638535
+STEP 69 ================================
+prereg loss 0.06049467 regularization 474.38678
+loss 0.5348815
+STEP 70 ================================
+prereg loss 0.08908416 regularization 473.32156
+loss 0.56240577
+STEP 71 ================================
+prereg loss 0.12453756 regularization 472.2656
+loss 0.5968032
+STEP 72 ================================
+prereg loss 0.137734 regularization 471.21646
+loss 0.6089505
+STEP 73 ================================
+prereg loss 0.12255152 regularization 470.1833
+loss 0.5927348
+STEP 74 ================================
+prereg loss 0.09648466 regularization 469.1599
+loss 0.5656446
+STEP 75 ================================
+prereg loss 0.07486928 regularization 468.1513
+loss 0.5430206
+STEP 76 ================================
+prereg loss 0.07539672 regularization 467.1774
+loss 0.54257417
+STEP 77 ================================
+prereg loss 0.09348605 regularization 466.21896
+loss 0.559705
+STEP 78 ================================
+prereg loss 0.104819514 regularization 465.299
+loss 0.57011855
+STEP 79 ================================
+prereg loss 0.08196855 regularization 464.37704
+loss 0.54634565
+STEP 80 ================================
+prereg loss 0.060806084 regularization 463.45697
+loss 0.5242631
+STEP 81 ================================
+prereg loss 0.0636885 regularization 462.5667
+loss 0.52625525
+STEP 82 ================================
+prereg loss 0.07237306 regularization 461.71436
+loss 0.5340874
+STEP 83 ================================
+prereg loss 0.07753092 regularization 460.8854
+loss 0.5384164
+STEP 84 ================================
+prereg loss 0.07713304 regularization 460.0843
+loss 0.5372174
+STEP 85 ================================
+prereg loss 0.06670773 regularization 459.30045
+loss 0.5260082
+STEP 86 ================================
+prereg loss 0.053436004 regularization 458.52655
+loss 0.5119626
+STEP 87 ================================
+prereg loss 0.050700385 regularization 457.76996
+loss 0.50847036
+STEP 88 ================================
+prereg loss 0.056053977 regularization 457.01736
+loss 0.51307136
+STEP 89 ================================
+prereg loss 0.060176995 regularization 456.27197
+loss 0.516449
+STEP 90 ================================
+prereg loss 0.060417987 regularization 455.53958
+loss 0.5159576
+STEP 91 ================================
+prereg loss 0.04880224 regularization 454.812
+loss 0.50361425
+STEP 92 ================================
+prereg loss 0.04098234 regularization 454.0775
+loss 0.49505988
+STEP 93 ================================
+prereg loss 0.039990712 regularization 453.34302
+loss 0.49333376
+STEP 94 ================================
+prereg loss 0.046267945 regularization 452.62903
+loss 0.49889702
+STEP 95 ================================
+prereg loss 0.048202828 regularization 451.92865
+loss 0.5001315
+STEP 96 ================================
+prereg loss 0.044027597 regularization 451.24368
+loss 0.4952713
+STEP 97 ================================
+prereg loss 0.036064185 regularization 450.55505
+loss 0.48661926
+STEP 98 ================================
+prereg loss 0.032829378 regularization 449.8709
+loss 0.48270032
+STEP 99 ================================
+prereg loss 0.032882128 regularization 449.19504
+loss 0.48207718
+STEP 100 ================================
+prereg loss 0.035634946 regularization 448.5195
+loss 0.48415446
+2022-06-02T23:06:48.607
+
+julia> a_632 = deepcopy(trainable["network_matrix"])
+Dict{String, Dict{String, Dict{String, Dict{String, Float32}}}} with 23 entries:
+  "timer"     => Dict("timer"=>Dict("timer"=>Dict("timer"=>1.0)))
+  "output"    => Dict("dict-2"=>Dict("const_1"=>Dict("const_1"=>-0.0607344), "norm-5"=>Dict("dict"=>0.00012993, "true"=…
+  "norm-5"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.000223161), "norm-5"=>Dict("dict"=>-4.87442f-5, "true"…
+  "accum-4"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>4.61354f-5), "norm-5"=>Dict("dict"=>0.00025717, "true"=>3…
+  "dot-2"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-6.59705f-5), "norm-5"=>Dict("dict"=>8.02846f-5, "true"=>…
+  "norm-1"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.192692), "norm-5"=>Dict("dict"=>2.22114f-5, "true"=>-0.…
+  "compare-5" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-2.94578f-5), "norm-5"=>Dict("dict"=>-3.10375f-5, "true"=…
+  "accum-3"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-5.44833f-5), "norm-5"=>Dict("dict"=>-0.000202263, "true"…
+  "norm-4"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.1513), "norm-5"=>Dict("dict"=>0.0941479, "true"=>-1.959…
+  "accum-1"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.0471553), "norm-5"=>Dict("dict"=>-9.33711f-5, "true"=>…
+  "compare-4" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>3.02494f-5), "norm-5"=>Dict("dict"=>-4.3766f-5, "true"=>5…
+  "compare-2" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-9.66434f-5), "norm-5"=>Dict("dict"=>-2.07431f-5, "true"=…
+  "dot-1"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.000201346), "norm-5"=>Dict("dict"=>-5.45556f-5, "true"=…
+  "dot-3"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>6.22961f-5), "norm-5"=>Dict("dict"=>4.57215f-5, "true"=>0…
+  "input"     => Dict("timer"=>Dict("timer"=>Dict("timer"=>1.0)))
+  "norm-3"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.181569), "norm-5"=>Dict("dict"=>6.99424f-5, "true"=>0.…
+  "compare-3" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>2.52638f-5), "norm-5"=>Dict("dict"=>0.00028557, "true"=>-…
+  "accum-5"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>7.72368f-5), "norm-5"=>Dict("dict"=>2.19226f-5, "true"=>3…
+  "accum-2"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-5.80124f-5), "norm-5"=>Dict("dict"=>-0.000302903, "true"…
+  "compare-1" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-3.26927f-5), "norm-5"=>Dict("dict"=>3.04303f-5, "true"=>…
+  "dot-4"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.000179904), "norm-5"=>Dict("dict"=>-2.4954f-5, "true"=…
+  "dot-5"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>8.41244f-5), "norm-5"=>Dict("dict"=>-9.67272f-5, "true"=>…
+  "norm-2"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.444521), "norm-5"=>Dict("dict"=>0.000473088, "true"=>-0…
+
+julia> steps!(400)
+2022-06-02T23:17:29.051
+STEP 1 ================================
+prereg loss 0.038196817 regularization 447.84354
+loss 0.48604035
+STEP 2 ================================
+prereg loss 0.030755855 regularization 447.16037
+loss 0.47791624
+STEP 3 ================================
+prereg loss 0.02891925 regularization 446.48026
+loss 0.47539952
+STEP 4 ================================
+prereg loss 0.028287498 regularization 445.80087
+loss 0.4740884
+STEP 5 ================================
+prereg loss 0.029619036 regularization 445.13037
+loss 0.47474942
+STEP 6 ================================
+prereg loss 0.030864354 regularization 444.46176
+loss 0.47532615
+STEP 7 ================================
+prereg loss 0.031420983 regularization 443.78964
+loss 0.47521064
+STEP 8 ================================
+prereg loss 0.031054601 regularization 443.1305
+loss 0.4741851
+STEP 9 ================================
+prereg loss 0.029946612 regularization 442.49225
+loss 0.4724389
+STEP 10 ================================
+prereg loss 0.028372055 regularization 441.8424
+loss 0.4702145
+STEP 11 ================================
+prereg loss 0.027029082 regularization 441.19284
+loss 0.46822196
+STEP 12 ================================
+prereg loss 0.026354693 regularization 440.5496
+loss 0.4669043
+STEP 13 ================================
+prereg loss 0.02493256 regularization 439.9127
+loss 0.46484527
+STEP 14 ================================
+prereg loss 0.023679813 regularization 439.2927
+loss 0.46297255
+STEP 15 ================================
+prereg loss 0.023162711 regularization 438.66156
+loss 0.4618243
+STEP 16 ================================
+prereg loss 0.022938387 regularization 438.0148
+loss 0.46095324
+STEP 17 ================================
+prereg loss 0.022813885 regularization 437.37222
+loss 0.46018612
+STEP 18 ================================
+prereg loss 0.022628225 regularization 436.74353
+loss 0.45937178
+STEP 19 ================================
+prereg loss 0.022361431 regularization 436.12057
+loss 0.45848203
+STEP 20 ================================
+prereg loss 0.022144217 regularization 435.4949
+loss 0.45763916
+STEP 21 ================================
+prereg loss 0.0217268 regularization 434.86185
+loss 0.45658866
+STEP 22 ================================
+prereg loss 0.021190181 regularization 434.22696
+loss 0.45541716
+STEP 23 ================================
+prereg loss 0.020804623 regularization 433.60385
+loss 0.4544085
+STEP 24 ================================
+prereg loss 0.020522403 regularization 432.9786
+loss 0.45350105
+STEP 25 ================================
+prereg loss 0.020179043 regularization 432.34802
+loss 0.45252708
+STEP 26 ================================
+prereg loss 0.019843118 regularization 431.73523
+loss 0.45157838
+STEP 27 ================================
+prereg loss 0.01961712 regularization 431.12384
+loss 0.45074096
+STEP 28 ================================
+prereg loss 0.019360946 regularization 430.50137
+loss 0.44986236
+STEP 29 ================================
+prereg loss 0.019067554 regularization 429.88184
+loss 0.44894943
+STEP 30 ================================
+prereg loss 0.01887771 regularization 429.2785
+loss 0.44815624
+STEP 31 ================================
+prereg loss 0.018719643 regularization 428.68158
+loss 0.44740126
+STEP 32 ================================
+prereg loss 0.018540053 regularization 428.085
+loss 0.44662505
+STEP 33 ================================
+prereg loss 0.018409735 regularization 427.49597
+loss 0.44590572
+STEP 34 ================================
+prereg loss 0.018231 regularization 426.90482
+loss 0.44513583
+STEP 35 ================================
+prereg loss 0.018006789 regularization 426.31186
+loss 0.44431868
+STEP 36 ================================
+prereg loss 0.017793652 regularization 425.72925
+loss 0.44352293
+STEP 37 ================================
+prereg loss 0.017656447 regularization 425.14438
+loss 0.44280085
+STEP 38 ================================
+prereg loss 0.017459083 regularization 424.5714
+loss 0.44203052
+STEP 39 ================================
+prereg loss 0.017235221 regularization 424.0093
+loss 0.44124454
+STEP 40 ================================
+prereg loss 0.017051572 regularization 423.43408
+loss 0.4404857
+STEP 41 ================================
+prereg loss 0.016900767 regularization 422.86087
+loss 0.43976167
+STEP 42 ================================
+prereg loss 0.01677008 regularization 422.29135
+loss 0.43906146
+STEP 43 ================================
+prereg loss 0.01664134 regularization 421.72525
+loss 0.43836662
+STEP 44 ================================
+prereg loss 0.016510226 regularization 421.1724
+loss 0.43768263
+STEP 45 ================================
+prereg loss 0.016388811 regularization 420.62625
+loss 0.4370151
+STEP 46 ================================
+prereg loss 0.016259464 regularization 420.06705
+loss 0.43632653
+STEP 47 ================================
+prereg loss 0.016116865 regularization 419.5001
+loss 0.43561697
+STEP 48 ================================
+prereg loss 0.015986312 regularization 418.94946
+loss 0.4349358
+STEP 49 ================================
+prereg loss 0.01586543 regularization 418.40024
+loss 0.43426567
+STEP 50 ================================
+prereg loss 0.015743975 regularization 417.86703
+loss 0.43361104
+STEP 51 ================================
+prereg loss 0.015638059 regularization 417.33328
+loss 0.43297136
+STEP 52 ================================
+prereg loss 0.015542505 regularization 416.78696
+loss 0.43232948
+STEP 53 ================================
+prereg loss 0.015425269 regularization 416.25204
+loss 0.43167734
+STEP 54 ================================
+prereg loss 0.0152768055 regularization 415.73407
+loss 0.4310109
+STEP 55 ================================
+prereg loss 0.015149494 regularization 415.21094
+loss 0.43036047
+STEP 56 ================================
+prereg loss 0.015050582 regularization 414.68604
+loss 0.42973664
+STEP 57 ================================
+prereg loss 0.0149537455 regularization 414.16946
+loss 0.42912322
+STEP 58 ================================
+prereg loss 0.014844602 regularization 413.65363
+loss 0.42849824
+STEP 59 ================================
+prereg loss 0.014720518 regularization 413.14792
+loss 0.42786846
+STEP 60 ================================
+prereg loss 0.014605851 regularization 412.63654
+loss 0.4272424
+STEP 61 ================================
+prereg loss 0.014524632 regularization 412.1243
+loss 0.42664894
+STEP 62 ================================
+prereg loss 0.014461491 regularization 411.62466
+loss 0.42608616
+STEP 63 ================================
+prereg loss 0.014375552 regularization 411.12665
+loss 0.4255022
+STEP 64 ================================
+prereg loss 0.01423876 regularization 410.62164
+loss 0.42486042
+STEP 65 ================================
+prereg loss 0.014112885 regularization 410.118
+loss 0.42423093
+STEP 66 ================================
+prereg loss 0.014049815 regularization 409.63013
+loss 0.42367998
+STEP 67 ================================
+prereg loss 0.013977756 regularization 409.14374
+loss 0.4231215
+STEP 68 ================================
+prereg loss 0.01383314 regularization 408.66644
+loss 0.4224996
+STEP 69 ================================
+prereg loss 0.013695541 regularization 408.18857
+loss 0.42188412
+STEP 70 ================================
+prereg loss 0.013598725 regularization 407.70798
+loss 0.42130673
+STEP 71 ================================
+prereg loss 0.013510821 regularization 407.22998
+loss 0.4207408
+STEP 72 ================================
+prereg loss 0.013484264 regularization 406.7543
+loss 0.42023858
+STEP 73 ================================
+prereg loss 0.013461859 regularization 406.2794
+loss 0.41974127
+STEP 74 ================================
+prereg loss 0.013325851 regularization 405.8173
+loss 0.41914314
+STEP 75 ================================
+prereg loss 0.013128476 regularization 405.3588
+loss 0.4184873
+STEP 76 ================================
+prereg loss 0.013057381 regularization 404.89435
+loss 0.41795176
+STEP 77 ================================
+prereg loss 0.013158401 regularization 404.42914
+loss 0.41758758
+STEP 78 ================================
+prereg loss 0.013103246 regularization 403.97025
+loss 0.41707352
+STEP 79 ================================
+prereg loss 0.012803158 regularization 403.52985
+loss 0.41633302
+STEP 80 ================================
+prereg loss 0.012763227 regularization 403.095
+loss 0.41585824
+STEP 81 ================================
+prereg loss 0.012857727 regularization 402.66043
+loss 0.4155182
+STEP 82 ================================
+prereg loss 0.012833156 regularization 402.21008
+loss 0.41504326
+STEP 83 ================================
+prereg loss 0.012571703 regularization 401.75876
+loss 0.41433048
+STEP 84 ================================
+prereg loss 0.012377034 regularization 401.31622
+loss 0.41369328
+STEP 85 ================================
+prereg loss 0.012464541 regularization 400.87598
+loss 0.41334054
+STEP 86 ================================
+prereg loss 0.012395281 regularization 400.45383
+loss 0.41284913
+STEP 87 ================================
+prereg loss 0.01213985 regularization 400.02292
+loss 0.41216278
+STEP 88 ================================
+prereg loss 0.012192294 regularization 399.58786
+loss 0.41178018
+STEP 89 ================================
+prereg loss 0.012122423 regularization 399.16562
+loss 0.41128805
+STEP 90 ================================
+prereg loss 0.012031983 regularization 398.7524
+loss 0.4107844
+STEP 91 ================================
+prereg loss 0.0119726965 regularization 398.33182
+loss 0.41030455
+STEP 92 ================================
+prereg loss 0.011938507 regularization 397.9133
+loss 0.40985182
+STEP 93 ================================
+prereg loss 0.011902002 regularization 397.5046
+loss 0.40940663
+STEP 94 ================================
+prereg loss 0.011688426 regularization 397.10333
+loss 0.40879178
+STEP 95 ================================
+prereg loss 0.0119647905 regularization 396.7031
+loss 0.40866792
+STEP 96 ================================
+prereg loss 0.011826074 regularization 396.2909
+loss 0.40811697
+STEP 97 ================================
+prereg loss 0.011656102 regularization 395.8748
+loss 0.4075309
+STEP 98 ================================
+prereg loss 0.011677212 regularization 395.4728
+loss 0.40715003
+STEP 99 ================================
+prereg loss 0.011751822 regularization 395.0753
+loss 0.40682712
+STEP 100 ================================
+prereg loss 0.011703795 regularization 394.66373
+loss 0.40636754
+STEP 101 ================================
+prereg loss 0.011562631 regularization 394.25552
+loss 0.4058182
+STEP 102 ================================
+prereg loss 0.011382194 regularization 393.85916
+loss 0.40524137
+STEP 103 ================================
+prereg loss 0.011183846 regularization 393.4654
+loss 0.40464926
+STEP 104 ================================
+prereg loss 0.011261001 regularization 393.08167
+loss 0.4043427
+STEP 105 ================================
+prereg loss 0.01111933 regularization 392.69183
+loss 0.4038112
+STEP 106 ================================
+prereg loss 0.0110612465 regularization 392.30026
+loss 0.40336153
+STEP 107 ================================
+prereg loss 0.011023173 regularization 391.90903
+loss 0.4029322
+STEP 108 ================================
+prereg loss 0.011006221 regularization 391.52603
+loss 0.40253228
+STEP 109 ================================
+prereg loss 0.010874915 regularization 391.14557
+loss 0.4020205
+STEP 110 ================================
+prereg loss 0.010842405 regularization 390.77527
+loss 0.4016177
+STEP 111 ================================
+prereg loss 0.010798772 regularization 390.40686
+loss 0.40120566
+STEP 112 ================================
+prereg loss 0.01068879 regularization 390.0245
+loss 0.4007133
+STEP 113 ================================
+prereg loss 0.0107731195 regularization 389.65277
+loss 0.4004259
+STEP 114 ================================
+prereg loss 0.010688696 regularization 389.29373
+loss 0.39998245
+STEP 115 ================================
+prereg loss 0.010644746 regularization 388.94342
+loss 0.39958817
+STEP 116 ================================
+prereg loss 0.010940995 regularization 388.59277
+loss 0.39953378
+STEP 117 ================================
+prereg loss 0.010579573 regularization 388.24094
+loss 0.39882055
+STEP 118 ================================
+prereg loss 0.010745613 regularization 387.88193
+loss 0.39862755
+STEP 119 ================================
+prereg loss 0.010304152 regularization 387.52493
+loss 0.39782912
+STEP 120 ================================
+prereg loss 0.010474528 regularization 387.1774
+loss 0.39765194
+STEP 121 ================================
+prereg loss 0.010348382 regularization 386.82657
+loss 0.39717495
+STEP 122 ================================
+prereg loss 0.010586396 regularization 386.48026
+loss 0.39706665
+STEP 123 ================================
+prereg loss 0.01048464 regularization 386.14142
+loss 0.39662609
+STEP 124 ================================
+prereg loss 0.010119062 regularization 385.79898
+loss 0.39591804
+STEP 125 ================================
+prereg loss 0.010349991 regularization 385.4541
+loss 0.3958041
+STEP 126 ================================
+prereg loss 0.010095651 regularization 385.12097
+loss 0.39521664
+STEP 127 ================================
+prereg loss 0.010092289 regularization 384.78336
+loss 0.39487568
+STEP 128 ================================
+prereg loss 0.01003954 regularization 384.45682
+loss 0.39449638
+STEP 129 ================================
+prereg loss 0.010243939 regularization 384.13327
+loss 0.39437723
+STEP 130 ================================
+prereg loss 0.00974526 regularization 383.80597
+loss 0.39355126
+STEP 131 ================================
+prereg loss 0.00999035 regularization 383.47836
+loss 0.39346874
+STEP 132 ================================
+prereg loss 0.009911248 regularization 383.15192
+loss 0.3930632
+STEP 133 ================================
+prereg loss 0.010069891 regularization 382.81567
+loss 0.39288557
+STEP 134 ================================
+prereg loss 0.009767213 regularization 382.49194
+loss 0.39225918
+STEP 135 ================================
+prereg loss 0.00975313 regularization 382.18237
+loss 0.39193553
+STEP 136 ================================
+prereg loss 0.009658335 regularization 381.85678
+loss 0.39151514
+STEP 137 ================================
+prereg loss 0.010223741 regularization 381.52957
+loss 0.39175335
+STEP 138 ================================
+prereg loss 0.010197176 regularization 381.20996
+loss 0.39140713
+STEP 139 ================================
+prereg loss 0.010580343 regularization 380.90494
+loss 0.39148527
+STEP 140 ================================
+prereg loss 0.009384272 regularization 380.6047
+loss 0.389989
+STEP 141 ================================
+prereg loss 0.010436524 regularization 380.3098
+loss 0.39074636
+STEP 142 ================================
+prereg loss 0.01023533 regularization 380.00204
+loss 0.3902374
+STEP 143 ================================
+prereg loss 0.009294051 regularization 379.69144
+loss 0.3889855
+STEP 144 ================================
+prereg loss 0.010165607 regularization 379.39047
+loss 0.38955608
+STEP 145 ================================
+prereg loss 0.009446328 regularization 379.0939
+loss 0.38854024
+STEP 146 ================================
+prereg loss 0.010072981 regularization 378.81104
+loss 0.38888404
+STEP 147 ================================
+prereg loss 0.0098185055 regularization 378.51263
+loss 0.38833115
+STEP 148 ================================
+prereg loss 0.009244807 regularization 378.209
+loss 0.38745382
+STEP 149 ================================
+prereg loss 0.010170278 regularization 377.9179
+loss 0.3880882
+STEP 150 ================================
+prereg loss 0.010168377 regularization 377.63116
+loss 0.38779956
+STEP 151 ================================
+prereg loss 0.009098254 regularization 377.34418
+loss 0.38644245
+STEP 152 ================================
+prereg loss 0.009774766 regularization 377.05554
+loss 0.38683033
+STEP 153 ================================
+prereg loss 0.00976446 regularization 376.77185
+loss 0.38653633
+STEP 154 ================================
+prereg loss 0.009876732 regularization 376.47647
+loss 0.38635322
+STEP 155 ================================
+prereg loss 0.010245549 regularization 376.1838
+loss 0.3864294
+STEP 156 ================================
+prereg loss 0.009090747 regularization 375.90674
+loss 0.38499752
+STEP 157 ================================
+prereg loss 0.010101514 regularization 375.6302
+loss 0.38573173
+STEP 158 ================================
+prereg loss 0.010144436 regularization 375.36124
+loss 0.3855057
+STEP 159 ================================
+prereg loss 0.00889493 regularization 375.08887
+loss 0.3839838
+STEP 160 ================================
+prereg loss 0.00968916 regularization 374.8057
+loss 0.38449487
+STEP 161 ================================
+prereg loss 0.009558683 regularization 374.52377
+loss 0.38408247
+STEP 162 ================================
+prereg loss 0.008598113 regularization 374.2537
+loss 0.38285184
+STEP 163 ================================
+prereg loss 0.009095932 regularization 373.99606
+loss 0.38309202
+STEP 164 ================================
+prereg loss 0.00888278 regularization 373.73505
+loss 0.38261786
+STEP 165 ================================
+prereg loss 0.008833226 regularization 373.46722
+loss 0.38230047
+STEP 166 ================================
+prereg loss 0.00876527 regularization 373.20364
+loss 0.38196895
+STEP 167 ================================
+prereg loss 0.008756948 regularization 372.94302
+loss 0.38169998
+STEP 168 ================================
+prereg loss 0.009151061 regularization 372.67468
+loss 0.38182577
+STEP 169 ================================
+prereg loss 0.008643037 regularization 372.40744
+loss 0.3810505
+STEP 170 ================================
+prereg loss 0.008686598 regularization 372.14832
+loss 0.38083494
+STEP 171 ================================
+prereg loss 0.008510891 regularization 371.8962
+loss 0.38040712
+STEP 172 ================================
+prereg loss 0.008493945 regularization 371.63492
+loss 0.38012886
+STEP 173 ================================
+prereg loss 0.008501118 regularization 371.36786
+loss 0.37986898
+STEP 174 ================================
+prereg loss 0.008220937 regularization 371.11462
+loss 0.37933558
+STEP 175 ================================
+prereg loss 0.008780371 regularization 370.86258
+loss 0.37964296
+STEP 176 ================================
+prereg loss 0.008241527 regularization 370.6146
+loss 0.37885615
+STEP 177 ================================
+prereg loss 0.00869191 regularization 370.3692
+loss 0.37906113
+STEP 178 ================================
+prereg loss 0.008768444 regularization 370.119
+loss 0.37888744
+STEP 179 ================================
+prereg loss 0.008091433 regularization 369.8684
+loss 0.37795985
+STEP 180 ================================
+prereg loss 0.008547521 regularization 369.6189
+loss 0.37816644
+STEP 181 ================================
+prereg loss 0.0086090965 regularization 369.3716
+loss 0.3779807
+STEP 182 ================================
+prereg loss 0.007966892 regularization 369.13126
+loss 0.37709817
+STEP 183 ================================
+prereg loss 0.008057774 regularization 368.88913
+loss 0.37694693
+STEP 184 ================================
+prereg loss 0.007947076 regularization 368.64578
+loss 0.37659287
+STEP 185 ================================
+prereg loss 0.007842292 regularization 368.4057
+loss 0.37624803
+STEP 186 ================================
+prereg loss 0.007985213 regularization 368.17084
+loss 0.37615606
+STEP 187 ================================
+prereg loss 0.007769494 regularization 367.93536
+loss 0.37570488
+STEP 188 ================================
+prereg loss 0.007822276 regularization 367.69858
+loss 0.37552088
+STEP 189 ================================
+prereg loss 0.007915808 regularization 367.4711
+loss 0.37538692
+STEP 190 ================================
+prereg loss 0.007905594 regularization 367.2282
+loss 0.37513384
+STEP 191 ================================
+prereg loss 0.007704038 regularization 366.9832
+loss 0.37468725
+STEP 192 ================================
+prereg loss 0.007659325 regularization 366.7431
+loss 0.37440243
+STEP 193 ================================
+prereg loss 0.00796589 regularization 366.50293
+loss 0.37446883
+STEP 194 ================================
+prereg loss 0.007552072 regularization 366.2751
+loss 0.37382716
+STEP 195 ================================
+prereg loss 0.0075613996 regularization 366.04654
+loss 0.37360793
+STEP 196 ================================
+prereg loss 0.0076716025 regularization 365.80115
+loss 0.37347275
+STEP 197 ================================
+prereg loss 0.0076602534 regularization 365.55676
+loss 0.37321702
+STEP 198 ================================
+prereg loss 0.007476413 regularization 365.33127
+loss 0.3728077
+STEP 199 ================================
+prereg loss 0.0074197645 regularization 365.10867
+loss 0.37252846
+STEP 200 ================================
+prereg loss 0.0074982736 regularization 364.88254
+loss 0.37238082
+STEP 201 ================================
+prereg loss 0.0074440856 regularization 364.65915
+loss 0.37210324
+STEP 202 ================================
+prereg loss 0.0073745893 regularization 364.4303
+loss 0.3718049
+STEP 203 ================================
+prereg loss 0.0073593375 regularization 364.2034
+loss 0.37156275
+STEP 204 ================================
+prereg loss 0.0073598763 regularization 363.97617
+loss 0.37133604
+STEP 205 ================================
+prereg loss 0.007300422 regularization 363.74597
+loss 0.37104642
+STEP 206 ================================
+prereg loss 0.0072158286 regularization 363.52753
+loss 0.37074336
+STEP 207 ================================
+prereg loss 0.007193248 regularization 363.31586
+loss 0.37050912
+STEP 208 ================================
+prereg loss 0.0072288825 regularization 363.08456
+loss 0.37031347
+STEP 209 ================================
+prereg loss 0.007250457 regularization 362.85468
+loss 0.37010515
+STEP 210 ================================
+prereg loss 0.0071307626 regularization 362.6411
+loss 0.3697719
+STEP 211 ================================
+prereg loss 0.00720652 regularization 362.43204
+loss 0.3696386
+STEP 212 ================================
+prereg loss 0.0073365658 regularization 362.21783
+loss 0.3695544
+STEP 213 ================================
+prereg loss 0.0071969028 regularization 362.00308
+loss 0.3692
+STEP 214 ================================
+prereg loss 0.00704215 regularization 361.78668
+loss 0.36882883
+STEP 215 ================================
+prereg loss 0.007475583 regularization 361.57657
+loss 0.36905217
+STEP 216 ================================
+prereg loss 0.0074142064 regularization 361.36932
+loss 0.36878353
+STEP 217 ================================
+prereg loss 0.008435333 regularization 361.1465
+loss 0.36958188
+STEP 218 ================================
+prereg loss 0.007365502 regularization 360.9452
+loss 0.3683107
+STEP 219 ================================
+prereg loss 0.0071962713 regularization 360.75116
+loss 0.36794746
+STEP 220 ================================
+prereg loss 0.00763922 regularization 360.54446
+loss 0.3681837
+STEP 221 ================================
+prereg loss 0.006983179 regularization 360.34872
+loss 0.36733192
+STEP 222 ================================
+prereg loss 0.0076198885 regularization 360.1534
+loss 0.36777332
+STEP 223 ================================
+prereg loss 0.0073814373 regularization 359.95508
+loss 0.36733654
+STEP 224 ================================
+prereg loss 0.007293274 regularization 359.76074
+loss 0.36705405
+STEP 225 ================================
+prereg loss 0.006848765 regularization 359.57556
+loss 0.36642432
+STEP 226 ================================
+prereg loss 0.00728919 regularization 359.38498
+loss 0.36667418
+STEP 227 ================================
+prereg loss 0.0074930075 regularization 359.18332
+loss 0.36667636
+STEP 228 ================================
+prereg loss 0.0069103087 regularization 358.98022
+loss 0.36589053
+STEP 229 ================================
+prereg loss 0.006850164 regularization 358.79254
+loss 0.36564273
+STEP 230 ================================
+prereg loss 0.007314697 regularization 358.6089
+loss 0.36592358
+STEP 231 ================================
+prereg loss 0.0071311975 regularization 358.41235
+loss 0.36554357
+STEP 232 ================================
+prereg loss 0.006740229 regularization 358.20383
+loss 0.3649441
+STEP 233 ================================
+prereg loss 0.0070303706 regularization 358.0038
+loss 0.3650342
+STEP 234 ================================
+prereg loss 0.007898387 regularization 357.82956
+loss 0.36572796
+STEP 235 ================================
+prereg loss 0.008054607 regularization 357.655
+loss 0.36570963
+STEP 236 ================================
+prereg loss 0.008924206 regularization 357.47
+loss 0.36639422
+STEP 237 ================================
+prereg loss 0.010035552 regularization 357.2781
+loss 0.36731368
+STEP 238 ================================
+prereg loss 0.009136552 regularization 357.09018
+loss 0.36622676
+STEP 239 ================================
+prereg loss 0.007068119 regularization 356.91104
+loss 0.3639792
+STEP 240 ================================
+prereg loss 0.007215136 regularization 356.71927
+loss 0.36393443
+STEP 241 ================================
+prereg loss 0.012925148 regularization 356.52267
+loss 0.36944783
+STEP 242 ================================
+prereg loss 0.015118244 regularization 356.3375
+loss 0.37145576
+STEP 243 ================================
+prereg loss 0.035817806 regularization 356.15875
+loss 0.39197657
+STEP 244 ================================
+prereg loss 0.01201235 regularization 355.96298
+loss 0.36797535
+STEP 245 ================================
+prereg loss 0.007512077 regularization 355.76538
+loss 0.36327747
+STEP 246 ================================
+prereg loss 0.08356809 regularization 355.5794
+loss 0.43914753
+STEP 247 ================================
+prereg loss 0.08802445 regularization 355.3921
+loss 0.44341654
+STEP 248 ================================
+prereg loss 0.22080149 regularization 355.18686
+loss 0.57598835
+STEP 249 ================================
+prereg loss 0.12303767 regularization 354.95898
+loss 0.47799668
+STEP 250 ================================
+prereg loss 0.055897746 regularization 354.72784
+loss 0.4106256
+STEP 251 ================================
+prereg loss 0.094513096 regularization 354.51685
+loss 0.44902995
+STEP 252 ================================
+prereg loss 0.048183557 regularization 354.30783
+loss 0.40249142
+STEP 253 ================================
+prereg loss 0.05208122 regularization 354.07434
+loss 0.4061556
+STEP 254 ================================
+prereg loss 0.07364915 regularization 353.8634
+loss 0.4275126
+STEP 255 ================================
+prereg loss 0.09025436 regularization 353.65445
+loss 0.44390884
+STEP 256 ================================
+prereg loss 0.09548444 regularization 353.44754
+loss 0.448932
+STEP 257 ================================
+prereg loss 0.09015281 regularization 353.2478
+loss 0.44340062
+STEP 258 ================================
+prereg loss 0.0790342 regularization 353.06012
+loss 0.43209434
+STEP 259 ================================
+prereg loss 0.068400875 regularization 352.8898
+loss 0.4212907
+STEP 260 ================================
+prereg loss 0.059860032 regularization 352.73254
+loss 0.4125926
+STEP 261 ================================
+prereg loss 0.051741168 regularization 352.60107
+loss 0.40434223
+STEP 262 ================================
+prereg loss 0.046176013 regularization 352.47247
+loss 0.3986485
+STEP 263 ================================
+prereg loss 0.04253549 regularization 352.34668
+loss 0.39488217
+STEP 264 ================================
+prereg loss 0.038923338 regularization 352.2391
+loss 0.39116246
+STEP 265 ================================
+prereg loss 0.035844974 regularization 352.14392
+loss 0.38798892
+STEP 266 ================================
+prereg loss 0.033627033 regularization 352.0605
+loss 0.38568753
+STEP 267 ================================
+prereg loss 0.03216563 regularization 351.97446
+loss 0.38414013
+STEP 268 ================================
+prereg loss 0.03160156 regularization 351.87796
+loss 0.38347954
+STEP 269 ================================
+prereg loss 0.03149485 regularization 351.79593
+loss 0.3832908
+STEP 270 ================================
+prereg loss 0.031172888 regularization 351.72516
+loss 0.38289806
+STEP 271 ================================
+prereg loss 0.030425202 regularization 351.6506
+loss 0.38207582
+STEP 272 ================================
+prereg loss 0.02914275 regularization 351.56265
+loss 0.38070542
+STEP 273 ================================
+prereg loss 0.027501203 regularization 351.4791
+loss 0.3789803
+STEP 274 ================================
+prereg loss 0.025639288 regularization 351.3989
+loss 0.3770382
+STEP 275 ================================
+prereg loss 0.024275994 regularization 351.3221
+loss 0.37559813
+STEP 276 ================================
+prereg loss 0.023144122 regularization 351.23416
+loss 0.3743783
+STEP 277 ================================
+prereg loss 0.02185354 regularization 351.14526
+loss 0.3729988
+STEP 278 ================================
+prereg loss 0.0212719 regularization 351.07034
+loss 0.3723423
+STEP 279 ================================
+prereg loss 0.020687053 regularization 351.00815
+loss 0.37169522
+STEP 280 ================================
+prereg loss 0.01992291 regularization 350.91855
+loss 0.37084147
+STEP 281 ================================
+prereg loss 0.019028557 regularization 350.82956
+loss 0.36985812
+STEP 282 ================================
+prereg loss 0.017938111 regularization 350.76022
+loss 0.36869836
+STEP 283 ================================
+prereg loss 0.016897138 regularization 350.69394
+loss 0.36759108
+STEP 284 ================================
+prereg loss 0.016047005 regularization 350.62952
+loss 0.36667654
+STEP 285 ================================
+prereg loss 0.015385573 regularization 350.55743
+loss 0.365943
+STEP 286 ================================
+prereg loss 0.014747035 regularization 350.47583
+loss 0.36522287
+STEP 287 ================================
+prereg loss 0.014183901 regularization 350.38596
+loss 0.36456987
+STEP 288 ================================
+prereg loss 0.013743064 regularization 350.2994
+loss 0.3640425
+STEP 289 ================================
+prereg loss 0.01337347 regularization 350.21497
+loss 0.36358845
+STEP 290 ================================
+prereg loss 0.012982048 regularization 350.1338
+loss 0.36311585
+STEP 291 ================================
+prereg loss 0.012538249 regularization 350.0566
+loss 0.36259487
+STEP 292 ================================
+prereg loss 0.01213287 regularization 349.9588
+loss 0.3620917
+STEP 293 ================================
+prereg loss 0.011836271 regularization 349.86234
+loss 0.3616986
+STEP 294 ================================
+prereg loss 0.011491817 regularization 349.7712
+loss 0.36126304
+STEP 295 ================================
+prereg loss 0.011111724 regularization 349.67813
+loss 0.3607899
+STEP 296 ================================
+prereg loss 0.010796062 regularization 349.58173
+loss 0.36037782
+STEP 297 ================================
+prereg loss 0.01046445 regularization 349.48654
+loss 0.35995102
+STEP 298 ================================
+prereg loss 0.010097985 regularization 349.37753
+loss 0.35947552
+STEP 299 ================================
+prereg loss 0.009731141 regularization 349.2703
+loss 0.35900146
+STEP 300 ================================
+prereg loss 0.009262073 regularization 349.16333
+loss 0.35842544
+STEP 301 ================================
+prereg loss 0.008807428 regularization 349.0504
+loss 0.35785785
+STEP 302 ================================
+prereg loss 0.008538132 regularization 348.94073
+loss 0.3574789
+STEP 303 ================================
+prereg loss 0.008458862 regularization 348.83075
+loss 0.3572896
+STEP 304 ================================
+prereg loss 0.008764559 regularization 348.71106
+loss 0.35747564
+STEP 305 ================================
+prereg loss 0.008385692 regularization 348.59662
+loss 0.35698232
+STEP 306 ================================
+prereg loss 0.008659009 regularization 348.4952
+loss 0.35715422
+STEP 307 ================================
+prereg loss 0.00852991 regularization 348.38556
+loss 0.35691547
+STEP 308 ================================
+prereg loss 0.0077609764 regularization 348.27
+loss 0.35603097
+STEP 309 ================================
+prereg loss 0.007715347 regularization 348.16013
+loss 0.3558755
+STEP 310 ================================
+prereg loss 0.0075078495 regularization 348.05212
+loss 0.35556
+STEP 311 ================================
+prereg loss 0.0072994167 regularization 347.93924
+loss 0.35523868
+STEP 312 ================================
+prereg loss 0.0072029396 regularization 347.81094
+loss 0.3550139
+STEP 313 ================================
+prereg loss 0.0070772814 regularization 347.6831
+loss 0.3547604
+STEP 314 ================================
+prereg loss 0.006955014 regularization 347.57065
+loss 0.3545257
+STEP 315 ================================
+prereg loss 0.006882591 regularization 347.45178
+loss 0.35433438
+STEP 316 ================================
+prereg loss 0.006759197 regularization 347.3097
+loss 0.3540689
+STEP 317 ================================
+prereg loss 0.006631222 regularization 347.16937
+loss 0.35380062
+STEP 318 ================================
+prereg loss 0.0065274304 regularization 347.04346
+loss 0.3535709
+STEP 319 ================================
+prereg loss 0.006441384 regularization 346.92117
+loss 0.35336256
+STEP 320 ================================
+prereg loss 0.0063427375 regularization 346.7928
+loss 0.35313553
+STEP 321 ================================
+prereg loss 0.0062426515 regularization 346.6577
+loss 0.3529004
+STEP 322 ================================
+prereg loss 0.0061618076 regularization 346.517
+loss 0.35267884
+STEP 323 ================================
+prereg loss 0.006047707 regularization 346.3764
+loss 0.35242411
+STEP 324 ================================
+prereg loss 0.005960619 regularization 346.2394
+loss 0.35220003
+STEP 325 ================================
+prereg loss 0.005894187 regularization 346.09903
+loss 0.35199323
+STEP 326 ================================
+prereg loss 0.0058313166 regularization 345.96527
+loss 0.35179663
+STEP 327 ================================
+prereg loss 0.005843686 regularization 345.8279
+loss 0.35167164
+STEP 328 ================================
+prereg loss 0.0057175886 regularization 345.6851
+loss 0.35140267
+STEP 329 ================================
+prereg loss 0.0056114905 regularization 345.54556
+loss 0.35115707
+STEP 330 ================================
+prereg loss 0.005570046 regularization 345.40814
+loss 0.35097823
+STEP 331 ================================
+prereg loss 0.005556792 regularization 345.27853
+loss 0.35083535
+STEP 332 ================================
+prereg loss 0.0055192728 regularization 345.14447
+loss 0.35066375
+STEP 333 ================================
+prereg loss 0.0055036684 regularization 345.0121
+loss 0.35051575
+STEP 334 ================================
+prereg loss 0.0054102237 regularization 344.87323
+loss 0.35028347
+STEP 335 ================================
+prereg loss 0.005490992 regularization 344.72983
+loss 0.35022083
+STEP 336 ================================
+prereg loss 0.0053620446 regularization 344.5852
+loss 0.34994724
+STEP 337 ================================
+prereg loss 0.005328932 regularization 344.4402
+loss 0.34976912
+STEP 338 ================================
+prereg loss 0.00537192 regularization 344.3028
+loss 0.34967473
+STEP 339 ================================
+prereg loss 0.005287507 regularization 344.17215
+loss 0.34945968
+STEP 340 ================================
+prereg loss 0.005226149 regularization 344.02316
+loss 0.3492493
+STEP 341 ================================
+prereg loss 0.005239517 regularization 343.87338
+loss 0.34911293
+STEP 342 ================================
+prereg loss 0.0052075568 regularization 343.73914
+loss 0.34894672
+STEP 343 ================================
+prereg loss 0.005231951 regularization 343.60364
+loss 0.3488356
+STEP 344 ================================
+prereg loss 0.0051765447 regularization 343.4716
+loss 0.34864816
+STEP 345 ================================
+prereg loss 0.005100124 regularization 343.34225
+loss 0.3484424
+STEP 346 ================================
+prereg loss 0.005119019 regularization 343.214
+loss 0.34833303
+STEP 347 ================================
+prereg loss 0.0052134776 regularization 343.07977
+loss 0.34829324
+STEP 348 ================================
+prereg loss 0.005076698 regularization 342.9335
+loss 0.3480102
+STEP 349 ================================
+prereg loss 0.005019145 regularization 342.79135
+loss 0.34781054
+STEP 350 ================================
+prereg loss 0.0051580183 regularization 342.66278
+loss 0.34782082
+STEP 351 ================================
+prereg loss 0.0051524565 regularization 342.53525
+loss 0.34768772
+STEP 352 ================================
+prereg loss 0.004981007 regularization 342.38834
+loss 0.34736937
+STEP 353 ================================
+prereg loss 0.005434775 regularization 342.2458
+loss 0.3476806
+STEP 354 ================================
+prereg loss 0.007834761 regularization 342.12473
+loss 0.3499595
+STEP 355 ================================
+prereg loss 0.011167877 regularization 341.99356
+loss 0.35316145
+STEP 356 ================================
+prereg loss 0.009976483 regularization 341.85672
+loss 0.35183322
+STEP 357 ================================
+prereg loss 0.0086145615 regularization 341.71213
+loss 0.35032672
+STEP 358 ================================
+prereg loss 0.007881194 regularization 341.56262
+loss 0.34944382
+STEP 359 ================================
+prereg loss 0.011583551 regularization 341.42206
+loss 0.35300562
+STEP 360 ================================
+prereg loss 0.036021665 regularization 341.2863
+loss 0.37730795
+STEP 361 ================================
+prereg loss 0.030275228 regularization 341.14658
+loss 0.3714218
+STEP 362 ================================
+prereg loss 0.0066436697 regularization 341.02057
+loss 0.34766427
+STEP 363 ================================
+prereg loss 0.090197325 regularization 340.8916
+loss 0.43108895
+STEP 364 ================================
+prereg loss 0.070580274 regularization 340.70807
+loss 0.41128835
+STEP 365 ================================
+prereg loss 0.22364318 regularization 340.53738
+loss 0.5641806
+STEP 366 ================================
+prereg loss 0.10802209 regularization 340.34055
+loss 0.44836265
+STEP 367 ================================
+prereg loss 0.023716116 regularization 340.1529
+loss 0.36386904
+STEP 368 ================================
+prereg loss 0.03429872 regularization 339.98746
+loss 0.3742862
+STEP 369 ================================
+prereg loss 0.20212673 regularization 339.83374
+loss 0.5419605
+STEP 370 ================================
+prereg loss 0.047672868 regularization 339.56155
+loss 0.38723445
+STEP 371 ================================
+prereg loss 0.15694949 regularization 339.30408
+loss 0.49625358
+STEP 372 ================================
+prereg loss 0.25508508 regularization 339.05637
+loss 0.5941415
+STEP 373 ================================
+prereg loss 0.2424712 regularization 338.7909
+loss 0.5812621
+STEP 374 ================================
+prereg loss 0.1536645 regularization 338.53412
+loss 0.49219865
+STEP 375 ================================
+prereg loss 0.07612767 regularization 338.29105
+loss 0.41441873
+STEP 376 ================================
+prereg loss 0.059493583 regularization 338.06738
+loss 0.39756098
+STEP 377 ================================
+prereg loss 0.06975694 regularization 337.8725
+loss 0.40762943
+STEP 378 ================================
+prereg loss 0.1036546 regularization 337.72394
+loss 0.44137853
+STEP 379 ================================
+prereg loss 0.07464143 regularization 337.53146
+loss 0.4121729
+STEP 380 ================================
+prereg loss 0.08292475 regularization 337.38876
+loss 0.42031354
+STEP 381 ================================
+prereg loss 0.07385514 regularization 337.31866
+loss 0.41117382
+STEP 382 ================================
+prereg loss 0.05822357 regularization 337.3171
+loss 0.3955407
+STEP 383 ================================
+prereg loss 0.054732475 regularization 337.33035
+loss 0.39206284
+STEP 384 ================================
+prereg loss 0.06592835 regularization 337.3518
+loss 0.40328017
+STEP 385 ================================
+prereg loss 0.051082805 regularization 337.31696
+loss 0.38839978
+STEP 386 ================================
+prereg loss 0.04898196 regularization 337.30264
+loss 0.38628462
+STEP 387 ================================
+prereg loss 0.04719909 regularization 337.29434
+loss 0.38449347
+STEP 388 ================================
+prereg loss 0.044275563 regularization 337.27112
+loss 0.38154668
+STEP 389 ================================
+prereg loss 0.040607404 regularization 337.2521
+loss 0.3778595
+STEP 390 ================================
+prereg loss 0.03566543 regularization 337.26114
+loss 0.37292656
+STEP 391 ================================
+prereg loss 0.030700808 regularization 337.2794
+loss 0.3679802
+STEP 392 ================================
+prereg loss 0.029004382 regularization 337.29285
+loss 0.36629725
+STEP 393 ================================
+prereg loss 0.028582877 regularization 337.29654
+loss 0.36587942
+STEP 394 ================================
+prereg loss 0.028255219 regularization 337.29233
+loss 0.36554757
+STEP 395 ================================
+prereg loss 0.028101128 regularization 337.28214
+loss 0.36538327
+STEP 396 ================================
+prereg loss 0.028075848 regularization 337.26685
+loss 0.3653427
+STEP 397 ================================
+prereg loss 0.02715049 regularization 337.24472
+loss 0.36439523
+STEP 398 ================================
+prereg loss 0.025327222 regularization 337.2332
+loss 0.36256045
+STEP 399 ================================
+prereg loss 0.022969337 regularization 337.21494
+loss 0.36018428
+STEP 400 ================================
+prereg loss 0.020792456 regularization 337.1879
+loss 0.35798037
+2022-06-03T08:22:44.694
+
+julia> a_1032 = deepcopy(trainable["network_matrix"])
+Dict{String, Dict{String, Dict{String, Dict{String, Float32}}}} with 23 entries:
+  "timer"     => Dict("timer"=>Dict("timer"=>Dict("timer"=>1.0)))
+  "output"    => Dict("dict-2"=>Dict("const_1"=>Dict("const_1"=>-0.0219264), "norm-5"=>Dict("dict"=>0.000130572, "true"…
+  "norm-5"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.000123701), "norm-5"=>Dict("dict"=>3.57798f-5, "true"=>…
+  "accum-4"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-1.86148f-5), "norm-5"=>Dict("dict"=>4.34276f-5, "true"=>…
+  "dot-2"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-7.07709f-5), "norm-5"=>Dict("dict"=>-0.000181571, "true"…
+  "norm-1"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.190032), "norm-5"=>Dict("dict"=>2.98175f-5, "true"=>-0.…
+  "compare-5" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-3.6263f-5), "norm-5"=>Dict("dict"=>3.6569f-5, "true"=>-8…
+  "accum-3"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>9.46824f-5), "norm-5"=>Dict("dict"=>-0.000258568, "true"=…
+  "norm-4"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.155827), "norm-5"=>Dict("dict"=>6.04374f-5, "true"=>-6.…
+  "accum-1"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>6.0527f-5), "norm-5"=>Dict("dict"=>4.81129f-5, "true"=>-0…
+  "compare-4" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>3.60947f-5), "norm-5"=>Dict("dict"=>-4.80937f-5, "true"=>…
+  "compare-2" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.000121252), "norm-5"=>Dict("dict"=>0.000213987, "true"…
+  "dot-1"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.000209364), "norm-5"=>Dict("dict"=>9.71465f-5, "true"=>…
+  "dot-3"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-3.97046f-5), "norm-5"=>Dict("dict"=>-6.50868f-5, "true"=…
+  "input"     => Dict("timer"=>Dict("timer"=>Dict("timer"=>1.0)))
+  "norm-3"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.180737), "norm-5"=>Dict("dict"=>7.50916f-5, "true"=>0.…
+  "compare-3" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-3.3719f-6), "norm-5"=>Dict("dict"=>-0.000478204, "true"=…
+  "accum-5"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.000108639), "norm-5"=>Dict("dict"=>2.50825f-5, "true"=>…
+  "accum-2"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.000429223), "norm-5"=>Dict("dict"=>-0.000308851, "true"…
+  "compare-1" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.000118619), "norm-5"=>Dict("dict"=>-5.04699f-6, "true"=…
+  "dot-4"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.000234552), "norm-5"=>Dict("dict"=>-3.93027f-5, "true"=…
+  "dot-5"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.000126527), "norm-5"=>Dict("dict"=>-0.000130283, "true…
+  "norm-2"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.443442), "norm-5"=>Dict("dict"=>-0.000245314, "true"=>6…
+
+julia> count_neg_interval(a_1032, -0.8f0, 0.8f0)
+2
+
+julia> count_neg_interval(a_1032, -0.7f0, 0.7f0)
+3
+
+julia> count_neg_interval(a_1032, -0.6f0, 0.6f0)
+4
+
+julia> count_neg_interval(a_1032, -0.5f0, 0.5f0)
+11
+
+julia> count_neg_interval(a_1032, -0.5f0, 0.5f0, true)
+timer timer timer timer 1.0
+output dict-1 norm-3 norm 0.57676715
+dot-2 dict-1 input char 0.56877714
+accum-3 dict-2 norm-4 norm 0.6519098
+compare-4 dict-2 norm-2 norm -0.5916672
+input timer timer timer 1.0
+norm-3 dict accum-5 dict 0.51802754
+accum-5 dict-2 input char 0.5664605
+accum-2 dict-2 const_1 const_1 -0.70896107
+dot-4 dict-1 norm-3 norm 0.58391464
+dot-5 dict-1 norm-2 norm 0.56162167
+11
+
+julia> count_neg_interval(a_1032, -0.4f0, 0.4f0)
+27
+
+julia> count_neg_interval(a_1032, -0.3f0, 0.3f0)
+69
+
+julia> count_neg_interval(a_1032, -0.2f0, 0.2f0)
+174
+
+julia> count_neg_interval(a_1032, -0.1f0, 0.1f0)
+394
+
+julia> count_neg_interval(a_1032, -0.01f0, 0.01f0)
+770
+
+julia> count_neg_interval(a_1032, -0.001f0, 0.001f0)
+851
+
+julia> count_neg_interval(a_1032, -0.0001f0, 0.0001f0)
+8436
+
+julia> serialize("1032-steps-matrix.ser", a_1032)
+
+julia> open("1032-steps-matrix.json", "w") do f
+           JSON3.pretty(f, JSON3.write(a_1032))
+           println(f)
+           end
+
+julia> printlog_v(io, "EXPLORATORY ACTIVITY")
+EXPLORATORY ACTIVITY
+
+julia> printlog_v(io, "EXPLORATORY ACTIVITY")
+EXPLORATORY ACTIVITY
+
+julia> printlog_v(io, "EXPLORATORY ACTIVITY")
+EXPLORATORY ACTIVITY
+
+julia> # pseudo-sparsification (just zeros small things out, while we really need to remove them)
+
+julia> function filtercopy(x::Dict{String, Dict{String, Dict{String, Dict{String, Float32}}}}, lim::Float32)
+           y = deepcopy(x)
+           for i in keys(y)
+               for j in keys(y[i])
+                   for m in keys(y[i][j])
+                       for n in keys(y[i][j][m])
+                           if abs(y[i][j][m][n]) < lim
+                               y[i][j][m][n] = 0.0f0
+           end end end end end
+           y
+       end
+filtercopy (generic function with 1 method)
+
+julia> cutoff_0 = filtercopy(a_1032, 0.0f0)
+Dict{String, Dict{String, Dict{String, Dict{String, Float32}}}} with 23 entries:
+  "timer"     => Dict("timer"=>Dict("timer"=>Dict("timer"=>1.0)))
+  "output"    => Dict("dict-2"=>Dict("const_1"=>Dict("const_1"=>-0.0219264), "norm-5"=>Dict("dict"=>0.000130572, "true"…
+  "norm-5"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.000123701), "norm-5"=>Dict("dict"=>3.57798f-5, "true"=>…
+  "accum-4"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-1.86148f-5), "norm-5"=>Dict("dict"=>4.34276f-5, "true"=>…
+  "dot-2"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-7.07709f-5), "norm-5"=>Dict("dict"=>-0.000181571, "true"…
+  "norm-1"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.190032), "norm-5"=>Dict("dict"=>2.98175f-5, "true"=>-0.…
+  "compare-5" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-3.6263f-5), "norm-5"=>Dict("dict"=>3.6569f-5, "true"=>-8…
+  "accum-3"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>9.46824f-5), "norm-5"=>Dict("dict"=>-0.000258568, "true"=…
+  "norm-4"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.155827), "norm-5"=>Dict("dict"=>6.04374f-5, "true"=>-6.…
+  "accum-1"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>6.0527f-5), "norm-5"=>Dict("dict"=>4.81129f-5, "true"=>-0…
+  "compare-4" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>3.60947f-5), "norm-5"=>Dict("dict"=>-4.80937f-5, "true"=>…
+  "compare-2" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.000121252), "norm-5"=>Dict("dict"=>0.000213987, "true"…
+  "dot-1"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.000209364), "norm-5"=>Dict("dict"=>9.71465f-5, "true"=>…
+  "dot-3"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-3.97046f-5), "norm-5"=>Dict("dict"=>-6.50868f-5, "true"=…
+  "input"     => Dict("timer"=>Dict("timer"=>Dict("timer"=>1.0)))
+  "norm-3"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.180737), "norm-5"=>Dict("dict"=>7.50916f-5, "true"=>0.…
+  "compare-3" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-3.3719f-6), "norm-5"=>Dict("dict"=>-0.000478204, "true"=…
+  "accum-5"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.000108639), "norm-5"=>Dict("dict"=>2.50825f-5, "true"=>…
+  "accum-2"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.000429223), "norm-5"=>Dict("dict"=>-0.000308851, "true"…
+  "compare-1" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.000118619), "norm-5"=>Dict("dict"=>-5.04699f-6, "true"=…
+  "dot-4"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.000234552), "norm-5"=>Dict("dict"=>-3.93027f-5, "true"=…
+  "dot-5"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.000126527), "norm-5"=>Dict("dict"=>-0.000130283, "true…
+  "norm-2"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.443442), "norm-5"=>Dict("dict"=>-0.000245314, "true"=>6…
+
+julia> trainable["network_matrix"] = cutoff_0
+Dict{String, Dict{String, Dict{String, Dict{String, Float32}}}} with 23 entries:
+  "timer"     => Dict("timer"=>Dict("timer"=>Dict("timer"=>1.0)))
+  "output"    => Dict("dict-2"=>Dict("const_1"=>Dict("const_1"=>-0.0219264), "norm-5"=>Dict("dict"=>0.000130572, "true"…
+  "norm-5"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.000123701), "norm-5"=>Dict("dict"=>3.57798f-5, "true"=>…
+  "accum-4"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-1.86148f-5), "norm-5"=>Dict("dict"=>4.34276f-5, "true"=>…
+  "dot-2"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-7.07709f-5), "norm-5"=>Dict("dict"=>-0.000181571, "true"…
+  "norm-1"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.190032), "norm-5"=>Dict("dict"=>2.98175f-5, "true"=>-0.…
+  "compare-5" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-3.6263f-5), "norm-5"=>Dict("dict"=>3.6569f-5, "true"=>-8…
+  "accum-3"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>9.46824f-5), "norm-5"=>Dict("dict"=>-0.000258568, "true"=…
+  "norm-4"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.155827), "norm-5"=>Dict("dict"=>6.04374f-5, "true"=>-6.…
+  "accum-1"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>6.0527f-5), "norm-5"=>Dict("dict"=>4.81129f-5, "true"=>-0…
+  "compare-4" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>3.60947f-5), "norm-5"=>Dict("dict"=>-4.80937f-5, "true"=>…
+  "compare-2" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.000121252), "norm-5"=>Dict("dict"=>0.000213987, "true"…
+  "dot-1"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.000209364), "norm-5"=>Dict("dict"=>9.71465f-5, "true"=>…
+  "dot-3"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-3.97046f-5), "norm-5"=>Dict("dict"=>-6.50868f-5, "true"=…
+  "input"     => Dict("timer"=>Dict("timer"=>Dict("timer"=>1.0)))
+  "norm-3"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.180737), "norm-5"=>Dict("dict"=>7.50916f-5, "true"=>0.…
+  "compare-3" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-3.3719f-6), "norm-5"=>Dict("dict"=>-0.000478204, "true"=…
+  "accum-5"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.000108639), "norm-5"=>Dict("dict"=>2.50825f-5, "true"=>…
+  "accum-2"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.000429223), "norm-5"=>Dict("dict"=>-0.000308851, "true"…
+  "compare-1" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.000118619), "norm-5"=>Dict("dict"=>-5.04699f-6, "true"=…
+  "dot-4"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.000234552), "norm-5"=>Dict("dict"=>-3.93027f-5, "true"=…
+  "dot-5"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.000126527), "norm-5"=>Dict("dict"=>-0.000130283, "true…
+  "norm-2"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.443442), "norm-5"=>Dict("dict"=>-0.000245314, "true"=>6…
+
+julia> reset_dicts!()
+
+julia> loss(trainable)
+prereg loss 0.019338818 regularization 337.16513
+loss 0.35650396
+0.35650396f0
+
+julia> printlog_v(io, "EXPLORATORY ACTIVITY, cutoff 0.0001f0")
+EXPLORATORY ACTIVITY, cutoff 0.0001f0
+
+julia> printlog_v(io, "EXPLORATORY ACTIVITY, cutoff 0.0001f0")
+EXPLORATORY ACTIVITY, cutoff 0.0001f0
+
+julia> printlog_v(io, "EXPLORATORY ACTIVITY, cutoff 0.0001f0")
+EXPLORATORY ACTIVITY, cutoff 0.0001f0
+
+julia> cutoff_0_0001 = filtercopy(a_1032, 0.0001f0)
+Dict{String, Dict{String, Dict{String, Dict{String, Float32}}}} with 23 entries:
+  "timer"     => Dict("timer"=>Dict("timer"=>Dict("timer"=>1.0)))
+  "output"    => Dict("dict-2"=>Dict("const_1"=>Dict("const_1"=>-0.0219264), "norm-5"=>Dict("dict"=>0.000130572, "true"…
+  "norm-5"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.000123701), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "d…
+  "accum-4"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "dot-2"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>-0.000181571, "true"=>0.0, "…
+  "norm-1"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.190032), "norm-5"=>Dict("dict"=>0.0, "true"=>-0.0002162…
+  "compare-5" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>-0.…
+  "accum-3"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>-0.000258568, "true"=>0.0, "…
+  "norm-4"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.155827), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"…
+  "accum-1"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>-0.000129505, "…
+  "compare-4" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "compare-2" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.000121252), "norm-5"=>Dict("dict"=>0.000213987, "true"…
+  "dot-1"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.000209364), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "d…
+  "dot-3"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "input"     => Dict("timer"=>Dict("timer"=>Dict("timer"=>1.0)))
+  "norm-3"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.180737), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0001856…
+  "compare-3" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>-0.000478204, "true"=>0.0, "…
+  "accum-5"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.000108639), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "d…
+  "accum-2"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.000429223), "norm-5"=>Dict("dict"=>-0.000308851, "true"…
+  "compare-1" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.000118619), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "d…
+  "dot-4"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.000234552), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "d…
+  "dot-5"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.000126527), "norm-5"=>Dict("dict"=>-0.000130283, "true…
+  "norm-2"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.443442), "norm-5"=>Dict("dict"=>-0.000245314, "true"=>0…
+
+julia> trainable["network_matrix"] = cutoff_0_0001
+Dict{String, Dict{String, Dict{String, Dict{String, Float32}}}} with 23 entries:
+  "timer"     => Dict("timer"=>Dict("timer"=>Dict("timer"=>1.0)))
+  "output"    => Dict("dict-2"=>Dict("const_1"=>Dict("const_1"=>-0.0219264), "norm-5"=>Dict("dict"=>0.000130572, "true"…
+  "norm-5"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.000123701), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "d…
+  "accum-4"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "dot-2"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>-0.000181571, "true"=>0.0, "…
+  "norm-1"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.190032), "norm-5"=>Dict("dict"=>0.0, "true"=>-0.0002162…
+  "compare-5" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>-0.…
+  "accum-3"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>-0.000258568, "true"=>0.0, "…
+  "norm-4"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.155827), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"…
+  "accum-1"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>-0.000129505, "…
+  "compare-4" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "compare-2" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.000121252), "norm-5"=>Dict("dict"=>0.000213987, "true"…
+  "dot-1"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.000209364), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "d…
+  "dot-3"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "input"     => Dict("timer"=>Dict("timer"=>Dict("timer"=>1.0)))
+  "norm-3"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.180737), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0001856…
+  "compare-3" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>-0.000478204, "true"=>0.0, "…
+  "accum-5"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.000108639), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "d…
+  "accum-2"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.000429223), "norm-5"=>Dict("dict"=>-0.000308851, "true"…
+  "compare-1" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.000118619), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "d…
+  "dot-4"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.000234552), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "d…
+  "dot-5"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.000126527), "norm-5"=>Dict("dict"=>-0.000130283, "true…
+  "norm-2"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.443442), "norm-5"=>Dict("dict"=>-0.000245314, "true"=>0…
+
+julia> reset_dicts!()
+
+julia> loss(trainable)
+prereg loss 0.019352987 regularization 336.5884
+loss 0.3559414
+0.3559414f0
+
+julia> printlog_v(io, "EXPLORATORY ACTIVITY, cutoff 0.001f0")
+EXPLORATORY ACTIVITY, cutoff 0.001f0
+
+julia> printlog_v(io, "EXPLORATORY ACTIVITY, cutoff 0.001f0")
+EXPLORATORY ACTIVITY, cutoff 0.001f0
+
+julia> printlog_v(io, "EXPLORATORY ACTIVITY, cutoff 0.001f0")
+EXPLORATORY ACTIVITY, cutoff 0.001f0
+
+julia> cutoff_0_001 = filtercopy(a_1032, 0.001f0)
+Dict{String, Dict{String, Dict{String, Dict{String, Float32}}}} with 23 entries:
+  "timer"     => Dict("timer"=>Dict("timer"=>Dict("timer"=>1.0)))
+  "output"    => Dict("dict-2"=>Dict("const_1"=>Dict("const_1"=>-0.0219264), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "…
+  "norm-5"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "accum-4"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "dot-2"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "norm-1"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.190032), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"…
+  "compare-5" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "accum-3"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "norm-4"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.155827), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"…
+  "accum-1"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "compare-4" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "compare-2" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "dot-1"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "dot-3"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "input"     => Dict("timer"=>Dict("timer"=>Dict("timer"=>1.0)))
+  "norm-3"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.180737), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot…
+  "compare-3" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "accum-5"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "accum-2"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "compare-1" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "dot-4"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "dot-5"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "norm-2"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.443442), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"…
+
+julia> trainable["network_matrix"] = cutoff_0_001
+Dict{String, Dict{String, Dict{String, Dict{String, Float32}}}} with 23 entries:
+  "timer"     => Dict("timer"=>Dict("timer"=>Dict("timer"=>1.0)))
+  "output"    => Dict("dict-2"=>Dict("const_1"=>Dict("const_1"=>-0.0219264), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "…
+  "norm-5"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "accum-4"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "dot-2"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "norm-1"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.190032), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"…
+  "compare-5" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "accum-3"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "norm-4"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.155827), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"…
+  "accum-1"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "compare-4" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "compare-2" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "dot-1"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "dot-3"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "input"     => Dict("timer"=>Dict("timer"=>Dict("timer"=>1.0)))
+  "norm-3"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.180737), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot…
+  "compare-3" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "accum-5"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "accum-2"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "compare-1" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "dot-4"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "dot-5"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "norm-2"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.443442), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"…
+
+julia> reset_dicts!()
+
+julia> loss(trainable)
+prereg loss 0.019363139 regularization 335.15085
+loss 0.354514
+0.354514f0
+
+julia> printlog_v(io, "EXPLORATORY ACTIVITY, cutoff 0.01f0")
+EXPLORATORY ACTIVITY, cutoff 0.01f0
+
+julia> printlog_v(io, "EXPLORATORY ACTIVITY, cutoff 0.01f0")
+EXPLORATORY ACTIVITY, cutoff 0.01f0
+
+julia> printlog_v(io, "EXPLORATORY ACTIVITY, cutoff 0.01f0")
+EXPLORATORY ACTIVITY, cutoff 0.01f0
+
+julia> cutoff_0_01 = filtercopy(a_1032, 0.01f0)
+Dict{String, Dict{String, Dict{String, Dict{String, Float32}}}} with 23 entries:
+  "timer"     => Dict("timer"=>Dict("timer"=>Dict("timer"=>1.0)))
+  "output"    => Dict("dict-2"=>Dict("const_1"=>Dict("const_1"=>-0.0219264), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "…
+  "norm-5"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "accum-4"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "dot-2"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "norm-1"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.190032), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"…
+  "compare-5" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "accum-3"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "norm-4"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.155827), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"…
+  "accum-1"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "compare-4" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "compare-2" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "dot-1"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "dot-3"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "input"     => Dict("timer"=>Dict("timer"=>Dict("timer"=>1.0)))
+  "norm-3"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.180737), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot…
+  "compare-3" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "accum-5"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "accum-2"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "compare-1" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "dot-4"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "dot-5"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "norm-2"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.443442), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"…
+
+julia> trainable["network_matrix"] = cutoff_0_01
+Dict{String, Dict{String, Dict{String, Dict{String, Float32}}}} with 23 entries:
+  "timer"     => Dict("timer"=>Dict("timer"=>Dict("timer"=>1.0)))
+  "output"    => Dict("dict-2"=>Dict("const_1"=>Dict("const_1"=>-0.0219264), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "…
+  "norm-5"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "accum-4"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "dot-2"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "norm-1"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.190032), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"…
+  "compare-5" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "accum-3"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "norm-4"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.155827), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"…
+  "accum-1"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "compare-4" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "compare-2" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "dot-1"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "dot-3"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "input"     => Dict("timer"=>Dict("timer"=>Dict("timer"=>1.0)))
+  "norm-3"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.180737), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot…
+  "compare-3" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "accum-5"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "accum-2"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "compare-1" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "dot-4"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "dot-5"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "norm-2"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.443442), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"…
+
+julia> reset_dicts!()
+
+julia> loss(trainable)
+prereg loss 0.02128889 regularization 334.70483
+loss 0.35599375
+0.35599375f0
+
+julia> printlog_v(io, "EXPLORATORY ACTIVITY, cutoff 0.1f0")
+EXPLORATORY ACTIVITY, cutoff 0.1f0
+
+julia> printlog_v(io, "EXPLORATORY ACTIVITY, cutoff 0.1f0")
+EXPLORATORY ACTIVITY, cutoff 0.1f0
+
+julia> printlog_v(io, "EXPLORATORY ACTIVITY, cutoff 0.1f0")
+EXPLORATORY ACTIVITY, cutoff 0.1f0
+
+julia> cutoff_0_1 = filtercopy(a_1032, 0.1f0)
+Dict{String, Dict{String, Dict{String, Dict{String, Float32}}}} with 23 entries:
+  "timer"     => Dict("timer"=>Dict("timer"=>Dict("timer"=>1.0)))
+  "output"    => Dict("dict-2"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0…
+  "norm-5"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "accum-4"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "dot-2"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "norm-1"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.190032), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"…
+  "compare-5" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "accum-3"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "norm-4"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.155827), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"…
+  "accum-1"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "compare-4" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "compare-2" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "dot-1"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "dot-3"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "input"     => Dict("timer"=>Dict("timer"=>Dict("timer"=>1.0)))
+  "norm-3"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.180737), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot…
+  "compare-3" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "accum-5"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "accum-2"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "compare-1" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "dot-4"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "dot-5"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "norm-2"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.443442), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"…
+
+julia> trainable["network_matrix"] = cutoff_0_1
+Dict{String, Dict{String, Dict{String, Dict{String, Float32}}}} with 23 entries:
+  "timer"     => Dict("timer"=>Dict("timer"=>Dict("timer"=>1.0)))
+  "output"    => Dict("dict-2"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0…
+  "norm-5"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "accum-4"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "dot-2"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "norm-1"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.190032), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"…
+  "compare-5" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "accum-3"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "norm-4"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.155827), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"…
+  "accum-1"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "compare-4" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "compare-2" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "dot-1"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "dot-3"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "input"     => Dict("timer"=>Dict("timer"=>Dict("timer"=>1.0)))
+  "norm-3"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>-0.180737), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot…
+  "compare-3" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "accum-5"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "accum-2"   => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "compare-1" => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "dot-4"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "dot-5"     => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.0), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"=>0.0…
+  "norm-2"    => Dict("dict"=>Dict("const_1"=>Dict("const_1"=>0.443442), "norm-5"=>Dict("dict"=>0.0, "true"=>0.0, "dot"…
+
+julia> reset_dicts!()
+
+julia> loss(trainable)
+prereg loss 0.723179 regularization 305.7085
+loss 1.0288875
+1.0288875f0
+
+julia> printlog_v(io, "RESULT: EXPLORATORY ACTIVITY, cutoff 0.1f0 - NOT GOOD, cutoff 0.01f0 - STILL GOOD")
+RESULT: EXPLORATORY ACTIVITY, cutoff 0.1f0 - NOT GOOD, cutoff 0.01f0 - STILL GOOD
+
+julia> printlog_v(io, "RESULT: EXPLORATORY ACTIVITY, cutoff 0.1f0 - NOT GOOD, cutoff 0.01f0 - STILL GOOD")
+RESULT: EXPLORATORY ACTIVITY, cutoff 0.1f0 - NOT GOOD, cutoff 0.01f0 - STILL GOOD
+
+julia> printlog_v(io, "RESULT: EXPLORATORY ACTIVITY, cutoff 0.1f0 - NOT GOOD, cutoff 0.01f0 - STILL GOOD")
+RESULT: EXPLORATORY ACTIVITY, cutoff 0.1f0 - NOT GOOD, cutoff 0.01f0 - STILL GOOD
+
+julia> printlog_v(io, "RESULT: EXPLORATORY ACTIVITY, cutoff 0.1f0 - NOT GOOD, cutoff 0.01f0 - STILL GOOD")
+RESULT: EXPLORATORY ACTIVITY, cutoff 0.1f0 - NOT GOOD, cutoff 0.01f0 - STILL GOOD
+
+julia> printlog_v(io, "RESULT: EXPLORATORY ACTIVITY, cutoff 0.1f0 - NOT GOOD, cutoff 0.01f0 - STILL GOOD")
+RESULT: EXPLORATORY ACTIVITY, cutoff 0.1f0 - NOT GOOD, cutoff 0.01f0 - STILL GOOD
+
+julia>
