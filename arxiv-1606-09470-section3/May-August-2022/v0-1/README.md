@@ -31,13 +31,23 @@ _"feedforward transducer with locally recurrent elements"_.
 
 `verifying-refactor` - correctness of the refactor
 
+_(Jun 10, 2022)_
+
 `rec-with-id-4-instead-of-5` - adding `id_transform` to the recurrent setup
+
+_(Jun 12, 2022)_
 
 `first-feedforward-run` - first _"feedforward transducer with locally recurrent elements"_ run
 
+_(Jun 14-15, 2022)_
+
 `feedforward-run-1.1` - similar, but with L1 regularization (`id_transform` still is not a good fit)
 
+_(Jun 16, 2022)_
+
 `feedforward-run-2` - first run with skip connections instead of `id_transform`, but the initialization is quite suboptimal
+
+_(Jun 17-18, 2022)_
 
 #### good runs:
 
