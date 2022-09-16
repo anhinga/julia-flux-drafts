@@ -1,5 +1,7 @@
 # Sparsification phase of the compare-free experiment
 
+_(Jul 19-21, 2022)_
+
 We are trying a new scheme which lets us to preserve the state of the optimizer while
 sparsifying by trimming first and second moment tensors in sync with trimming the parameters.
 
