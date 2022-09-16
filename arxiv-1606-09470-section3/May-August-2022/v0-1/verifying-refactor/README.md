@@ -1,6 +1,6 @@
 # Verifying refactor
 
-Reproducing first 16 steps of [../rough-sketches/run-3](../rough-sketches/run-3)
+Reproducing first 16 steps of [../../rough-sketches/run-3](../../rough-sketches/run-3)
 
 ```
 julia> cd("Desktop/GitHub/sandbox_mishka/arxiv-1606-09470-section3/v0-1")
