@@ -1,0 +1,5240 @@
+
+
+model: sparse20-after-100-steps-matrix.ser
+number of soft links: 19
+test string: test string.
+length of test string: 12
+temporal window: 140
+
+(driving input) timer: 0.0
+(getting on output) left: 0.0 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 0.0
+(driving input) timer: 1.0
+(getting on output) left: 0.0 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 1.0
+(driving input) timer: 2.0
+(getting on output) left: 0.0 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 2.0
+(driving input) timer: 3.0
+(getting on output) left: -0.022946358 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 3.0
+(driving input) timer: 4.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 4.0
+(driving input) timer: 5.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 5.0
+(driving input) timer: 6.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 6.0
+(driving input) timer: 7.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 7.0
+(driving input) timer: 8.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 8.0
+(driving input) timer: 9.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 9.0
+(driving input) timer: 10.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 10.0
+(driving input) timer: 11.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 11.0
+(driving input) timer: 12.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 12.0
+(driving input) timer: 13.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 13.0
+(driving input) timer: 14.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 14.0
+(driving input) timer: 15.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 15.0
+(driving input) timer: 16.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 16.0
+(driving input) timer: 17.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 17.0
+(driving input) timer: 18.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 18.0
+(driving input) timer: 19.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 19.0
+(driving input) timer: 20.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 20.0
+(driving input) timer: 21.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 21.0
+(driving input) timer: 22.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 22.0
+(driving input) timer: 23.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 23.0
+(driving input) timer: 24.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 24.0
+(driving input) timer: 25.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 25.0
+(driving input) timer: 26.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 26.0
+(driving input) timer: 27.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 27.0
+(driving input) timer: 28.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 28.0
+(driving input) timer: 29.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 29.0
+(driving input) timer: 30.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 30.0
+(driving input) timer: 31.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 31.0
+(driving input) timer: 32.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 32.0
+(driving input) timer: 33.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 33.0
+(driving input) timer: 34.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 34.0
+(driving input) timer: 35.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 35.0
+(driving input) timer: 36.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 36.0
+(driving input) timer: 37.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 37.0
+(driving input) timer: 38.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 38.0
+(driving input) timer: 39.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 39.0
+(driving input) timer: 40.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 40.0
+(driving input) timer: 41.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 41.0
+(driving input) timer: 42.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 42.0
+(driving input) timer: 43.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 43.0
+(driving input) timer: 44.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 44.0
+(driving input) timer: 45.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 45.0
+(driving input) timer: 46.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 46.0
+(driving input) timer: 47.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 47.0
+(driving input) timer: 48.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 48.0
+(driving input) timer: 49.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 49.0
+(driving input) timer: 50.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 50.0
+(driving input) timer: 51.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 51.0
+(driving input) timer: 52.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 52.0
+(driving input) timer: 53.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 53.0
+(driving input) timer: 54.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 54.0
+(driving input) timer: 55.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 55.0
+(driving input) timer: 56.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 56.0
+(driving input) timer: 57.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 57.0
+(driving input) timer: 58.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 58.0
+(driving input) timer: 59.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 59.0
+(driving input) timer: 60.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 60.0
+(driving input) timer: 61.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 61.0
+(driving input) timer: 62.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 62.0
+(driving input) timer: 63.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 63.0
+(driving input) timer: 64.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 64.0
+(driving input) timer: 65.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 65.0
+(driving input) timer: 66.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 66.0
+(driving input) timer: 67.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 67.0
+(driving input) timer: 68.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 68.0
+(driving input) timer: 69.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 69.0
+(driving input) timer: 70.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 70.0
+(driving input) timer: 71.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 71.0
+(driving input) timer: 72.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 72.0
+(driving input) timer: 73.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 73.0
+(driving input) timer: 74.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 74.0
+(driving input) timer: 75.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 75.0
+(driving input) timer: 76.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 76.0
+(driving input) timer: 77.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 77.0
+(driving input) timer: 78.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 78.0
+(driving input) timer: 79.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 79.0
+(driving input) timer: 80.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 80.0
+(driving input) timer: 81.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 81.0
+(driving input) timer: 82.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 82.0
+(driving input) timer: 83.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 83.0
+(driving input) timer: 84.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 84.0
+(driving input) timer: 85.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 85.0
+(driving input) timer: 86.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 86.0
+(driving input) timer: 87.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 87.0
+(driving input) timer: 88.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 88.0
+(driving input) timer: 89.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 89.0
+(driving input) timer: 90.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 90.0
+(driving input) timer: 91.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 91.0
+(driving input) timer: 92.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 92.0
+(driving input) timer: 93.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 93.0
+(driving input) timer: 94.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 94.0
+(driving input) timer: 95.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 95.0
+(driving input) timer: 96.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 96.0
+(driving input) timer: 97.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 97.0
+(driving input) timer: 98.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 98.0
+(driving input) timer: 99.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 99.0
+(driving input) timer: 100.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 100.0
+(driving input) timer: 101.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 101.0
+(driving input) timer: 102.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 102.0
+(driving input) timer: 103.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 103.0
+(driving input) timer: 104.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 104.0
+(driving input) timer: 105.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 105.0
+(driving input) timer: 106.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 106.0
+(driving input) timer: 107.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 107.0
+(driving input) timer: 108.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 108.0
+(driving input) timer: 109.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 109.0
+(driving input) timer: 110.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 110.0
+(driving input) timer: 111.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 111.0
+(driving input) timer: 112.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 112.0
+(driving input) timer: 113.0
+(getting on output) left: 1.9980052 right: 0.99268377
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 113.0
+(driving input) timer: 114.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 114.0
+(driving input) timer: 115.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 115.0
+(driving input) timer: 116.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 116.0
+(driving input) timer: 117.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 117.0
+(driving input) timer: 118.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 118.0
+(driving input) timer: 119.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 119.0
+(driving input) timer: 120.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 120.0
+(driving input) timer: 121.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 121.0
+(driving input) timer: 122.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 122.0
+(driving input) timer: 123.0
+(getting on output) left: 1.9980052 right: 1.9923579
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 123.0
+(driving input) timer: 124.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 124.0
+(driving input) timer: 125.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 125.0
+(driving input) timer: 126.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 126.0
+(driving input) timer: 127.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 127.0
+(driving input) timer: 128.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 128.0
+(driving input) timer: 129.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 129.0
+(driving input) timer: 130.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 130.0
+(driving input) timer: 131.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 131.0
+(driving input) timer: 132.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 132.0
+(driving input) timer: 133.0
+(getting on output) left: 1.9980052 right: 2.9920316
+(getting on output) left: 2.0 right: 3.0
+(driving input) timer: 133.0
+(driving input) timer: 134.0
+(getting on output) left: 1.9980052 right: 2.9990218
+(getting on output) left: 2.0 right: 3.0
+(driving input) timer: 134.0
+(driving input) timer: 135.0
+(getting on output) left: 1.9980052 right: 2.9990218
+(getting on output) left: 2.0 right: 3.0
+(driving input) timer: 135.0
+(driving input) timer: 136.0
+(getting on output) left: 1.9980052 right: 2.9990218
+(getting on output) left: 2.0 right: 3.0
+(driving input) timer: 136.0
+(driving input) timer: 137.0
+(getting on output) left: 1.9980052 right: 2.9990218
+(getting on output) left: 2.0 right: 3.0
+(driving input) timer: 137.0
+(driving input) timer: 138.0
+(getting on output) left: 1.9980052 right: 2.9990218
+(getting on output) left: 2.0 right: 3.0
+(driving input) timer: 138.0
+(driving input) timer: 139.0
+(getting on output) left: 1.9980052 right: 2.9990218
+(getting on output) left: 2.0 right: 3.0
+(driving input) timer: 139.0
+prereg loss 0.0016100588 reg_l1 12.706874 reg_l2 10.178641
+max per element loss 0.0005265353 average per element loss 5.75021e-6
+
+
+model: sparse20-after-100-steps-matrix.ser
+number of soft links: 19
+test string: test string.
+length of test string: 12
+temporal window: 150
+
+(driving input) timer: 0.0
+(getting on output) left: 0.0 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 0.0
+(driving input) timer: 1.0
+(getting on output) left: 0.0 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 1.0
+(driving input) timer: 2.0
+(getting on output) left: 0.0 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 2.0
+(driving input) timer: 3.0
+(getting on output) left: -0.022946358 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 3.0
+(driving input) timer: 4.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 4.0
+(driving input) timer: 5.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 5.0
+(driving input) timer: 6.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 6.0
+(driving input) timer: 7.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 7.0
+(driving input) timer: 8.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 8.0
+(driving input) timer: 9.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 9.0
+(driving input) timer: 10.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 10.0
+(driving input) timer: 11.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 11.0
+(driving input) timer: 12.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 12.0
+(driving input) timer: 13.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 13.0
+(driving input) timer: 14.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 14.0
+(driving input) timer: 15.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 15.0
+(driving input) timer: 16.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 16.0
+(driving input) timer: 17.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 17.0
+(driving input) timer: 18.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 18.0
+(driving input) timer: 19.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 19.0
+(driving input) timer: 20.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 20.0
+(driving input) timer: 21.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 21.0
+(driving input) timer: 22.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 22.0
+(driving input) timer: 23.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 23.0
+(driving input) timer: 24.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 24.0
+(driving input) timer: 25.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 25.0
+(driving input) timer: 26.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 26.0
+(driving input) timer: 27.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 27.0
+(driving input) timer: 28.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 28.0
+(driving input) timer: 29.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 29.0
+(driving input) timer: 30.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 30.0
+(driving input) timer: 31.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 31.0
+(driving input) timer: 32.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 32.0
+(driving input) timer: 33.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 33.0
+(driving input) timer: 34.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 34.0
+(driving input) timer: 35.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 35.0
+(driving input) timer: 36.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 36.0
+(driving input) timer: 37.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 37.0
+(driving input) timer: 38.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 38.0
+(driving input) timer: 39.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 39.0
+(driving input) timer: 40.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 40.0
+(driving input) timer: 41.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 41.0
+(driving input) timer: 42.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 42.0
+(driving input) timer: 43.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 43.0
+(driving input) timer: 44.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 44.0
+(driving input) timer: 45.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 45.0
+(driving input) timer: 46.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 46.0
+(driving input) timer: 47.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 47.0
+(driving input) timer: 48.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 48.0
+(driving input) timer: 49.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 49.0
+(driving input) timer: 50.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 50.0
+(driving input) timer: 51.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 51.0
+(driving input) timer: 52.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 52.0
+(driving input) timer: 53.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 53.0
+(driving input) timer: 54.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 54.0
+(driving input) timer: 55.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 55.0
+(driving input) timer: 56.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 56.0
+(driving input) timer: 57.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 57.0
+(driving input) timer: 58.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 58.0
+(driving input) timer: 59.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 59.0
+(driving input) timer: 60.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 60.0
+(driving input) timer: 61.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 61.0
+(driving input) timer: 62.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 62.0
+(driving input) timer: 63.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 63.0
+(driving input) timer: 64.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 64.0
+(driving input) timer: 65.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 65.0
+(driving input) timer: 66.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 66.0
+(driving input) timer: 67.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 67.0
+(driving input) timer: 68.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 68.0
+(driving input) timer: 69.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 69.0
+(driving input) timer: 70.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 70.0
+(driving input) timer: 71.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 71.0
+(driving input) timer: 72.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 72.0
+(driving input) timer: 73.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 73.0
+(driving input) timer: 74.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 74.0
+(driving input) timer: 75.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 75.0
+(driving input) timer: 76.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 76.0
+(driving input) timer: 77.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 77.0
+(driving input) timer: 78.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 78.0
+(driving input) timer: 79.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 79.0
+(driving input) timer: 80.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 80.0
+(driving input) timer: 81.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 81.0
+(driving input) timer: 82.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 82.0
+(driving input) timer: 83.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 83.0
+(driving input) timer: 84.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 84.0
+(driving input) timer: 85.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 85.0
+(driving input) timer: 86.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 86.0
+(driving input) timer: 87.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 87.0
+(driving input) timer: 88.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 88.0
+(driving input) timer: 89.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 89.0
+(driving input) timer: 90.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 90.0
+(driving input) timer: 91.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 91.0
+(driving input) timer: 92.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 92.0
+(driving input) timer: 93.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 93.0
+(driving input) timer: 94.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 94.0
+(driving input) timer: 95.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 95.0
+(driving input) timer: 96.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 96.0
+(driving input) timer: 97.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 97.0
+(driving input) timer: 98.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 98.0
+(driving input) timer: 99.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 99.0
+(driving input) timer: 100.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 100.0
+(driving input) timer: 101.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 101.0
+(driving input) timer: 102.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 102.0
+(driving input) timer: 103.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 103.0
+(driving input) timer: 104.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 104.0
+(driving input) timer: 105.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 105.0
+(driving input) timer: 106.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 106.0
+(driving input) timer: 107.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 107.0
+(driving input) timer: 108.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 108.0
+(driving input) timer: 109.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 109.0
+(driving input) timer: 110.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 110.0
+(driving input) timer: 111.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 111.0
+(driving input) timer: 112.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 112.0
+(driving input) timer: 113.0
+(getting on output) left: 1.9980052 right: 0.99268377
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 113.0
+(driving input) timer: 114.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 114.0
+(driving input) timer: 115.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 115.0
+(driving input) timer: 116.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 116.0
+(driving input) timer: 117.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 117.0
+(driving input) timer: 118.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 118.0
+(driving input) timer: 119.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 119.0
+(driving input) timer: 120.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 120.0
+(driving input) timer: 121.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 121.0
+(driving input) timer: 122.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 122.0
+(driving input) timer: 123.0
+(getting on output) left: 1.9980052 right: 1.9923579
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 123.0
+(driving input) timer: 124.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 124.0
+(driving input) timer: 125.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 125.0
+(driving input) timer: 126.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 126.0
+(driving input) timer: 127.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 127.0
+(driving input) timer: 128.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 128.0
+(driving input) timer: 129.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 129.0
+(driving input) timer: 130.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 130.0
+(driving input) timer: 131.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 131.0
+(driving input) timer: 132.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 132.0
+(driving input) timer: 133.0
+(getting on output) left: 1.9980052 right: 2.9920316
+(getting on output) left: 2.0 right: 3.0
+(driving input) timer: 133.0
+(driving input) timer: 134.0
+(getting on output) left: 1.9980052 right: 2.9990218
+(getting on output) left: 2.0 right: 3.0
+(driving input) timer: 134.0
+(driving input) timer: 135.0
+(getting on output) left: 1.9980052 right: 2.9990218
+(getting on output) left: 2.0 right: 3.0
+(driving input) timer: 135.0
+(driving input) timer: 136.0
+(getting on output) left: 1.9980052 right: 2.9990218
+(getting on output) left: 2.0 right: 3.0
+(driving input) timer: 136.0
+(driving input) timer: 137.0
+(getting on output) left: 1.9980052 right: 2.9990218
+(getting on output) left: 2.0 right: 3.0
+(driving input) timer: 137.0
+(driving input) timer: 138.0
+(getting on output) left: 1.9980052 right: 2.9990218
+(getting on output) left: 2.0 right: 3.0
+(driving input) timer: 138.0
+(driving input) timer: 139.0
+(getting on output) left: 1.9980052 right: 2.9990218
+(getting on output) left: 2.0 right: 3.0
+(driving input) timer: 139.0
+(driving input) timer: 140.0
+(getting on output) left: 1.9980052 right: 2.9990218
+(getting on output) left: 2.0 right: 3.0
+(driving input) timer: 140.0
+(driving input) timer: 141.0
+(getting on output) left: 1.9980052 right: 2.9990218
+(getting on output) left: 2.0 right: 3.0
+(driving input) timer: 141.0
+(driving input) timer: 142.0
+(getting on output) left: 1.9980052 right: 2.9990218
+(getting on output) left: 2.0 right: 3.0
+(driving input) timer: 142.0
+(driving input) timer: 143.0
+(getting on output) left: 1.9980052 right: 3.9917057
+(getting on output) left: 2.0 right: 4.0
+(driving input) timer: 143.0
+(driving input) timer: 144.0
+(getting on output) left: 2.6643615 right: 3.998696
+(getting on output) left: 3.0 right: 4.0
+(driving input) timer: 144.0
+(driving input) timer: 145.0
+(getting on output) left: 2.6643615 right: 3.998696
+(getting on output) left: 3.0 right: 4.0
+(driving input) timer: 145.0
+(driving input) timer: 146.0
+(getting on output) left: 2.6643615 right: 3.998696
+(getting on output) left: 3.0 right: 4.0
+(driving input) timer: 146.0
+(driving input) timer: 147.0
+(getting on output) left: 2.6643615 right: 3.998696
+(getting on output) left: 3.0 right: 4.0
+(driving input) timer: 147.0
+(driving input) timer: 148.0
+(getting on output) left: 2.6643615 right: 3.998696
+(getting on output) left: 3.0 right: 4.0
+(driving input) timer: 148.0
+(driving input) timer: 149.0
+(getting on output) left: 2.6643615 right: 3.998696
+(getting on output) left: 3.0 right: 4.0
+(driving input) timer: 149.0
+prereg loss 0.6776272 reg_l1 12.706874 reg_l2 10.178641
+max per element loss 0.11265322 average per element loss 0.0022587574
+
+
+model: sparse20-after-100-steps-matrix.ser
+number of soft links: 19
+test string: teest string.
+length of test string: 13
+temporal window: 140
+
+(driving input) timer: 0.0
+(getting on output) left: 0.0 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 0.0
+(driving input) timer: 1.0
+(getting on output) left: 0.0 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 1.0
+(driving input) timer: 2.0
+(getting on output) left: 0.0 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 2.0
+(driving input) timer: 3.0
+(getting on output) left: -0.022946358 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 3.0
+(driving input) timer: 4.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 4.0
+(driving input) timer: 5.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 5.0
+(driving input) timer: 6.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 6.0
+(driving input) timer: 7.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 7.0
+(driving input) timer: 8.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 8.0
+(driving input) timer: 9.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 9.0
+(driving input) timer: 10.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 10.0
+(driving input) timer: 11.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 11.0
+(driving input) timer: 12.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 12.0
+(driving input) timer: 13.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 13.0
+(driving input) timer: 14.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 14.0
+(driving input) timer: 15.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 15.0
+(driving input) timer: 16.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 16.0
+(driving input) timer: 17.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 17.0
+(driving input) timer: 18.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 18.0
+(driving input) timer: 19.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 19.0
+(driving input) timer: 20.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 20.0
+(driving input) timer: 21.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 21.0
+(driving input) timer: 22.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 22.0
+(driving input) timer: 23.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 23.0
+(driving input) timer: 24.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 24.0
+(driving input) timer: 25.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 25.0
+(driving input) timer: 26.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 26.0
+(driving input) timer: 27.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 27.0
+(driving input) timer: 28.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 28.0
+(driving input) timer: 29.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 29.0
+(driving input) timer: 30.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 30.0
+(driving input) timer: 31.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 31.0
+(driving input) timer: 32.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 32.0
+(driving input) timer: 33.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 33.0
+(driving input) timer: 34.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 34.0
+(driving input) timer: 35.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 35.0
+(driving input) timer: 36.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 36.0
+(driving input) timer: 37.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 37.0
+(driving input) timer: 38.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 38.0
+(driving input) timer: 39.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 39.0
+(driving input) timer: 40.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 40.0
+(driving input) timer: 41.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 41.0
+(driving input) timer: 42.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 42.0
+(driving input) timer: 43.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 43.0
+(driving input) timer: 44.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 44.0
+(driving input) timer: 45.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 45.0
+(driving input) timer: 46.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 46.0
+(driving input) timer: 47.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 47.0
+(driving input) timer: 48.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 48.0
+(driving input) timer: 49.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 49.0
+(driving input) timer: 50.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 50.0
+(driving input) timer: 51.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 51.0
+(driving input) timer: 52.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 52.0
+(driving input) timer: 53.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 53.0
+(driving input) timer: 54.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 54.0
+(driving input) timer: 55.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 55.0
+(driving input) timer: 56.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 56.0
+(driving input) timer: 57.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 57.0
+(driving input) timer: 58.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 58.0
+(driving input) timer: 59.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 59.0
+(driving input) timer: 60.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 60.0
+(driving input) timer: 61.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 61.0
+(driving input) timer: 62.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 62.0
+(driving input) timer: 63.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 63.0
+(driving input) timer: 64.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 64.0
+(driving input) timer: 65.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 65.0
+(driving input) timer: 66.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 66.0
+(driving input) timer: 67.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 67.0
+(driving input) timer: 68.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 68.0
+(driving input) timer: 69.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 69.0
+(driving input) timer: 70.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 70.0
+(driving input) timer: 71.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 71.0
+(driving input) timer: 72.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 72.0
+(driving input) timer: 73.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 73.0
+(driving input) timer: 74.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 74.0
+(driving input) timer: 75.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 75.0
+(driving input) timer: 76.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 76.0
+(driving input) timer: 77.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 77.0
+(driving input) timer: 78.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 78.0
+(driving input) timer: 79.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 79.0
+(driving input) timer: 80.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 80.0
+(driving input) timer: 81.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 81.0
+(driving input) timer: 82.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 82.0
+(driving input) timer: 83.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 83.0
+(driving input) timer: 84.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 84.0
+(driving input) timer: 85.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 85.0
+(driving input) timer: 86.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 86.0
+(driving input) timer: 87.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 87.0
+(driving input) timer: 88.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 88.0
+(driving input) timer: 89.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 89.0
+(driving input) timer: 90.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 90.0
+(driving input) timer: 91.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 91.0
+(driving input) timer: 92.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 92.0
+(driving input) timer: 93.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 93.0
+(driving input) timer: 94.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 94.0
+(driving input) timer: 95.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 95.0
+(driving input) timer: 96.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 96.0
+(driving input) timer: 97.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 97.0
+(driving input) timer: 98.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 98.0
+(driving input) timer: 99.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 99.0
+(driving input) timer: 100.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 100.0
+(driving input) timer: 101.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 101.0
+(driving input) timer: 102.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 102.0
+(driving input) timer: 103.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 103.0
+(driving input) timer: 104.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 104.0
+(driving input) timer: 105.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 105.0
+(driving input) timer: 106.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 106.0
+(driving input) timer: 107.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 107.0
+(driving input) timer: 108.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 108.0
+(driving input) timer: 109.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 109.0
+(driving input) timer: 110.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 110.0
+(driving input) timer: 111.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 111.0
+(driving input) timer: 112.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 112.0
+(driving input) timer: 113.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 113.0
+(driving input) timer: 114.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 114.0
+(driving input) timer: 115.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 115.0
+(driving input) timer: 116.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 116.0
+(driving input) timer: 117.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 117.0
+(driving input) timer: 118.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 118.0
+(driving input) timer: 119.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 119.0
+(driving input) timer: 120.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 120.0
+(driving input) timer: 121.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 121.0
+(driving input) timer: 122.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 122.0
+(driving input) timer: 123.0
+(getting on output) left: 1.9980052 right: 0.99268377
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 123.0
+(driving input) timer: 124.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 124.0
+(driving input) timer: 125.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 125.0
+(driving input) timer: 126.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 126.0
+(driving input) timer: 127.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 127.0
+(driving input) timer: 128.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 128.0
+(driving input) timer: 129.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 129.0
+(driving input) timer: 130.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 130.0
+(driving input) timer: 131.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 131.0
+(driving input) timer: 132.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 132.0
+(driving input) timer: 133.0
+(getting on output) left: 1.9980052 right: 1.9923579
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 133.0
+(driving input) timer: 134.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 134.0
+(driving input) timer: 135.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 135.0
+(driving input) timer: 136.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 136.0
+(driving input) timer: 137.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 137.0
+(driving input) timer: 138.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 138.0
+(driving input) timer: 139.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 139.0
+prereg loss 0.0013412877 reg_l1 12.706874 reg_l2 10.178641
+max per element loss 0.0005265353 average per element loss 4.7903136e-6
+
+
+model: sparse20-after-100-steps-matrix.ser
+number of soft links: 19
+test string: teest string.
+length of test string: 13
+temporal window: 150
+
+(driving input) timer: 0.0
+(getting on output) left: 0.0 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 0.0
+(driving input) timer: 1.0
+(getting on output) left: 0.0 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 1.0
+(driving input) timer: 2.0
+(getting on output) left: 0.0 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 2.0
+(driving input) timer: 3.0
+(getting on output) left: -0.022946358 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 3.0
+(driving input) timer: 4.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 4.0
+(driving input) timer: 5.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 5.0
+(driving input) timer: 6.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 6.0
+(driving input) timer: 7.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 7.0
+(driving input) timer: 8.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 8.0
+(driving input) timer: 9.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 9.0
+(driving input) timer: 10.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 10.0
+(driving input) timer: 11.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 11.0
+(driving input) timer: 12.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 12.0
+(driving input) timer: 13.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 13.0
+(driving input) timer: 14.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 14.0
+(driving input) timer: 15.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 15.0
+(driving input) timer: 16.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 16.0
+(driving input) timer: 17.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 17.0
+(driving input) timer: 18.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 18.0
+(driving input) timer: 19.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 19.0
+(driving input) timer: 20.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 20.0
+(driving input) timer: 21.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 21.0
+(driving input) timer: 22.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 22.0
+(driving input) timer: 23.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 23.0
+(driving input) timer: 24.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 24.0
+(driving input) timer: 25.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 25.0
+(driving input) timer: 26.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 26.0
+(driving input) timer: 27.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 27.0
+(driving input) timer: 28.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 28.0
+(driving input) timer: 29.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 29.0
+(driving input) timer: 30.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 30.0
+(driving input) timer: 31.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 31.0
+(driving input) timer: 32.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 32.0
+(driving input) timer: 33.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 33.0
+(driving input) timer: 34.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 34.0
+(driving input) timer: 35.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 35.0
+(driving input) timer: 36.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 36.0
+(driving input) timer: 37.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 37.0
+(driving input) timer: 38.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 38.0
+(driving input) timer: 39.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 39.0
+(driving input) timer: 40.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 40.0
+(driving input) timer: 41.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 41.0
+(driving input) timer: 42.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 42.0
+(driving input) timer: 43.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 43.0
+(driving input) timer: 44.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 44.0
+(driving input) timer: 45.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 45.0
+(driving input) timer: 46.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 46.0
+(driving input) timer: 47.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 47.0
+(driving input) timer: 48.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 48.0
+(driving input) timer: 49.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 49.0
+(driving input) timer: 50.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 50.0
+(driving input) timer: 51.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 51.0
+(driving input) timer: 52.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 52.0
+(driving input) timer: 53.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 53.0
+(driving input) timer: 54.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 54.0
+(driving input) timer: 55.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 55.0
+(driving input) timer: 56.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 56.0
+(driving input) timer: 57.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 57.0
+(driving input) timer: 58.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 58.0
+(driving input) timer: 59.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 59.0
+(driving input) timer: 60.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 60.0
+(driving input) timer: 61.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 61.0
+(driving input) timer: 62.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 62.0
+(driving input) timer: 63.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 63.0
+(driving input) timer: 64.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 64.0
+(driving input) timer: 65.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 65.0
+(driving input) timer: 66.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 66.0
+(driving input) timer: 67.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 67.0
+(driving input) timer: 68.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 68.0
+(driving input) timer: 69.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 69.0
+(driving input) timer: 70.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 70.0
+(driving input) timer: 71.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 71.0
+(driving input) timer: 72.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 72.0
+(driving input) timer: 73.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 73.0
+(driving input) timer: 74.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 74.0
+(driving input) timer: 75.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 75.0
+(driving input) timer: 76.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 76.0
+(driving input) timer: 77.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 77.0
+(driving input) timer: 78.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 78.0
+(driving input) timer: 79.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 79.0
+(driving input) timer: 80.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 80.0
+(driving input) timer: 81.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 81.0
+(driving input) timer: 82.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 82.0
+(driving input) timer: 83.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 83.0
+(driving input) timer: 84.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 84.0
+(driving input) timer: 85.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 85.0
+(driving input) timer: 86.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 86.0
+(driving input) timer: 87.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 87.0
+(driving input) timer: 88.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 88.0
+(driving input) timer: 89.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 89.0
+(driving input) timer: 90.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 90.0
+(driving input) timer: 91.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 91.0
+(driving input) timer: 92.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 92.0
+(driving input) timer: 93.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 93.0
+(driving input) timer: 94.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 94.0
+(driving input) timer: 95.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 95.0
+(driving input) timer: 96.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 96.0
+(driving input) timer: 97.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 97.0
+(driving input) timer: 98.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 98.0
+(driving input) timer: 99.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 99.0
+(driving input) timer: 100.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 100.0
+(driving input) timer: 101.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 101.0
+(driving input) timer: 102.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 102.0
+(driving input) timer: 103.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 103.0
+(driving input) timer: 104.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 104.0
+(driving input) timer: 105.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 105.0
+(driving input) timer: 106.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 106.0
+(driving input) timer: 107.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 107.0
+(driving input) timer: 108.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 108.0
+(driving input) timer: 109.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 109.0
+(driving input) timer: 110.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 110.0
+(driving input) timer: 111.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 111.0
+(driving input) timer: 112.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 112.0
+(driving input) timer: 113.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 113.0
+(driving input) timer: 114.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 114.0
+(driving input) timer: 115.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 115.0
+(driving input) timer: 116.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 116.0
+(driving input) timer: 117.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 117.0
+(driving input) timer: 118.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 118.0
+(driving input) timer: 119.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 119.0
+(driving input) timer: 120.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 120.0
+(driving input) timer: 121.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 121.0
+(driving input) timer: 122.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 122.0
+(driving input) timer: 123.0
+(getting on output) left: 1.9980052 right: 0.99268377
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 123.0
+(driving input) timer: 124.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 124.0
+(driving input) timer: 125.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 125.0
+(driving input) timer: 126.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 126.0
+(driving input) timer: 127.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 127.0
+(driving input) timer: 128.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 128.0
+(driving input) timer: 129.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 129.0
+(driving input) timer: 130.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 130.0
+(driving input) timer: 131.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 131.0
+(driving input) timer: 132.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 132.0
+(driving input) timer: 133.0
+(getting on output) left: 1.9980052 right: 1.9923579
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 133.0
+(driving input) timer: 134.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 134.0
+(driving input) timer: 135.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 135.0
+(driving input) timer: 136.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 136.0
+(driving input) timer: 137.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 137.0
+(driving input) timer: 138.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 138.0
+(driving input) timer: 139.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 139.0
+(driving input) timer: 140.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 140.0
+(driving input) timer: 141.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 141.0
+(driving input) timer: 142.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 142.0
+(driving input) timer: 143.0
+(getting on output) left: 1.9980052 right: 2.9920316
+(getting on output) left: 2.0 right: 3.0
+(driving input) timer: 143.0
+(driving input) timer: 144.0
+(getting on output) left: 1.9980052 right: 2.9990218
+(getting on output) left: 2.0 right: 3.0
+(driving input) timer: 144.0
+(driving input) timer: 145.0
+(getting on output) left: 1.9980052 right: 2.9990218
+(getting on output) left: 2.0 right: 3.0
+(driving input) timer: 145.0
+(driving input) timer: 146.0
+(getting on output) left: 1.9980052 right: 2.9990218
+(getting on output) left: 2.0 right: 3.0
+(driving input) timer: 146.0
+(driving input) timer: 147.0
+(getting on output) left: 1.9980052 right: 2.9990218
+(getting on output) left: 2.0 right: 3.0
+(driving input) timer: 147.0
+(driving input) timer: 148.0
+(getting on output) left: 1.9980052 right: 2.9990218
+(getting on output) left: 2.0 right: 3.0
+(driving input) timer: 148.0
+(driving input) timer: 149.0
+(getting on output) left: 1.9980052 right: 2.9990218
+(getting on output) left: 2.0 right: 3.0
+(driving input) timer: 149.0
+prereg loss 0.0014515945 reg_l1 12.706874 reg_l2 10.178641
+max per element loss 0.0005265353 average per element loss 4.8386482e-6
+
+
+model: sparse20-after-100-steps-matrix.ser
+number of soft links: 19
+test string: tets string.
+length of test string: 12
+temporal window: 140
+
+(driving input) timer: 0.0
+(getting on output) left: 0.0 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 0.0
+(driving input) timer: 1.0
+(getting on output) left: 0.0 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 1.0
+(driving input) timer: 2.0
+(getting on output) left: 0.0 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 2.0
+(driving input) timer: 3.0
+(getting on output) left: -0.022946358 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 3.0
+(driving input) timer: 4.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 4.0
+(driving input) timer: 5.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 5.0
+(driving input) timer: 6.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 6.0
+(driving input) timer: 7.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 7.0
+(driving input) timer: 8.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 8.0
+(driving input) timer: 9.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 9.0
+(driving input) timer: 10.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 10.0
+(driving input) timer: 11.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 11.0
+(driving input) timer: 12.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 12.0
+(driving input) timer: 13.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 13.0
+(driving input) timer: 14.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 14.0
+(driving input) timer: 15.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 15.0
+(driving input) timer: 16.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 16.0
+(driving input) timer: 17.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 17.0
+(driving input) timer: 18.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 18.0
+(driving input) timer: 19.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 19.0
+(driving input) timer: 20.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 20.0
+(driving input) timer: 21.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 21.0
+(driving input) timer: 22.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 22.0
+(driving input) timer: 23.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 23.0
+(driving input) timer: 24.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 24.0
+(driving input) timer: 25.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 25.0
+(driving input) timer: 26.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 26.0
+(driving input) timer: 27.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 27.0
+(driving input) timer: 28.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 28.0
+(driving input) timer: 29.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 29.0
+(driving input) timer: 30.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 30.0
+(driving input) timer: 31.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 31.0
+(driving input) timer: 32.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 32.0
+(driving input) timer: 33.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 33.0
+(driving input) timer: 34.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 34.0
+(driving input) timer: 35.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 35.0
+(driving input) timer: 36.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 36.0
+(driving input) timer: 37.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 37.0
+(driving input) timer: 38.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 38.0
+(driving input) timer: 39.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 39.0
+(driving input) timer: 40.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 40.0
+(driving input) timer: 41.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 41.0
+(driving input) timer: 42.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 42.0
+(driving input) timer: 43.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 43.0
+(driving input) timer: 44.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 44.0
+(driving input) timer: 45.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 45.0
+(driving input) timer: 46.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 46.0
+(driving input) timer: 47.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 47.0
+(driving input) timer: 48.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 48.0
+(driving input) timer: 49.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 49.0
+(driving input) timer: 50.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 50.0
+(driving input) timer: 51.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 51.0
+(driving input) timer: 52.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 52.0
+(driving input) timer: 53.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 53.0
+(driving input) timer: 54.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 54.0
+(driving input) timer: 55.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 55.0
+(driving input) timer: 56.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 56.0
+(driving input) timer: 57.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 57.0
+(driving input) timer: 58.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 58.0
+(driving input) timer: 59.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 59.0
+(driving input) timer: 60.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 60.0
+(driving input) timer: 61.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 61.0
+(driving input) timer: 62.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 62.0
+(driving input) timer: 63.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 63.0
+(driving input) timer: 64.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 64.0
+(driving input) timer: 65.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 65.0
+(driving input) timer: 66.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 66.0
+(driving input) timer: 67.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 67.0
+(driving input) timer: 68.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 68.0
+(driving input) timer: 69.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 69.0
+(driving input) timer: 70.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 70.0
+(driving input) timer: 71.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 71.0
+(driving input) timer: 72.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 72.0
+(driving input) timer: 73.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 73.0
+(driving input) timer: 74.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 74.0
+(driving input) timer: 75.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 75.0
+(driving input) timer: 76.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 76.0
+(driving input) timer: 77.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 77.0
+(driving input) timer: 78.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 78.0
+(driving input) timer: 79.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 79.0
+(driving input) timer: 80.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 80.0
+(driving input) timer: 81.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 81.0
+(driving input) timer: 82.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 82.0
+(driving input) timer: 83.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 83.0
+(driving input) timer: 84.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 84.0
+(driving input) timer: 85.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 85.0
+(driving input) timer: 86.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 86.0
+(driving input) timer: 87.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 87.0
+(driving input) timer: 88.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 88.0
+(driving input) timer: 89.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 89.0
+(driving input) timer: 90.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 90.0
+(driving input) timer: 91.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 91.0
+(driving input) timer: 92.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 92.0
+(driving input) timer: 93.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 93.0
+(driving input) timer: 94.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 94.0
+(driving input) timer: 95.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 95.0
+(driving input) timer: 96.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 96.0
+(driving input) timer: 97.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 97.0
+(driving input) timer: 98.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 98.0
+(driving input) timer: 99.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 99.0
+(driving input) timer: 100.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 100.0
+(driving input) timer: 101.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 101.0
+(driving input) timer: 102.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 102.0
+(driving input) timer: 103.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 103.0
+(driving input) timer: 104.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 104.0
+(driving input) timer: 105.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 105.0
+(driving input) timer: 106.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 106.0
+(driving input) timer: 107.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 107.0
+(driving input) timer: 108.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 108.0
+(driving input) timer: 109.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 109.0
+(driving input) timer: 110.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 110.0
+(driving input) timer: 111.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 111.0
+(driving input) timer: 112.0
+(getting on output) left: 1.9980052 right: 0.0
+(getting on output) left: 2.0 right: 0.0
+(driving input) timer: 112.0
+(driving input) timer: 113.0
+(getting on output) left: 1.9980052 right: 0.99268377
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 113.0
+(driving input) timer: 114.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 114.0
+(driving input) timer: 115.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 115.0
+(driving input) timer: 116.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 116.0
+(driving input) timer: 117.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 117.0
+(driving input) timer: 118.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 118.0
+(driving input) timer: 119.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 119.0
+(driving input) timer: 120.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 120.0
+(driving input) timer: 121.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 121.0
+(driving input) timer: 122.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 122.0
+(driving input) timer: 123.0
+(getting on output) left: 1.9980052 right: 1.9923579
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 123.0
+(driving input) timer: 124.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 124.0
+(driving input) timer: 125.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 125.0
+(driving input) timer: 126.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 126.0
+(driving input) timer: 127.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 127.0
+(driving input) timer: 128.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 128.0
+(driving input) timer: 129.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 129.0
+(driving input) timer: 130.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 130.0
+(driving input) timer: 131.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 131.0
+(driving input) timer: 132.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 132.0
+(driving input) timer: 133.0
+(getting on output) left: 1.9980052 right: 2.9920316
+(getting on output) left: 2.0 right: 3.0
+(driving input) timer: 133.0
+(driving input) timer: 134.0
+(getting on output) left: 1.9980052 right: 2.9990218
+(getting on output) left: 2.0 right: 3.0
+(driving input) timer: 134.0
+(driving input) timer: 135.0
+(getting on output) left: 1.9980052 right: 2.9990218
+(getting on output) left: 2.0 right: 3.0
+(driving input) timer: 135.0
+(driving input) timer: 136.0
+(getting on output) left: 1.9980052 right: 2.9990218
+(getting on output) left: 2.0 right: 3.0
+(driving input) timer: 136.0
+(driving input) timer: 137.0
+(getting on output) left: 1.9980052 right: 2.9990218
+(getting on output) left: 2.0 right: 3.0
+(driving input) timer: 137.0
+(driving input) timer: 138.0
+(getting on output) left: 1.9980052 right: 2.9990218
+(getting on output) left: 2.0 right: 3.0
+(driving input) timer: 138.0
+(driving input) timer: 139.0
+(getting on output) left: 1.9980052 right: 2.9990218
+(getting on output) left: 2.0 right: 3.0
+(driving input) timer: 139.0
+prereg loss 0.0014382894 reg_l1 12.706874 reg_l2 10.178641
+max per element loss 0.0005265353 average per element loss 5.136748e-6
+
+
+model: sparse20-after-100-steps-matrix.ser
+number of soft links: 19
+test string: tets. str.ingtb str.ingtb
+length of test string: 25
+temporal window: 140
+
+(driving input) timer: 0.0
+(getting on output) left: 0.0 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 0.0
+(driving input) timer: 1.0
+(getting on output) left: 0.0 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 1.0
+(driving input) timer: 2.0
+(getting on output) left: 0.0 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 2.0
+(driving input) timer: 3.0
+(getting on output) left: -0.022946358 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 3.0
+(driving input) timer: 4.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 4.0
+(driving input) timer: 5.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 5.0
+(driving input) timer: 6.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 6.0
+(driving input) timer: 7.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 7.0
+(driving input) timer: 8.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 8.0
+(driving input) timer: 9.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 9.0
+(driving input) timer: 10.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 10.0
+(driving input) timer: 11.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 11.0
+(driving input) timer: 12.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 12.0
+(driving input) timer: 13.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 13.0
+(driving input) timer: 14.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 14.0
+(driving input) timer: 15.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 15.0
+(driving input) timer: 16.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 16.0
+(driving input) timer: 17.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 17.0
+(driving input) timer: 18.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 18.0
+(driving input) timer: 19.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 19.0
+(driving input) timer: 20.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 20.0
+(driving input) timer: 21.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 21.0
+(driving input) timer: 22.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 22.0
+(driving input) timer: 23.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 23.0
+(driving input) timer: 24.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 24.0
+(driving input) timer: 25.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 25.0
+(driving input) timer: 26.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 26.0
+(driving input) timer: 27.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 27.0
+(driving input) timer: 28.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 28.0
+(driving input) timer: 29.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 29.0
+(driving input) timer: 30.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 30.0
+(driving input) timer: 31.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 31.0
+(driving input) timer: 32.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 32.0
+(driving input) timer: 33.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 33.0
+(driving input) timer: 34.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 34.0
+(driving input) timer: 35.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 35.0
+(driving input) timer: 36.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 36.0
+(driving input) timer: 37.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 37.0
+(driving input) timer: 38.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 38.0
+(driving input) timer: 39.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 39.0
+(driving input) timer: 40.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 40.0
+(driving input) timer: 41.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 41.0
+(driving input) timer: 42.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 42.0
+(driving input) timer: 43.0
+(getting on output) left: 1.0011535 right: 0.99268377
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 43.0
+(driving input) timer: 44.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 44.0
+(driving input) timer: 45.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 45.0
+(driving input) timer: 46.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 46.0
+(driving input) timer: 47.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 47.0
+(driving input) timer: 48.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 48.0
+(driving input) timer: 49.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 49.0
+(driving input) timer: 50.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 50.0
+(driving input) timer: 51.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 51.0
+(driving input) timer: 52.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 52.0
+(driving input) timer: 53.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 53.0
+(driving input) timer: 54.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 54.0
+(driving input) timer: 55.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 55.0
+(driving input) timer: 56.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 56.0
+(driving input) timer: 57.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 57.0
+(driving input) timer: 58.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 58.0
+(driving input) timer: 59.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 59.0
+(driving input) timer: 60.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 60.0
+(driving input) timer: 61.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 61.0
+(driving input) timer: 62.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 62.0
+(driving input) timer: 63.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 63.0
+(driving input) timer: 64.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 64.0
+(driving input) timer: 65.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 65.0
+(driving input) timer: 66.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 66.0
+(driving input) timer: 67.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 67.0
+(driving input) timer: 68.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 68.0
+(driving input) timer: 69.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 69.0
+(driving input) timer: 70.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 70.0
+(driving input) timer: 71.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 71.0
+(driving input) timer: 72.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 72.0
+(driving input) timer: 73.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 73.0
+(driving input) timer: 74.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 74.0
+(driving input) timer: 75.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 75.0
+(driving input) timer: 76.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 76.0
+(driving input) timer: 77.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 77.0
+(driving input) timer: 78.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 78.0
+(driving input) timer: 79.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 79.0
+(driving input) timer: 80.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 80.0
+(driving input) timer: 81.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 81.0
+(driving input) timer: 82.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 82.0
+(driving input) timer: 83.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 83.0
+(driving input) timer: 84.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 84.0
+(driving input) timer: 85.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 85.0
+(driving input) timer: 86.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 86.0
+(driving input) timer: 87.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 87.0
+(driving input) timer: 88.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 88.0
+(driving input) timer: 89.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 89.0
+(driving input) timer: 90.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 90.0
+(driving input) timer: 91.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 91.0
+(driving input) timer: 92.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 92.0
+(driving input) timer: 93.0
+(getting on output) left: 1.9980052 right: 1.9923579
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 93.0
+(driving input) timer: 94.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 94.0
+(driving input) timer: 95.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 95.0
+(driving input) timer: 96.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 96.0
+(driving input) timer: 97.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 97.0
+(driving input) timer: 98.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 98.0
+(driving input) timer: 99.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 99.0
+(driving input) timer: 100.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 100.0
+(driving input) timer: 101.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 101.0
+(driving input) timer: 102.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 102.0
+(driving input) timer: 103.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 103.0
+(driving input) timer: 104.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 104.0
+(driving input) timer: 105.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 105.0
+(driving input) timer: 106.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 106.0
+(driving input) timer: 107.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 107.0
+(driving input) timer: 108.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 108.0
+(driving input) timer: 109.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 109.0
+(driving input) timer: 110.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 110.0
+(driving input) timer: 111.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 111.0
+(driving input) timer: 112.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 112.0
+(driving input) timer: 113.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 113.0
+(driving input) timer: 114.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 114.0
+(driving input) timer: 115.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 115.0
+(driving input) timer: 116.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 116.0
+(driving input) timer: 117.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 117.0
+(driving input) timer: 118.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 118.0
+(driving input) timer: 119.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 119.0
+(driving input) timer: 120.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 120.0
+(driving input) timer: 121.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 121.0
+(driving input) timer: 122.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 122.0
+(driving input) timer: 123.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 123.0
+(driving input) timer: 124.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 124.0
+(driving input) timer: 125.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 125.0
+(driving input) timer: 126.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 126.0
+(driving input) timer: 127.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 127.0
+(driving input) timer: 128.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 128.0
+(driving input) timer: 129.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 129.0
+(driving input) timer: 130.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 130.0
+(driving input) timer: 131.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 131.0
+(driving input) timer: 132.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 132.0
+(driving input) timer: 133.0
+(getting on output) left: 1.0284019 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 133.0
+(driving input) timer: 134.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 134.0
+(driving input) timer: 135.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 135.0
+(driving input) timer: 136.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 136.0
+(driving input) timer: 137.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 137.0
+(driving input) timer: 138.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 138.0
+(driving input) timer: 139.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 139.0
+prereg loss 1.6212574 reg_l1 12.706874 reg_l2 10.178641
+max per element loss 0.944003 average per element loss 0.005790205
+
+
+model: sparse20-after-100-steps-matrix.ser
+number of soft links: 19
+test string: tets. str.ingtb str.ingtb
+length of test string: 25
+temporal window: 180
+
+(driving input) timer: 0.0
+(getting on output) left: 0.0 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 0.0
+(driving input) timer: 1.0
+(getting on output) left: 0.0 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 1.0
+(driving input) timer: 2.0
+(getting on output) left: 0.0 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 2.0
+(driving input) timer: 3.0
+(getting on output) left: -0.022946358 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 3.0
+(driving input) timer: 4.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 4.0
+(driving input) timer: 5.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 5.0
+(driving input) timer: 6.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 6.0
+(driving input) timer: 7.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 7.0
+(driving input) timer: 8.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 8.0
+(driving input) timer: 9.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 9.0
+(driving input) timer: 10.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 10.0
+(driving input) timer: 11.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 11.0
+(driving input) timer: 12.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 12.0
+(driving input) timer: 13.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 13.0
+(driving input) timer: 14.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 14.0
+(driving input) timer: 15.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 15.0
+(driving input) timer: 16.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 16.0
+(driving input) timer: 17.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 17.0
+(driving input) timer: 18.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 18.0
+(driving input) timer: 19.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 19.0
+(driving input) timer: 20.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 20.0
+(driving input) timer: 21.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 21.0
+(driving input) timer: 22.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 22.0
+(driving input) timer: 23.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 23.0
+(driving input) timer: 24.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 24.0
+(driving input) timer: 25.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 25.0
+(driving input) timer: 26.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 26.0
+(driving input) timer: 27.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 27.0
+(driving input) timer: 28.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 28.0
+(driving input) timer: 29.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 29.0
+(driving input) timer: 30.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 30.0
+(driving input) timer: 31.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 31.0
+(driving input) timer: 32.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 32.0
+(driving input) timer: 33.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 33.0
+(driving input) timer: 34.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 34.0
+(driving input) timer: 35.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 35.0
+(driving input) timer: 36.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 36.0
+(driving input) timer: 37.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 37.0
+(driving input) timer: 38.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 38.0
+(driving input) timer: 39.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 39.0
+(driving input) timer: 40.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 40.0
+(driving input) timer: 41.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 41.0
+(driving input) timer: 42.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 42.0
+(driving input) timer: 43.0
+(getting on output) left: 1.0011535 right: 0.99268377
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 43.0
+(driving input) timer: 44.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 44.0
+(driving input) timer: 45.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 45.0
+(driving input) timer: 46.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 46.0
+(driving input) timer: 47.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 47.0
+(driving input) timer: 48.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 48.0
+(driving input) timer: 49.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 49.0
+(driving input) timer: 50.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 50.0
+(driving input) timer: 51.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 51.0
+(driving input) timer: 52.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 52.0
+(driving input) timer: 53.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 53.0
+(driving input) timer: 54.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 54.0
+(driving input) timer: 55.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 55.0
+(driving input) timer: 56.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 56.0
+(driving input) timer: 57.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 57.0
+(driving input) timer: 58.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 58.0
+(driving input) timer: 59.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 59.0
+(driving input) timer: 60.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 60.0
+(driving input) timer: 61.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 61.0
+(driving input) timer: 62.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 62.0
+(driving input) timer: 63.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 63.0
+(driving input) timer: 64.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 64.0
+(driving input) timer: 65.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 65.0
+(driving input) timer: 66.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 66.0
+(driving input) timer: 67.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 67.0
+(driving input) timer: 68.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 68.0
+(driving input) timer: 69.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 69.0
+(driving input) timer: 70.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 70.0
+(driving input) timer: 71.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 71.0
+(driving input) timer: 72.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 72.0
+(driving input) timer: 73.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 73.0
+(driving input) timer: 74.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 74.0
+(driving input) timer: 75.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 75.0
+(driving input) timer: 76.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 76.0
+(driving input) timer: 77.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 77.0
+(driving input) timer: 78.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 78.0
+(driving input) timer: 79.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 79.0
+(driving input) timer: 80.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 80.0
+(driving input) timer: 81.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 81.0
+(driving input) timer: 82.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 82.0
+(driving input) timer: 83.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 83.0
+(driving input) timer: 84.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 84.0
+(driving input) timer: 85.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 85.0
+(driving input) timer: 86.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 86.0
+(driving input) timer: 87.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 87.0
+(driving input) timer: 88.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 88.0
+(driving input) timer: 89.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 89.0
+(driving input) timer: 90.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 90.0
+(driving input) timer: 91.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 91.0
+(driving input) timer: 92.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 92.0
+(driving input) timer: 93.0
+(getting on output) left: 1.9980052 right: 1.9923579
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 93.0
+(driving input) timer: 94.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 94.0
+(driving input) timer: 95.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 95.0
+(driving input) timer: 96.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 96.0
+(driving input) timer: 97.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 97.0
+(driving input) timer: 98.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 98.0
+(driving input) timer: 99.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 99.0
+(driving input) timer: 100.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 100.0
+(driving input) timer: 101.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 101.0
+(driving input) timer: 102.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 102.0
+(driving input) timer: 103.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 103.0
+(driving input) timer: 104.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 104.0
+(driving input) timer: 105.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 105.0
+(driving input) timer: 106.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 106.0
+(driving input) timer: 107.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 107.0
+(driving input) timer: 108.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 108.0
+(driving input) timer: 109.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 109.0
+(driving input) timer: 110.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 110.0
+(driving input) timer: 111.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 111.0
+(driving input) timer: 112.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 112.0
+(driving input) timer: 113.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 113.0
+(driving input) timer: 114.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 114.0
+(driving input) timer: 115.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 115.0
+(driving input) timer: 116.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 116.0
+(driving input) timer: 117.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 117.0
+(driving input) timer: 118.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 118.0
+(driving input) timer: 119.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 119.0
+(driving input) timer: 120.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 120.0
+(driving input) timer: 121.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 121.0
+(driving input) timer: 122.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 122.0
+(driving input) timer: 123.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 123.0
+(driving input) timer: 124.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 124.0
+(driving input) timer: 125.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 125.0
+(driving input) timer: 126.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 126.0
+(driving input) timer: 127.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 127.0
+(driving input) timer: 128.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 128.0
+(driving input) timer: 129.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 129.0
+(driving input) timer: 130.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 130.0
+(driving input) timer: 131.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 131.0
+(driving input) timer: 132.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 132.0
+(driving input) timer: 133.0
+(getting on output) left: 1.0284019 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 133.0
+(driving input) timer: 134.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 134.0
+(driving input) timer: 135.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 135.0
+(driving input) timer: 136.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 136.0
+(driving input) timer: 137.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 137.0
+(driving input) timer: 138.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 138.0
+(driving input) timer: 139.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 139.0
+(driving input) timer: 140.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 140.0
+(driving input) timer: 141.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 141.0
+(driving input) timer: 142.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 142.0
+(driving input) timer: 143.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 143.0
+(driving input) timer: 144.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 144.0
+(driving input) timer: 145.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 145.0
+(driving input) timer: 146.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 146.0
+(driving input) timer: 147.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 147.0
+(driving input) timer: 148.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 148.0
+(driving input) timer: 149.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 149.0
+(driving input) timer: 150.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 150.0
+(driving input) timer: 151.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 151.0
+(driving input) timer: 152.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 152.0
+(driving input) timer: 153.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 153.0
+(driving input) timer: 154.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 154.0
+(driving input) timer: 155.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 155.0
+(driving input) timer: 156.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 156.0
+(driving input) timer: 157.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 157.0
+(driving input) timer: 158.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 158.0
+(driving input) timer: 159.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 159.0
+(driving input) timer: 160.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 160.0
+(driving input) timer: 161.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 161.0
+(driving input) timer: 162.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 162.0
+(driving input) timer: 163.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 163.0
+(driving input) timer: 164.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 164.0
+(driving input) timer: 165.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 165.0
+(driving input) timer: 166.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 166.0
+(driving input) timer: 167.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 167.0
+(driving input) timer: 168.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 168.0
+(driving input) timer: 169.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 169.0
+(driving input) timer: 170.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 170.0
+(driving input) timer: 171.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 171.0
+(driving input) timer: 172.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 172.0
+(driving input) timer: 173.0
+(getting on output) left: 2.0164783 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 173.0
+(driving input) timer: 174.0
+(getting on output) left: 3.330452 right: 1.999348
+(getting on output) left: 4.0 right: 2.0
+(driving input) timer: 174.0
+(driving input) timer: 175.0
+(getting on output) left: 3.330452 right: 1.999348
+(getting on output) left: 4.0 right: 2.0
+(driving input) timer: 175.0
+(driving input) timer: 176.0
+(getting on output) left: 3.330452 right: 1.999348
+(getting on output) left: 4.0 right: 2.0
+(driving input) timer: 176.0
+(driving input) timer: 177.0
+(getting on output) left: 3.330452 right: 1.999348
+(getting on output) left: 4.0 right: 2.0
+(driving input) timer: 177.0
+(driving input) timer: 178.0
+(getting on output) left: 3.330452 right: 1.999348
+(getting on output) left: 4.0 right: 2.0
+(driving input) timer: 178.0
+(driving input) timer: 179.0
+(getting on output) left: 3.330452 right: 1.999348
+(getting on output) left: 4.0 right: 2.0
+(driving input) timer: 179.0
+prereg loss 8.995915 reg_l1 12.706874 reg_l2 10.178641
+max per element loss 0.96731496 average per element loss 0.024988653
+
+
+model: sparse20-after-100-steps-matrix.ser
+number of soft links: 19
+test string: tets. str.ingtb str.ingtb
+length of test string: 25
+temporal window: 250
+
+(driving input) timer: 0.0
+(getting on output) left: 0.0 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 0.0
+(driving input) timer: 1.0
+(getting on output) left: 0.0 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 1.0
+(driving input) timer: 2.0
+(getting on output) left: 0.0 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 2.0
+(driving input) timer: 3.0
+(getting on output) left: -0.022946358 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 3.0
+(driving input) timer: 4.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 4.0
+(driving input) timer: 5.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 5.0
+(driving input) timer: 6.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 6.0
+(driving input) timer: 7.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 7.0
+(driving input) timer: 8.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 8.0
+(driving input) timer: 9.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 9.0
+(driving input) timer: 10.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 10.0
+(driving input) timer: 11.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 11.0
+(driving input) timer: 12.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 12.0
+(driving input) timer: 13.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 13.0
+(driving input) timer: 14.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 14.0
+(driving input) timer: 15.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 15.0
+(driving input) timer: 16.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 16.0
+(driving input) timer: 17.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 17.0
+(driving input) timer: 18.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 18.0
+(driving input) timer: 19.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 19.0
+(driving input) timer: 20.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 20.0
+(driving input) timer: 21.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 21.0
+(driving input) timer: 22.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 22.0
+(driving input) timer: 23.0
+(getting on output) left: 0.004302025 right: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 23.0
+(driving input) timer: 24.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 24.0
+(driving input) timer: 25.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 25.0
+(driving input) timer: 26.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 26.0
+(driving input) timer: 27.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 27.0
+(driving input) timer: 28.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 28.0
+(driving input) timer: 29.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 29.0
+(driving input) timer: 30.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 30.0
+(driving input) timer: 31.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 31.0
+(driving input) timer: 32.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 32.0
+(driving input) timer: 33.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 33.0
+(driving input) timer: 34.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 34.0
+(driving input) timer: 35.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 35.0
+(driving input) timer: 36.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 36.0
+(driving input) timer: 37.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 37.0
+(driving input) timer: 38.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 38.0
+(driving input) timer: 39.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 39.0
+(driving input) timer: 40.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 40.0
+(driving input) timer: 41.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 41.0
+(driving input) timer: 42.0
+(getting on output) left: 1.0011535 right: 0.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 42.0
+(driving input) timer: 43.0
+(getting on output) left: 1.0011535 right: 0.99268377
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 43.0
+(driving input) timer: 44.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 44.0
+(driving input) timer: 45.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 45.0
+(driving input) timer: 46.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 46.0
+(driving input) timer: 47.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 47.0
+(driving input) timer: 48.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 48.0
+(driving input) timer: 49.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 49.0
+(driving input) timer: 50.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 50.0
+(driving input) timer: 51.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 51.0
+(driving input) timer: 52.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 52.0
+(driving input) timer: 53.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 53.0
+(driving input) timer: 54.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 54.0
+(driving input) timer: 55.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 55.0
+(driving input) timer: 56.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 56.0
+(driving input) timer: 57.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 57.0
+(driving input) timer: 58.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 58.0
+(driving input) timer: 59.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 59.0
+(driving input) timer: 60.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 60.0
+(driving input) timer: 61.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 61.0
+(driving input) timer: 62.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 62.0
+(driving input) timer: 63.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 63.0
+(driving input) timer: 64.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 64.0
+(driving input) timer: 65.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 65.0
+(driving input) timer: 66.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 66.0
+(driving input) timer: 67.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 67.0
+(driving input) timer: 68.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 68.0
+(driving input) timer: 69.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 69.0
+(driving input) timer: 70.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 70.0
+(driving input) timer: 71.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 71.0
+(driving input) timer: 72.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 72.0
+(driving input) timer: 73.0
+(getting on output) left: 1.0011535 right: 0.999674
+(getting on output) left: 1.0 right: 1.0
+(driving input) timer: 73.0
+(driving input) timer: 74.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 74.0
+(driving input) timer: 75.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 75.0
+(driving input) timer: 76.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 76.0
+(driving input) timer: 77.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 77.0
+(driving input) timer: 78.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 78.0
+(driving input) timer: 79.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 79.0
+(driving input) timer: 80.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 80.0
+(driving input) timer: 81.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 81.0
+(driving input) timer: 82.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 82.0
+(driving input) timer: 83.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 83.0
+(driving input) timer: 84.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 84.0
+(driving input) timer: 85.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 85.0
+(driving input) timer: 86.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 86.0
+(driving input) timer: 87.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 87.0
+(driving input) timer: 88.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 88.0
+(driving input) timer: 89.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 89.0
+(driving input) timer: 90.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 90.0
+(driving input) timer: 91.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 91.0
+(driving input) timer: 92.0
+(getting on output) left: 1.9980052 right: 0.999674
+(getting on output) left: 2.0 right: 1.0
+(driving input) timer: 92.0
+(driving input) timer: 93.0
+(getting on output) left: 1.9980052 right: 1.9923579
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 93.0
+(driving input) timer: 94.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 94.0
+(driving input) timer: 95.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 95.0
+(driving input) timer: 96.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 96.0
+(driving input) timer: 97.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 97.0
+(driving input) timer: 98.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 98.0
+(driving input) timer: 99.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 99.0
+(driving input) timer: 100.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 100.0
+(driving input) timer: 101.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 101.0
+(driving input) timer: 102.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 102.0
+(driving input) timer: 103.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 103.0
+(driving input) timer: 104.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 104.0
+(driving input) timer: 105.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 105.0
+(driving input) timer: 106.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 106.0
+(driving input) timer: 107.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 107.0
+(driving input) timer: 108.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 108.0
+(driving input) timer: 109.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 109.0
+(driving input) timer: 110.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 110.0
+(driving input) timer: 111.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 111.0
+(driving input) timer: 112.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 112.0
+(driving input) timer: 113.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 113.0
+(driving input) timer: 114.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 114.0
+(driving input) timer: 115.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 115.0
+(driving input) timer: 116.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 116.0
+(driving input) timer: 117.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 117.0
+(driving input) timer: 118.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 118.0
+(driving input) timer: 119.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 119.0
+(driving input) timer: 120.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 120.0
+(driving input) timer: 121.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 121.0
+(driving input) timer: 122.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 122.0
+(driving input) timer: 123.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 123.0
+(driving input) timer: 124.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 124.0
+(driving input) timer: 125.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 125.0
+(driving input) timer: 126.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 126.0
+(driving input) timer: 127.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 127.0
+(driving input) timer: 128.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 128.0
+(driving input) timer: 129.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 129.0
+(driving input) timer: 130.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 130.0
+(driving input) timer: 131.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 131.0
+(driving input) timer: 132.0
+(getting on output) left: 1.9980052 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 132.0
+(driving input) timer: 133.0
+(getting on output) left: 1.0284019 right: 1.999348
+(getting on output) left: 2.0 right: 2.0
+(driving input) timer: 133.0
+(driving input) timer: 134.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 134.0
+(driving input) timer: 135.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 135.0
+(driving input) timer: 136.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 136.0
+(driving input) timer: 137.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 137.0
+(driving input) timer: 138.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 138.0
+(driving input) timer: 139.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 139.0
+(driving input) timer: 140.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 140.0
+(driving input) timer: 141.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 141.0
+(driving input) timer: 142.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 142.0
+(driving input) timer: 143.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 143.0
+(driving input) timer: 144.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 144.0
+(driving input) timer: 145.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 145.0
+(driving input) timer: 146.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 146.0
+(driving input) timer: 147.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 147.0
+(driving input) timer: 148.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 148.0
+(driving input) timer: 149.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 149.0
+(driving input) timer: 150.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 150.0
+(driving input) timer: 151.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 151.0
+(driving input) timer: 152.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 152.0
+(driving input) timer: 153.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 153.0
+(driving input) timer: 154.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 154.0
+(driving input) timer: 155.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 155.0
+(driving input) timer: 156.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 156.0
+(driving input) timer: 157.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 157.0
+(driving input) timer: 158.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 158.0
+(driving input) timer: 159.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 159.0
+(driving input) timer: 160.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 160.0
+(driving input) timer: 161.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 161.0
+(driving input) timer: 162.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 162.0
+(driving input) timer: 163.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 163.0
+(driving input) timer: 164.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 164.0
+(driving input) timer: 165.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 165.0
+(driving input) timer: 166.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 166.0
+(driving input) timer: 167.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 167.0
+(driving input) timer: 168.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 168.0
+(driving input) timer: 169.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 169.0
+(driving input) timer: 170.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 170.0
+(driving input) timer: 171.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 171.0
+(driving input) timer: 172.0
+(getting on output) left: 2.6643615 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 172.0
+(driving input) timer: 173.0
+(getting on output) left: 2.0164783 right: 1.999348
+(getting on output) left: 3.0 right: 2.0
+(driving input) timer: 173.0
+(driving input) timer: 174.0
+(getting on output) left: 3.330452 right: 1.999348
+(getting on output) left: 4.0 right: 2.0
+(driving input) timer: 174.0
+(driving input) timer: 175.0
+(getting on output) left: 3.330452 right: 1.999348
+(getting on output) left: 4.0 right: 2.0
+(driving input) timer: 175.0
+(driving input) timer: 176.0
+(getting on output) left: 3.330452 right: 1.999348
+(getting on output) left: 4.0 right: 2.0
+(driving input) timer: 176.0
+(driving input) timer: 177.0
+(getting on output) left: 3.330452 right: 1.999348
+(getting on output) left: 4.0 right: 2.0
+(driving input) timer: 177.0
+(driving input) timer: 178.0
+(getting on output) left: 3.330452 right: 1.999348
+(getting on output) left: 4.0 right: 2.0
+(driving input) timer: 178.0
+(driving input) timer: 179.0
+(getting on output) left: 3.330452 right: 1.999348
+(getting on output) left: 4.0 right: 2.0
+(driving input) timer: 179.0
+(driving input) timer: 180.0
+(getting on output) left: 3.330452 right: 1.999348
+(getting on output) left: 4.0 right: 2.0
+(driving input) timer: 180.0
+(driving input) timer: 181.0
+(getting on output) left: 3.330452 right: 1.999348
+(getting on output) left: 4.0 right: 2.0
+(driving input) timer: 181.0
+(driving input) timer: 182.0
+(getting on output) left: 3.330452 right: 1.999348
+(getting on output) left: 4.0 right: 2.0
+(driving input) timer: 182.0
+(driving input) timer: 183.0
+(getting on output) left: 3.330452 right: 1.999348
+(getting on output) left: 4.0 right: 2.0
+(driving input) timer: 183.0
+(driving input) timer: 184.0
+(getting on output) left: 3.330452 right: 1.999348
+(getting on output) left: 4.0 right: 2.0
+(driving input) timer: 184.0
+(driving input) timer: 185.0
+(getting on output) left: 3.330452 right: 1.999348
+(getting on output) left: 4.0 right: 2.0
+(driving input) timer: 185.0
+(driving input) timer: 186.0
+(getting on output) left: 3.330452 right: 1.999348
+(getting on output) left: 4.0 right: 2.0
+(driving input) timer: 186.0
+(driving input) timer: 187.0
+(getting on output) left: 3.330452 right: 1.999348
+(getting on output) left: 4.0 right: 2.0
+(driving input) timer: 187.0
+(driving input) timer: 188.0
+(getting on output) left: 3.330452 right: 1.999348
+(getting on output) left: 4.0 right: 2.0
+(driving input) timer: 188.0
+(driving input) timer: 189.0
+(getting on output) left: 3.330452 right: 1.999348
+(getting on output) left: 4.0 right: 2.0
+(driving input) timer: 189.0
+(driving input) timer: 190.0
+(getting on output) left: 3.330452 right: 1.999348
+(getting on output) left: 4.0 right: 2.0
+(driving input) timer: 190.0
+(driving input) timer: 191.0
+(getting on output) left: 3.330452 right: 1.999348
+(getting on output) left: 4.0 right: 2.0
+(driving input) timer: 191.0
+(driving input) timer: 192.0
+(getting on output) left: 3.330452 right: 1.999348
+(getting on output) left: 4.0 right: 2.0
+(driving input) timer: 192.0
+(driving input) timer: 193.0
+(getting on output) left: 3.330452 right: 2.9920316
+(getting on output) left: 4.0 right: 3.0
+(driving input) timer: 193.0
+(driving input) timer: 194.0
+(getting on output) left: 3.330452 right: 2.9990218
+(getting on output) left: 4.0 right: 3.0
+(driving input) timer: 194.0
+(driving input) timer: 195.0
+(getting on output) left: 3.330452 right: 2.9990218
+(getting on output) left: 4.0 right: 3.0
+(driving input) timer: 195.0
+(driving input) timer: 196.0
+(getting on output) left: 3.330452 right: 2.9990218
+(getting on output) left: 4.0 right: 3.0
+(driving input) timer: 196.0
+(driving input) timer: 197.0
+(getting on output) left: 3.330452 right: 2.9990218
+(getting on output) left: 4.0 right: 3.0
+(driving input) timer: 197.0
+(driving input) timer: 198.0
+(getting on output) left: 3.330452 right: 2.9990218
+(getting on output) left: 4.0 right: 3.0
+(driving input) timer: 198.0
+(driving input) timer: 199.0
+(getting on output) left: 3.330452 right: 2.9990218
+(getting on output) left: 4.0 right: 3.0
+(driving input) timer: 199.0
+(driving input) timer: 200.0
+(getting on output) left: 3.330452 right: 2.9990218
+(getting on output) left: 4.0 right: 3.0
+(driving input) timer: 200.0
+(driving input) timer: 201.0
+(getting on output) left: 3.330452 right: 2.9990218
+(getting on output) left: 4.0 right: 3.0
+(driving input) timer: 201.0
+(driving input) timer: 202.0
+(getting on output) left: 3.330452 right: 2.9990218
+(getting on output) left: 4.0 right: 3.0
+(driving input) timer: 202.0
+(driving input) timer: 203.0
+(getting on output) left: 3.330452 right: 2.9990218
+(getting on output) left: 4.0 right: 3.0
+(driving input) timer: 203.0
+(driving input) timer: 204.0
+(getting on output) left: 3.330452 right: 2.9990218
+(getting on output) left: 4.0 right: 3.0
+(driving input) timer: 204.0
+(driving input) timer: 205.0
+(getting on output) left: 3.330452 right: 2.9990218
+(getting on output) left: 4.0 right: 3.0
+(driving input) timer: 205.0
+(driving input) timer: 206.0
+(getting on output) left: 3.330452 right: 2.9990218
+(getting on output) left: 4.0 right: 3.0
+(driving input) timer: 206.0
+(driving input) timer: 207.0
+(getting on output) left: 3.330452 right: 2.9990218
+(getting on output) left: 4.0 right: 3.0
+(driving input) timer: 207.0
+(driving input) timer: 208.0
+(getting on output) left: 3.330452 right: 2.9990218
+(getting on output) left: 4.0 right: 3.0
+(driving input) timer: 208.0
+(driving input) timer: 209.0
+(getting on output) left: 3.330452 right: 2.9990218
+(getting on output) left: 4.0 right: 3.0
+(driving input) timer: 209.0
+(driving input) timer: 210.0
+(getting on output) left: 3.330452 right: 2.9990218
+(getting on output) left: 4.0 right: 3.0
+(driving input) timer: 210.0
+(driving input) timer: 211.0
+(getting on output) left: 3.330452 right: 2.9990218
+(getting on output) left: 4.0 right: 3.0
+(driving input) timer: 211.0
+(driving input) timer: 212.0
+(getting on output) left: 3.330452 right: 2.9990218
+(getting on output) left: 4.0 right: 3.0
+(driving input) timer: 212.0
+(driving input) timer: 213.0
+(getting on output) left: 3.330452 right: 2.9990218
+(getting on output) left: 4.0 right: 3.0
+(driving input) timer: 213.0
+(driving input) timer: 214.0
+(getting on output) left: 3.330452 right: 2.9990218
+(getting on output) left: 4.0 right: 3.0
+(driving input) timer: 214.0
+(driving input) timer: 215.0
+(getting on output) left: 3.330452 right: 2.9990218
+(getting on output) left: 4.0 right: 3.0
+(driving input) timer: 215.0
+(driving input) timer: 216.0
+(getting on output) left: 3.330452 right: 2.9990218
+(getting on output) left: 4.0 right: 3.0
+(driving input) timer: 216.0
+(driving input) timer: 217.0
+(getting on output) left: 3.330452 right: 2.9990218
+(getting on output) left: 4.0 right: 3.0
+(driving input) timer: 217.0
+(driving input) timer: 218.0
+(getting on output) left: 3.330452 right: 2.9990218
+(getting on output) left: 4.0 right: 3.0
+(driving input) timer: 218.0
+(driving input) timer: 219.0
+(getting on output) left: 3.330452 right: 2.9990218
+(getting on output) left: 4.0 right: 3.0
+(driving input) timer: 219.0
+(driving input) timer: 220.0
+(getting on output) left: 3.330452 right: 2.9990218
+(getting on output) left: 4.0 right: 3.0
+(driving input) timer: 220.0
+(driving input) timer: 221.0
+(getting on output) left: 3.330452 right: 2.9990218
+(getting on output) left: 4.0 right: 3.0
+(driving input) timer: 221.0
+(driving input) timer: 222.0
+(getting on output) left: 3.330452 right: 2.9990218
+(getting on output) left: 4.0 right: 3.0
+(driving input) timer: 222.0
+(driving input) timer: 223.0
+(getting on output) left: 3.330452 right: 2.9990218
+(getting on output) left: 4.0 right: 3.0
+(driving input) timer: 223.0
+(driving input) timer: 224.0
+(getting on output) left: 3.330452 right: 2.9990218
+(getting on output) left: 4.0 right: 3.0
+(driving input) timer: 224.0
+(driving input) timer: 225.0
+(getting on output) left: 3.330452 right: 2.9990218
+(getting on output) left: 4.0 right: 3.0
+(driving input) timer: 225.0
+(driving input) timer: 226.0
+(getting on output) left: 3.330452 right: 2.9990218
+(getting on output) left: 4.0 right: 3.0
+(driving input) timer: 226.0
+(driving input) timer: 227.0
+(getting on output) left: 3.330452 right: 2.9990218
+(getting on output) left: 4.0 right: 3.0
+(driving input) timer: 227.0
+(driving input) timer: 228.0
+(getting on output) left: 3.330452 right: 2.9990218
+(getting on output) left: 4.0 right: 3.0
+(driving input) timer: 228.0
+(driving input) timer: 229.0
+(getting on output) left: 3.330452 right: 2.9990218
+(getting on output) left: 4.0 right: 3.0
+(driving input) timer: 229.0
+(driving input) timer: 230.0
+(getting on output) left: 3.330452 right: 2.9990218
+(getting on output) left: 4.0 right: 3.0
+(driving input) timer: 230.0
+(driving input) timer: 231.0
+(getting on output) left: 3.330452 right: 2.9990218
+(getting on output) left: 4.0 right: 3.0
+(driving input) timer: 231.0
+(driving input) timer: 232.0
+(getting on output) left: 3.330452 right: 2.9990218
+(getting on output) left: 4.0 right: 3.0
+(driving input) timer: 232.0
+(driving input) timer: 233.0
+(getting on output) left: 2.6825688 right: 2.9990218
+(getting on output) left: 4.0 right: 3.0
+(driving input) timer: 233.0
+(driving input) timer: 234.0
+(getting on output) left: 3.9965422 right: 2.9990218
+(getting on output) left: 5.0 right: 3.0
+(driving input) timer: 234.0
+(driving input) timer: 235.0
+(getting on output) left: 3.9965422 right: 2.9990218
+(getting on output) left: 5.0 right: 3.0
+(driving input) timer: 235.0
+(driving input) timer: 236.0
+(getting on output) left: 3.9965422 right: 2.9990218
+(getting on output) left: 5.0 right: 3.0
+(driving input) timer: 236.0
+(driving input) timer: 237.0
+(getting on output) left: 3.9965422 right: 2.9990218
+(getting on output) left: 5.0 right: 3.0
+(driving input) timer: 237.0
+(driving input) timer: 238.0
+(getting on output) left: 3.9965422 right: 2.9990218
+(getting on output) left: 5.0 right: 3.0
+(driving input) timer: 238.0
+(driving input) timer: 239.0
+(getting on output) left: 3.9965422 right: 2.9990218
+(getting on output) left: 5.0 right: 3.0
+(driving input) timer: 239.0
+(driving input) timer: 240.0
+(getting on output) left: 3.9965422 right: 2.9990218
+(getting on output) left: 5.0 right: 3.0
+(driving input) timer: 240.0
+(driving input) timer: 241.0
+(getting on output) left: 3.9965422 right: 2.9990218
+(getting on output) left: 5.0 right: 3.0
+(driving input) timer: 241.0
+(driving input) timer: 242.0
+(getting on output) left: 3.9965422 right: 2.9990218
+(getting on output) left: 5.0 right: 3.0
+(driving input) timer: 242.0
+(driving input) timer: 243.0
+(getting on output) left: 3.9965422 right: 2.9990218
+(getting on output) left: 5.0 right: 3.0
+(driving input) timer: 243.0
+(driving input) timer: 244.0
+(getting on output) left: 3.9965422 right: 2.9990218
+(getting on output) left: 5.0 right: 3.0
+(driving input) timer: 244.0
+(driving input) timer: 245.0
+(getting on output) left: 3.9965422 right: 2.9990218
+(getting on output) left: 5.0 right: 3.0
+(driving input) timer: 245.0
+(driving input) timer: 246.0
+(getting on output) left: 3.9965422 right: 2.9990218
+(getting on output) left: 5.0 right: 3.0
+(driving input) timer: 246.0
+(driving input) timer: 247.0
+(getting on output) left: 3.9965422 right: 2.9990218
+(getting on output) left: 5.0 right: 3.0
+(driving input) timer: 247.0
+(driving input) timer: 248.0
+(getting on output) left: 3.9965422 right: 2.9990218
+(getting on output) left: 5.0 right: 3.0
+(driving input) timer: 248.0
+(driving input) timer: 249.0
+(getting on output) left: 3.9965422 right: 2.9990218
+(getting on output) left: 5.0 right: 3.0
+(driving input) timer: 249.0
+prereg loss 50.602097 reg_l1 12.706874 reg_l2 10.178641
+max per element loss 1.735625 average per element loss 0.101204194

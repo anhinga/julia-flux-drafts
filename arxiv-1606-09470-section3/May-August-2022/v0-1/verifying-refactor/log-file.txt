@@ -1,0 +1,2386 @@
+2022-06-10T13:08:08.056
+STEP 1 ================================
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 0.0
+(getting on output) left: -0.32472074 right: -0.18459068
+(driving input) timer: 1.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 1.0
+(getting on output) left: -0.0021496937 right: -0.10633279
+(driving input) timer: 2.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 2.0
+(getting on output) left: -0.045253858 right: 0.24467492
+(driving input) timer: 3.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 3.0
+(getting on output) left: 0.12575246 right: 0.18239705
+(driving input) timer: 4.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 4.0
+(getting on output) left: 0.12917012 right: 0.1441253
+(driving input) timer: 5.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 5.0
+(getting on output) left: -0.0031684302 right: 0.22190943
+(driving input) timer: 6.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 6.0
+(getting on output) left: -0.04237427 right: 0.17476943
+(driving input) timer: 7.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 7.0
+(getting on output) left: 0.009324744 right: 0.16621254
+(driving input) timer: 8.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 8.0
+(getting on output) left: -0.06106172 right: 0.23344569
+(driving input) timer: 9.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 9.0
+(getting on output) left: -0.047822624 right: 0.18711053
+(driving input) timer: 10.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 10.0
+(getting on output) left: -0.048191044 right: 0.19321124
+(driving input) timer: 11.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 11.0
+(getting on output) left: 0.064678594 right: 0.19570641
+(driving input) timer: 12.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 12.0
+(getting on output) left: -0.018550351 right: 0.2421025
+(driving input) timer: 13.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 13.0
+(getting on output) left: 0.028769407 right: 0.1901648
+(driving input) timer: 14.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 14.0
+(getting on output) left: -0.07164276 right: 0.22222045
+(driving input) timer: 15.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 15.0
+(getting on output) left: -0.029537257 right: 0.17508943
+(driving input) timer: 16.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 16.0
+(getting on output) left: 0.006871002 right: 0.15224013
+(driving input) timer: 17.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 17.0
+(getting on output) left: -0.059011433 right: 0.25661582
+(driving input) timer: 18.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 18.0
+(getting on output) left: -0.03148313 right: 0.15471886
+(driving input) timer: 19.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 19.0
+(getting on output) left: -0.06634447 right: 0.22266494
+(driving input) timer: 20.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 20.0
+(getting on output) left: -0.023486398 right: 0.16661236
+(driving input) timer: 21.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 21.0
+(getting on output) left: -0.0070619807 right: 0.25295746
+(driving input) timer: 22.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 22.0
+(getting on output) left: -0.0054933466 right: 0.18034884
+(driving input) timer: 23.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 23.0
+(getting on output) left: 0.023614839 right: 0.19849572
+(driving input) timer: 24.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 24.0
+(getting on output) left: -0.07172863 right: 0.24390697
+(driving input) timer: 25.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 25.0
+(getting on output) left: -0.027150325 right: 0.15370785
+(driving input) timer: 26.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 26.0
+(getting on output) left: -0.02200571 right: 0.2288165
+(driving input) timer: 27.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 27.0
+(getting on output) left: -0.02618521 right: 0.1560722
+(driving input) timer: 28.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 28.0
+(getting on output) left: -0.060151424 right: 0.2252515
+(driving input) timer: 29.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 29.0
+(getting on output) left: -0.019981388 right: 0.16324875
+(driving input) timer: 30.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 30.0
+(getting on output) left: -0.051562913 right: 0.2149576
+(driving input) timer: 31.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 31.0
+(getting on output) left: 0.006308183 right: 0.2083508
+(driving input) timer: 32.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 32.0
+(getting on output) left: 0.013739325 right: 0.17881352
+(driving input) timer: 33.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 33.0
+(getting on output) left: 0.054003336 right: 0.21877114
+(driving input) timer: 34.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 34.0
+prereg loss 2.4201107 regularization 3279.3413 reg_novel 1046.6927
+loss 6.7461452
+beta_power Float32[0.80999994, 0.99800104] eta 0.001
+min grad -6.609993 max grad 12.108829
+min mt -0.6609995 max mt 1.2108831
+min vt 1.2343104e-14 max vt 0.14662185
+min correction -1.0000001 max correction 1.0000001
+min weight -0.83189964 max weight 1.0
+STEP 2 ================================
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 0.0
+(getting on output) left: -0.32372075 right: -0.18559068
+(driving input) timer: 1.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 1.0
+(getting on output) left: 0.0035831481 right: -0.11479191
+(driving input) timer: 2.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 2.0
+(getting on output) left: -0.03697978 right: 0.21984905
+(driving input) timer: 3.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 3.0
+(getting on output) left: 0.13012335 right: 0.14987235
+(driving input) timer: 4.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 4.0
+(getting on output) left: 0.14225517 right: 0.10938298
+(driving input) timer: 5.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 5.0
+(getting on output) left: 0.007527314 right: 0.17664815
+(driving input) timer: 6.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 6.0
+(getting on output) left: -0.027000695 right: 0.13471362
+(driving input) timer: 7.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 7.0
+(getting on output) left: 0.01100271 right: 0.13445489
+(driving input) timer: 8.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 8.0
+(getting on output) left: -0.054996885 right: 0.18586582
+(driving input) timer: 9.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 9.0
+(getting on output) left: -0.032623533 right: 0.15334494
+(driving input) timer: 10.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 10.0
+(getting on output) left: -0.043386634 right: 0.16094843
+(driving input) timer: 11.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 11.0
+(getting on output) left: 0.068905815 right: 0.16582888
+(driving input) timer: 12.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 12.0
+(getting on output) left: -0.00045567006 right: 0.1946958
+(driving input) timer: 13.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 13.0
+(getting on output) left: 0.03646013 right: 0.15746674
+(driving input) timer: 14.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 14.0
+(getting on output) left: -0.06707263 right: 0.1898578
+(driving input) timer: 15.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 15.0
+(getting on output) left: -0.011422221 right: 0.1330828
+(driving input) timer: 16.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 16.0
+(getting on output) left: 0.014230195 right: 0.12171419
+(driving input) timer: 17.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 17.0
+(getting on output) left: -0.0481086 right: 0.21489777
+(driving input) timer: 18.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 18.0
+(getting on output) left: -0.021544795 right: 0.12393371
+(driving input) timer: 19.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 19.0
+(getting on output) left: -0.058397982 right: 0.18662661
+(driving input) timer: 20.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 20.0
+(getting on output) left: -0.017755575 right: 0.13597468
+(driving input) timer: 21.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 21.0
+(getting on output) left: 0.0040004402 right: 0.2133284
+(driving input) timer: 22.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 22.0
+(getting on output) left: 0.006791368 right: 0.1401194
+(driving input) timer: 23.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 23.0
+(getting on output) left: 0.025582965 right: 0.1688818
+(driving input) timer: 24.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 24.0
+(getting on output) left: -0.059670247 right: 0.20056097
+(driving input) timer: 25.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 25.0
+(getting on output) left: -0.01784901 right: 0.12228363
+(driving input) timer: 26.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 26.0
+(getting on output) left: -0.011227317 right: 0.18841217
+(driving input) timer: 27.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 27.0
+(getting on output) left: -0.014933368 right: 0.11996348
+(driving input) timer: 28.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 28.0
+(getting on output) left: -0.046412792 right: 0.19112311
+(driving input) timer: 29.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 29.0
+(getting on output) left: -0.01102908 right: 0.1297807
+(driving input) timer: 30.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 30.0
+(getting on output) left: -0.044088658 right: 0.18078396
+(driving input) timer: 31.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 31.0
+(getting on output) left: 0.022989128 right: 0.1660903
+(driving input) timer: 32.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 32.0
+(getting on output) left: 0.01713125 right: 0.15042152
+(driving input) timer: 33.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 33.0
+(getting on output) left: 0.06590737 right: 0.17060882
+(driving input) timer: 34.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 34.0
+prereg loss 1.9696658 regularization 3275.0347 reg_novel 967.8846
+loss 6.2125854
+beta_power Float32[0.7289999, 0.9970031] eta 0.001
+min grad -5.3433185 max grad 9.77377
+min mt -1.1212139 max mt 2.067172
+min vt 1.1598472e-12 max vt 0.24200061
+min correction -1.0013514 max correction 1.0013523
+min weight -0.8309008 max weight 1.0
+STEP 3 ================================
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 0.0
+(getting on output) left: -0.322731 right: -0.18657951
+(driving input) timer: 1.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 1.0
+(getting on output) left: 0.009234592 right: -0.12301182
+(driving input) timer: 2.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 2.0
+(getting on output) left: -0.028904863 right: 0.19545713
+(driving input) timer: 3.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 3.0
+(getting on output) left: 0.13495444 right: 0.117020905
+(driving input) timer: 4.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 4.0
+(getting on output) left: 0.15435496 right: 0.07501271
+(driving input) timer: 5.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 5.0
+(getting on output) left: 0.018165674 right: 0.1308164
+(driving input) timer: 6.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 6.0
+(getting on output) left: -0.012664899 right: 0.095786795
+(driving input) timer: 7.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 7.0
+(getting on output) left: 0.012220392 right: 0.102939025
+(driving input) timer: 8.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 8.0
+(getting on output) left: -0.04543143 right: 0.1374816
+(driving input) timer: 9.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 9.0
+(getting on output) left: -0.018650975 right: 0.116935946
+(driving input) timer: 10.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 10.0
+(getting on output) left: -0.036967948 right: 0.13209444
+(driving input) timer: 11.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 11.0
+(getting on output) left: 0.06865841 right: 0.13486916
+(driving input) timer: 12.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 12.0
+(getting on output) left: 0.015308112 right: 0.14164731
+(driving input) timer: 13.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 13.0
+(getting on output) left: 0.048294447 right: 0.124736294
+(driving input) timer: 14.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 14.0
+(getting on output) left: -0.05125474 right: 0.1537382
+(driving input) timer: 15.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 15.0
+(getting on output) left: -0.0018493235 right: 0.09986001
+(driving input) timer: 16.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 16.0
+(getting on output) left: 0.026395222 right: 0.08919603
+(driving input) timer: 17.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 17.0
+(getting on output) left: -0.033562075 right: 0.17538835
+(driving input) timer: 18.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 18.0
+(getting on output) left: -0.02053259 right: 0.09910212
+(driving input) timer: 19.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 19.0
+(getting on output) left: -0.038580883 right: 0.14311394
+(driving input) timer: 20.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 20.0
+(getting on output) left: -0.009646602 right: 0.1042987
+(driving input) timer: 21.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 21.0
+(getting on output) left: 0.015551783 right: 0.17401437
+(driving input) timer: 22.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 22.0
+(getting on output) left: 0.017058562 right: 0.10134435
+(driving input) timer: 23.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 23.0
+(getting on output) left: 0.025974441 right: 0.14003548
+(driving input) timer: 24.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 24.0
+(getting on output) left: -0.039654974 right: 0.15696128
+(driving input) timer: 25.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 25.0
+(getting on output) left: -0.012068041 right: 0.09349076
+(driving input) timer: 26.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 26.0
+(getting on output) left: 0.0037637763 right: 0.14537314
+(driving input) timer: 27.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 27.0
+(getting on output) left: -0.0019505806 right: 0.08543857
+(driving input) timer: 28.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 28.0
+(getting on output) left: -0.033973925 right: 0.15821794
+(driving input) timer: 29.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 29.0
+(getting on output) left: -0.0054172277 right: 0.097560644
+(driving input) timer: 30.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 30.0
+(getting on output) left: -0.034863014 right: 0.1438214
+(driving input) timer: 31.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 31.0
+(getting on output) left: 0.038587105 right: 0.12957288
+(driving input) timer: 32.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 32.0
+(getting on output) left: 0.0198319 right: 0.121590406
+(driving input) timer: 33.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 33.0
+(getting on output) left: 0.07770794 right: 0.123890445
+(driving input) timer: 34.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 34.0
+prereg loss 1.6089424 regularization 3270.124 reg_novel 894.13464
+loss 5.7732015
+beta_power Float32[0.6560999, 0.9960061] eta 0.001
+min grad -4.1836143 max grad 7.4541388
+min mt -1.3961625 max mt 2.6058688
+min vt 7.830826e-12 max vt 0.2973221
+min correction -1.0035834 max correction 1.003416
+min weight -0.82990396 max weight 1.0
+STEP 4 ================================
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 0.0
+(getting on output) left: -0.32176414 right: -0.18754491
+(driving input) timer: 1.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 1.0
+(getting on output) left: 0.014679663 right: -0.13112941
+(driving input) timer: 2.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 2.0
+(getting on output) left: -0.02100785 right: 0.17145982
+(driving input) timer: 3.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 3.0
+(getting on output) left: 0.1396351 right: 0.08483293
+(driving input) timer: 4.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 4.0
+(getting on output) left: 0.1658229 right: 0.041295767
+(driving input) timer: 5.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 5.0
+(getting on output) left: 0.03618861 right: 0.08651828
+(driving input) timer: 6.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 6.0
+(getting on output) left: -0.003244035 right: 0.061828453
+(driving input) timer: 7.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 7.0
+(getting on output) left: 0.016880922 right: 0.070373364
+(driving input) timer: 8.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 8.0
+(getting on output) left: -0.030136239 right: 0.09251627
+(driving input) timer: 9.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 9.0
+(getting on output) left: -0.0058378354 right: 0.085728794
+(driving input) timer: 10.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 10.0
+(getting on output) left: -0.024753012 right: 0.10090068
+(driving input) timer: 11.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 11.0
+(getting on output) left: 0.07233025 right: 0.101876915
+(driving input) timer: 12.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 12.0
+(getting on output) left: 0.02923039 right: 0.09164989
+(driving input) timer: 13.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 13.0
+(getting on output) left: 0.058163047 right: 0.091740444
+(driving input) timer: 14.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 14.0
+(getting on output) left: -0.035791174 right: 0.1198138
+(driving input) timer: 15.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 15.0
+(getting on output) left: 0.005194802 right: 0.06616943
+(driving input) timer: 16.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 16.0
+(getting on output) left: 0.037949473 right: 0.05829526
+(driving input) timer: 17.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 17.0
+(getting on output) left: -0.016425919 right: 0.13297375
+(driving input) timer: 18.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 18.0
+(getting on output) left: -0.017961577 right: 0.076010406
+(driving input) timer: 19.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 19.0
+(getting on output) left: -0.018048577 right: 0.09899926
+(driving input) timer: 20.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 20.0
+(getting on output) left: 0.0005811248 right: 0.07240978
+(driving input) timer: 21.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 21.0
+(getting on output) left: 0.02735088 right: 0.13500224
+(driving input) timer: 22.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 22.0
+(getting on output) left: 0.020414632 right: 0.06410991
+(driving input) timer: 23.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 23.0
+(getting on output) left: 0.028883692 right: 0.11058235
+(driving input) timer: 24.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 24.0
+(getting on output) left: -0.026543044 right: 0.112396955
+(driving input) timer: 25.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 25.0
+(getting on output) left: -0.010949854 right: 0.069054455
+(driving input) timer: 26.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 26.0
+(getting on output) left: 0.019904943 right: 0.096771106
+(driving input) timer: 27.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 27.0
+(getting on output) left: 0.0046822503 right: 0.058114033
+(driving input) timer: 28.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 28.0
+(getting on output) left: -0.018294804 right: 0.119458646
+(driving input) timer: 29.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 29.0
+(getting on output) left: -8.026883e-5 right: 0.06830155
+(driving input) timer: 30.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 30.0
+(getting on output) left: -0.02293389 right: 0.10691243
+(driving input) timer: 31.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 31.0
+(getting on output) left: 0.047214247 right: 0.09842607
+(driving input) timer: 32.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 32.0
+(getting on output) left: 0.020420589 right: 0.09954904
+(driving input) timer: 33.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 33.0
+(getting on output) left: 0.087482415 right: 0.07467952
+(driving input) timer: 34.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 34.0
+prereg loss 1.3480141 regularization 3264.6677 reg_novel 825.1346
+loss 5.4378166
+beta_power Float32[0.5904899, 0.9950101] eta 0.001
+min grad -3.1107 max grad 5.1920705
+min mt -1.5676163 max mt 2.864489
+min vt 1.00088245e-11 max vt 0.32398203
+min correction -1.0066503 max correction 1.0057614
+min weight -0.82891 max weight 1.0
+STEP 5 ================================
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 0.0
+(getting on output) left: -0.32083747 right: -0.18846972
+(driving input) timer: 1.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 1.0
+(getting on output) left: 0.0197066 right: -0.13893963
+(driving input) timer: 2.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 2.0
+(getting on output) left: -0.013814725 right: 0.14824542
+(driving input) timer: 3.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 3.0
+(getting on output) left: 0.14428394 right: 0.05374359
+(driving input) timer: 4.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 4.0
+(getting on output) left: 0.17756821 right: 0.008386074
+(driving input) timer: 5.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 5.0
+(getting on output) left: 0.053352017 right: 0.042950835
+(driving input) timer: 6.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 6.0
+(getting on output) left: 0.006025847 right: 0.027524425
+(driving input) timer: 7.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 7.0
+(getting on output) left: 0.021448968 right: 0.03902295
+(driving input) timer: 8.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 8.0
+(getting on output) left: -0.014720835 right: 0.049243614
+(driving input) timer: 9.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 9.0
+(getting on output) left: 0.005978048 right: 0.05540427
+(driving input) timer: 10.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 10.0
+(getting on output) left: -0.0128332 right: 0.0694412
+(driving input) timer: 11.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 11.0
+(getting on output) left: 0.076717764 right: 0.07007386
+(driving input) timer: 12.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 12.0
+(getting on output) left: 0.041469906 right: 0.04476963
+(driving input) timer: 13.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 13.0
+(getting on output) left: 0.067188315 right: 0.05948654
+(driving input) timer: 14.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 14.0
+(getting on output) left: -0.021103464 right: 0.08616199
+(driving input) timer: 15.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 15.0
+(getting on output) left: 0.01671684 right: 0.032850806
+(driving input) timer: 16.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 16.0
+(getting on output) left: 0.046952333 right: 0.027469806
+(driving input) timer: 17.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 17.0
+(getting on output) left: 0.0043355227 right: 0.086474106
+(driving input) timer: 18.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 18.0
+(getting on output) left: -0.0055349134 right: 0.046953294
+(driving input) timer: 19.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 19.0
+(getting on output) left: -0.0055921264 right: 0.06556124
+(driving input) timer: 20.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 20.0
+(getting on output) left: 0.009520344 right: 0.040857688
+(driving input) timer: 21.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 21.0
+(getting on output) left: 0.041862648 right: 0.09241864
+(driving input) timer: 22.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 22.0
+(getting on output) left: 0.026062127 right: 0.028846702
+(driving input) timer: 23.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 23.0
+(getting on output) left: 0.034367874 right: 0.075901285
+(driving input) timer: 24.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 24.0
+(getting on output) left: -0.018172298 right: 0.07312943
+(driving input) timer: 25.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 25.0
+(getting on output) left: 0.0017439276 right: 0.0451696
+(driving input) timer: 26.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 26.0
+(getting on output) left: 0.023041002 right: 0.056592233
+(driving input) timer: 27.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 27.0
+(getting on output) left: 0.013871366 right: 0.03305257
+(driving input) timer: 28.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 28.0
+(getting on output) left: -0.0013169833 right: 0.07685447
+(driving input) timer: 29.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 29.0
+(getting on output) left: -0.0015293136 right: 0.04617832
+(driving input) timer: 30.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 30.0
+(getting on output) left: -0.0046099946 right: 0.06255309
+(driving input) timer: 31.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 31.0
+(getting on output) left: 0.058731187 right: 0.07017175
+(driving input) timer: 32.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 32.0
+(getting on output) left: 0.027924351 right: 0.06447122
+(driving input) timer: 33.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 33.0
+(getting on output) left: 0.090960115 right: 0.038469303
+(driving input) timer: 34.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 34.0
+prereg loss 1.1890152 regularization 3258.814 reg_novel 760.6182
+loss 5.2084475
+beta_power Float32[0.5314409, 0.9940151] eta 0.001
+min grad -1.7910099 max grad 2.974165
+min mt -1.5899557 max mt 2.8754568
+min vt 1.1950532e-11 max vt 0.3325036
+min correction -1.0104833 max correction 1.0082601
+min weight -0.82791984 max weight 1.0
+STEP 6 ================================
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 0.0
+(getting on output) left: -0.31997737 right: -0.1893299
+(driving input) timer: 1.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 1.0
+(getting on output) left: 0.024020351 right: -0.14626709
+(driving input) timer: 2.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 2.0
+(getting on output) left: -0.007449247 right: 0.12609345
+(driving input) timer: 3.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 3.0
+(getting on output) left: 0.14939687 right: 0.02420646
+(driving input) timer: 4.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 4.0
+(getting on output) left: 0.19152047 right: -0.026938448
+(driving input) timer: 5.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 5.0
+(getting on output) left: 0.06780185 right: 0.0031245816
+(driving input) timer: 6.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 6.0
+(getting on output) left: 0.014614031 right: -0.0067973267
+(driving input) timer: 7.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 7.0
+(getting on output) left: 0.025035815 right: 0.008727951
+(driving input) timer: 8.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 8.0
+(getting on output) left: 0.0012097359 right: 0.007575076
+(driving input) timer: 9.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 9.0
+(getting on output) left: 0.016323563 right: 0.028343415
+(driving input) timer: 10.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 10.0
+(getting on output) left: -0.0007176362 right: 0.037767388
+(driving input) timer: 11.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 11.0
+(getting on output) left: 0.08329976 right: 0.03905236
+(driving input) timer: 12.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 12.0
+(getting on output) left: 0.053506877 right: 0.0055245645
+(driving input) timer: 13.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 13.0
+(getting on output) left: 0.072258815 right: 0.02751846
+(driving input) timer: 14.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 14.0
+(getting on output) left: -0.007345345 right: 0.052983154
+(driving input) timer: 15.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 15.0
+(getting on output) left: 0.024944387 right: 0.0012915134
+(driving input) timer: 16.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 16.0
+(getting on output) left: 0.051866323 right: 8.307397e-6
+(driving input) timer: 17.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 17.0
+(getting on output) left: 0.023909511 right: 0.03948805
+(driving input) timer: 18.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 18.0
+(getting on output) left: 0.0050705858 right: 0.020020632
+(driving input) timer: 19.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 19.0
+(getting on output) left: 0.006057445 right: 0.031972036
+(driving input) timer: 20.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 20.0
+(getting on output) left: 0.016793378 right: 0.011665706
+(driving input) timer: 21.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 21.0
+(getting on output) left: 0.053643495 right: 0.05591524
+(driving input) timer: 22.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 22.0
+(getting on output) left: 0.03270603 right: -0.0036599413
+(driving input) timer: 23.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 23.0
+(getting on output) left: 0.042189956 right: 0.042056438
+(driving input) timer: 24.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 24.0
+(getting on output) left: -0.009376124 right: 0.0333448
+(driving input) timer: 25.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 25.0
+(getting on output) left: 0.013552716 right: 0.022648232
+(driving input) timer: 26.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 26.0
+(getting on output) left: 0.0267811 right: 0.015860157
+(driving input) timer: 27.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 27.0
+(getting on output) left: 0.025563745 right: 0.012676679
+(driving input) timer: 28.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 28.0
+(getting on output) left: 0.015740104 right: 0.036838673
+(driving input) timer: 29.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 29.0
+(getting on output) left: 0.0007013157 right: 0.022505235
+(driving input) timer: 30.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 30.0
+(getting on output) left: 0.011420369 right: 0.02333218
+(driving input) timer: 31.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 31.0
+(getting on output) left: 0.06757337 right: 0.044243693
+(driving input) timer: 32.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 32.0
+(getting on output) left: 0.032602545 right: 0.026990868
+(driving input) timer: 33.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 33.0
+(getting on output) left: 0.098080985 right: 0.0066047553
+(driving input) timer: 34.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 34.0
+prereg loss 1.111058 regularization 3252.5957 reg_novel 700.3695
+loss 5.0640235
+beta_power Float32[0.47829682, 0.9930211] eta 0.001
+min grad -0.96195 max grad 0.9549014
+min mt -1.527155 max mt 2.674222
+min vt 1.3668821e-11 max vt 0.33291602
+min correction -1.015011 max correction 1.0136217
+min weight -0.82693446 max weight 1.0
+STEP 7 ================================
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 0.0
+(getting on output) left: -0.3192169 right: -0.19009514
+(driving input) timer: 1.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 1.0
+(getting on output) left: 0.027161814 right: -0.15268692
+(driving input) timer: 2.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 2.0
+(getting on output) left: -0.0027519837 right: 0.10604793
+(driving input) timer: 3.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 3.0
+(getting on output) left: 0.15287524 right: -0.002089765
+(driving input) timer: 4.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 4.0
+(getting on output) left: 0.20325518 right: -0.05876482
+(driving input) timer: 5.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 5.0
+(getting on output) left: 0.08030347 right: -0.032973763
+(driving input) timer: 6.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 6.0
+(getting on output) left: 0.02364034 right: -0.037773773
+(driving input) timer: 7.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 7.0
+(getting on output) left: 0.02680526 right: -0.019092415
+(driving input) timer: 8.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 8.0
+(getting on output) left: 0.01579634 right: -0.030919261
+(driving input) timer: 9.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 9.0
+(getting on output) left: 0.024890002 right: 0.0033716075
+(driving input) timer: 10.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 10.0
+(getting on output) left: 0.009773422 right: 0.008963009
+(driving input) timer: 11.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 11.0
+(getting on output) left: 0.08842992 right: 0.010779228
+(driving input) timer: 12.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 12.0
+(getting on output) left: 0.06593363 right: -0.028213682
+(driving input) timer: 13.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 13.0
+(getting on output) left: 0.07646039 right: -0.0031076688
+(driving input) timer: 14.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 14.0
+(getting on output) left: 0.0043753423 right: 0.021151584
+(driving input) timer: 15.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 15.0
+(getting on output) left: 0.030996785 right: -0.027472358
+(driving input) timer: 16.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 16.0
+(getting on output) left: 0.055032633 right: -0.025109252
+(driving input) timer: 17.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 17.0
+(getting on output) left: 0.039891914 right: -0.0013863742
+(driving input) timer: 18.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 18.0
+(getting on output) left: 0.0137376655 right: -0.0053370614
+(driving input) timer: 19.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 19.0
+(getting on output) left: 0.016249966 right: 0.001308078
+(driving input) timer: 20.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 20.0
+(getting on output) left: 0.022305753 right: -0.015053587
+(driving input) timer: 21.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 21.0
+(getting on output) left: 0.06348963 right: 0.023919562
+(driving input) timer: 22.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 22.0
+(getting on output) left: 0.038575657 right: -0.03284507
+(driving input) timer: 23.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 23.0
+(getting on output) left: 0.04955005 right: 0.010603305
+(driving input) timer: 24.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 24.0
+(getting on output) left: 0.000755582 right: -0.0027626678
+(driving input) timer: 25.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 25.0
+(getting on output) left: 0.022752568 right: -0.0015044976
+(driving input) timer: 26.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 26.0
+(getting on output) left: 0.03049824 right: -0.019037792
+(driving input) timer: 27.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 27.0
+(getting on output) left: 0.034416147 right: -0.008385073
+(driving input) timer: 28.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 28.0
+(getting on output) left: 0.030979944 right: 0.0014195293
+(driving input) timer: 29.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 29.0
+(getting on output) left: 0.00528872 right: -0.0023033824
+(driving input) timer: 30.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 30.0
+(getting on output) left: 0.02869225 right: -0.008804735
+(driving input) timer: 31.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 31.0
+(getting on output) left: 0.07235221 right: 0.017719466
+(driving input) timer: 32.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 32.0
+(getting on output) left: 0.03723448 right: -0.011826526
+(driving input) timer: 33.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 33.0
+(getting on output) left: 0.10734925 right: -0.022335544
+(driving input) timer: 34.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 34.0
+prereg loss 1.1007833 regularization 3246.0486 reg_novel 644.1925
+loss 4.9910245
+beta_power Float32[0.43046713, 0.99202806] eta 0.001
+min grad -1.0766482 max grad 0.8133037
+min mt -1.3494023 max mt 2.299135
+min vt 1.5701714e-11 max vt 0.33374226
+min correction -1.02012 max correction 1.0197613
+min weight -0.8259549 max weight 1.0
+STEP 8 ================================
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 0.0
+(getting on output) left: -0.31858894 right: -0.19073242
+(driving input) timer: 1.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 1.0
+(getting on output) left: 0.028966747 right: -0.15795971
+(driving input) timer: 2.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 2.0
+(getting on output) left: -5.6505203e-5 right: 0.08861731
+(driving input) timer: 3.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 3.0
+(getting on output) left: 0.15484788 right: -0.024072409
+(driving input) timer: 4.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 4.0
+(getting on output) left: 0.21247925 right: -0.08537904
+(driving input) timer: 5.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 5.0
+(getting on output) left: 0.090508625 right: -0.06409283
+(driving input) timer: 6.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 6.0
+(getting on output) left: 0.02996058 right: -0.06497978
+(driving input) timer: 7.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 7.0
+(getting on output) left: 0.027802162 right: -0.042370982
+(driving input) timer: 8.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 8.0
+(getting on output) left: 0.025417564 right: -0.057149205
+(driving input) timer: 9.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 9.0
+(getting on output) left: 0.03283161 right: -0.019324725
+(driving input) timer: 10.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 10.0
+(getting on output) left: 0.016532086 right: -0.014939915
+(driving input) timer: 11.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 11.0
+(getting on output) left: 0.09134499 right: -0.012254823
+(driving input) timer: 12.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 12.0
+(getting on output) left: 0.07442585 right: -0.056861766
+(driving input) timer: 13.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 13.0
+(getting on output) left: 0.08138849 right: -0.02920041
+(driving input) timer: 14.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 14.0
+(getting on output) left: 0.012620835 right: -0.006073974
+(driving input) timer: 15.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 15.0
+(getting on output) left: 0.035956975 right: -0.052753143
+(driving input) timer: 16.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 16.0
+(getting on output) left: 0.0573554 right: -0.04665325
+(driving input) timer: 17.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 17.0
+(getting on output) left: 0.05080691 right: -0.030351076
+(driving input) timer: 18.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 18.0
+(getting on output) left: 0.020904146 right: -0.028735159
+(driving input) timer: 19.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 19.0
+(getting on output) left: 0.023777265 right: -0.024320243
+(driving input) timer: 20.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 20.0
+(getting on output) left: 0.025511414 right: -0.03835836
+(driving input) timer: 21.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 21.0
+(getting on output) left: 0.07097743 right: -0.0021481887
+(driving input) timer: 22.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 22.0
+(getting on output) left: 0.042319175 right: -0.05885788
+(driving input) timer: 23.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 23.0
+(getting on output) left: 0.055891592 right: -0.016022084
+(driving input) timer: 24.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 24.0
+(getting on output) left: 0.009041073 right: -0.031658098
+(driving input) timer: 25.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 25.0
+(getting on output) left: 0.029142234 right: -0.024872271
+(driving input) timer: 26.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 26.0
+(getting on output) left: 0.033720415 right: -0.043184318
+(driving input) timer: 27.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 27.0
+(getting on output) left: 0.039363038 right: -0.03007637
+(driving input) timer: 28.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 28.0
+(getting on output) left: 0.043037776 right: -0.028010193
+(driving input) timer: 29.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 29.0
+(getting on output) left: 0.012451002 right: -0.024250187
+(driving input) timer: 30.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 30.0
+(getting on output) left: 0.03853114 right: -0.034052424
+(driving input) timer: 31.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 31.0
+(getting on output) left: 0.07866347 right: -0.0074309185
+(driving input) timer: 32.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 32.0
+(getting on output) left: 0.041757524 right: -0.04226584
+(driving input) timer: 33.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 33.0
+(getting on output) left: 0.11155857 right: -0.04645331
+(driving input) timer: 34.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 34.0
+prereg loss 1.1458588 regularization 3239.1934 reg_novel 591.929
+loss 4.976981
+beta_power Float32[0.38742042, 0.99103606] eta 0.001
+min grad -2.7016916 max grad 1.6913779
+min mt -1.1225457 max mt 1.7990522
+min vt 1.8281477e-11 max vt 0.34070757
+min correction -1.025736 max correction 1.0263853
+min weight -0.8249822 max weight 1.0
+STEP 9 ================================
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 0.0
+(getting on output) left: -0.3181133 right: -0.1912156
+(driving input) timer: 1.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 1.0
+(getting on output) left: 0.029360734 right: -0.16179568
+(driving input) timer: 2.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 2.0
+(getting on output) left: 0.0003682524 right: 0.074763365
+(driving input) timer: 3.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 3.0
+(getting on output) left: 0.15440512 right: -0.0405032
+(driving input) timer: 4.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 4.0
+(getting on output) left: 0.21850786 right: -0.10534151
+(driving input) timer: 5.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 5.0
+(getting on output) left: 0.09975138 right: -0.08787472
+(driving input) timer: 6.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 6.0
+(getting on output) left: 0.03360196 right: -0.08707298
+(driving input) timer: 7.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 7.0
+(getting on output) left: 0.027563302 right: -0.06131299
+(driving input) timer: 8.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 8.0
+(getting on output) left: 0.032240033 right: -0.07752585
+(driving input) timer: 9.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 9.0
+(getting on output) left: 0.038458586 right: -0.036733314
+(driving input) timer: 10.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 10.0
+(getting on output) left: 0.020406904 right: -0.03383758
+(driving input) timer: 11.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 11.0
+(getting on output) left: 0.0930641 right: -0.030491885
+(driving input) timer: 12.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 12.0
+(getting on output) left: 0.08128345 right: -0.07979095
+(driving input) timer: 13.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 13.0
+(getting on output) left: 0.08296461 right: -0.04943633
+(driving input) timer: 14.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 14.0
+(getting on output) left: 0.018124733 right: -0.028116895
+(driving input) timer: 15.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 15.0
+(getting on output) left: 0.037150137 right: -0.07312529
+(driving input) timer: 16.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 16.0
+(getting on output) left: 0.056526206 right: -0.0614492
+(driving input) timer: 17.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 17.0
+(getting on output) left: 0.05684819 right: -0.05171897
+(driving input) timer: 18.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 18.0
+(getting on output) left: 0.026148245 right: -0.04674678
+(driving input) timer: 19.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 19.0
+(getting on output) left: 0.027743645 right: -0.044668954
+(driving input) timer: 20.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 20.0
+(getting on output) left: 0.026183736 right: -0.056216847
+(driving input) timer: 21.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 21.0
+(getting on output) left: 0.07545963 right: -0.022875067
+(driving input) timer: 22.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 22.0
+(getting on output) left: 0.043124735 right: -0.07888285
+(driving input) timer: 23.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 23.0
+(getting on output) left: 0.062353704 right: -0.03780628
+(driving input) timer: 24.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 24.0
+(getting on output) left: 0.013342256 right: -0.052066907
+(driving input) timer: 25.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 25.0
+(getting on output) left: 0.034111004 right: -0.044719774
+(driving input) timer: 26.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 26.0
+(getting on output) left: 0.034685124 right: -0.06162688
+(driving input) timer: 27.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 27.0
+(getting on output) left: 0.040556405 right: -0.04594636
+(driving input) timer: 28.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 28.0
+(getting on output) left: 0.050935227 right: -0.052530326
+(driving input) timer: 29.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 29.0
+(getting on output) left: 0.016693562 right: -0.040777512
+(driving input) timer: 30.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 30.0
+(getting on output) left: 0.045294188 right: -0.05475437
+(driving input) timer: 31.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 31.0
+(getting on output) left: 0.081253596 right: -0.027487062
+(driving input) timer: 32.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 32.0
+(getting on output) left: 0.050434247 right: -0.067250594
+(driving input) timer: 33.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 33.0
+(getting on output) left: 0.109921634 right: -0.06666644
+(driving input) timer: 34.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 34.0
+prereg loss 1.2170291 regularization 3232.0234 reg_novel 543.43097
+loss 4.9924836
+beta_power Float32[0.34867835, 0.990045] eta 0.001
+min grad -3.97422 max grad 2.471546
+min mt -0.81405205 max mt 1.2217249
+min vt 2.1285541e-11 max vt 0.3561611
+min correction -1.0317401 max correction 1.0332882
+min weight -0.82401747 max weight 1.0
+STEP 10 ================================
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 0.0
+(getting on output) left: -0.31779033 right: -0.191532
+(driving input) timer: 1.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 1.0
+(getting on output) left: 0.028530933 right: -0.16419995
+(driving input) timer: 2.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 2.0
+(getting on output) left: -0.0011117011 right: 0.06451497
+(driving input) timer: 3.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 3.0
+(getting on output) left: 0.1519362 right: -0.051045805
+(driving input) timer: 4.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 4.0
+(getting on output) left: 0.22126408 right: -0.117800705
+(driving input) timer: 5.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 5.0
+(getting on output) left: 0.10489224 right: -0.103891976
+(driving input) timer: 6.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 6.0
+(getting on output) left: 0.03419751 right: -0.10278879
+(driving input) timer: 7.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 7.0
+(getting on output) left: 0.029567596 right: -0.07252855
+(driving input) timer: 8.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 8.0
+(getting on output) left: 0.035681356 right: -0.09228716
+(driving input) timer: 9.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 9.0
+(getting on output) left: 0.041768394 right: -0.050433338
+(driving input) timer: 10.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 10.0
+(getting on output) left: 0.020875283 right: -0.04835563
+(driving input) timer: 11.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 11.0
+(getting on output) left: 0.09346108 right: -0.042308763
+(driving input) timer: 12.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 12.0
+(getting on output) left: 0.08303945 right: -0.09584337
+(driving input) timer: 13.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 13.0
+(getting on output) left: 0.081049085 right: -0.062689275
+(driving input) timer: 14.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 14.0
+(getting on output) left: 0.020109424 right: -0.04477202
+(driving input) timer: 15.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 15.0
+(getting on output) left: 0.03507615 right: -0.08631049
+(driving input) timer: 16.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 16.0
+(getting on output) left: 0.051887035 right: -0.06885155
+(driving input) timer: 17.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 17.0
+(getting on output) left: 0.058046147 right: -0.06635513
+(driving input) timer: 18.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 18.0
+(getting on output) left: 0.028699992 right: -0.059138827
+(driving input) timer: 19.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 19.0
+(getting on output) left: 0.02842797 right: -0.058759965
+(driving input) timer: 20.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 20.0
+(getting on output) left: 0.02350631 right: -0.0680761
+(driving input) timer: 21.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 21.0
+(getting on output) left: 0.07687557 right: -0.036957867
+(driving input) timer: 22.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 22.0
+(getting on output) left: 0.04158713 right: -0.09266884
+(driving input) timer: 23.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 23.0
+(getting on output) left: 0.06854543 right: -0.053872474
+(driving input) timer: 24.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 24.0
+(getting on output) left: 0.014707597 right: -0.06523081
+(driving input) timer: 25.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 25.0
+(getting on output) left: 0.036836684 right: -0.060006917
+(driving input) timer: 26.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 26.0
+(getting on output) left: 0.03466539 right: -0.0739121
+(driving input) timer: 27.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 27.0
+(getting on output) left: 0.040994193 right: -0.058438495
+(driving input) timer: 28.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 28.0
+(getting on output) left: 0.051986914 right: -0.068904236
+(driving input) timer: 29.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 29.0
+(getting on output) left: 0.01878182 right: -0.051833086
+(driving input) timer: 30.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 30.0
+(getting on output) left: 0.04497952 right: -0.06986613
+(driving input) timer: 31.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 31.0
+(getting on output) left: 0.07978948 right: -0.03828477
+(driving input) timer: 32.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 32.0
+(getting on output) left: 0.057597212 right: -0.087828755
+(driving input) timer: 33.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 33.0
+(getting on output) left: 0.10520397 right: -0.077982165
+(driving input) timer: 34.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 34.0
+prereg loss 1.281207 regularization 3224.5703 reg_novel 498.5328
+loss 5.00431
+beta_power Float32[0.3138105, 0.989055] eta 0.001
+min grad -4.8452725 max grad 2.9498396
+min mt -0.47526494 max mt 0.61502504
+min vt 2.4533374e-11 max vt 0.37928128
+min correction -1.038 max correction 1.0407162
+min weight -0.8230618 max weight 1.0
+STEP 11 ================================
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 0.0
+(getting on output) left: -0.31760126 right: -0.19168498
+(driving input) timer: 1.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 1.0
+(getting on output) left: 0.026722722 right: -0.16527991
+(driving input) timer: 2.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 2.0
+(getting on output) left: -0.004137017 right: 0.057685543
+(driving input) timer: 3.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 3.0
+(getting on output) left: 0.1480893 right: -0.056028146
+(driving input) timer: 4.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 4.0
+(getting on output) left: 0.22122864 right: -0.1231893
+(driving input) timer: 5.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 5.0
+(getting on output) left: 0.10632123 right: -0.11266174
+(driving input) timer: 6.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 6.0
+(getting on output) left: 0.032263584 right: -0.11238281
+(driving input) timer: 7.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 7.0
+(getting on output) left: 0.031517323 right: -0.07668366
+(driving input) timer: 8.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 8.0
+(getting on output) left: 0.03561618 right: -0.10089582
+(driving input) timer: 9.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 9.0
+(getting on output) left: 0.042863566 right: -0.059058864
+(driving input) timer: 10.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 10.0
+(getting on output) left: 0.018788446 right: -0.058003798
+(driving input) timer: 11.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 11.0
+(getting on output) left: 0.09301407 right: -0.0483789
+(driving input) timer: 12.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 12.0
+(getting on output) left: 0.081335485 right: -0.10524508
+(driving input) timer: 13.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 13.0
+(getting on output) left: 0.07657573 right: -0.069314264
+(driving input) timer: 14.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 14.0
+(getting on output) left: 0.019238226 right: -0.05582585
+(driving input) timer: 15.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 15.0
+(getting on output) left: 0.030798038 right: -0.09089803
+(driving input) timer: 16.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 16.0
+(getting on output) left: 0.04646097 right: -0.072612956
+(driving input) timer: 17.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 17.0
+(getting on output) left: 0.05503254 right: -0.07410499
+(driving input) timer: 18.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 18.0
+(getting on output) left: 0.028725186 right: -0.06588879
+(driving input) timer: 19.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 19.0
+(getting on output) left: 0.026679179 right: -0.067297116
+(driving input) timer: 20.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 20.0
+(getting on output) left: 0.019884005 right: -0.07401804
+(driving input) timer: 21.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 21.0
+(getting on output) left: 0.07519012 right: -0.045124434
+(driving input) timer: 22.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 22.0
+(getting on output) left: 0.039314434 right: -0.09999768
+(driving input) timer: 23.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 23.0
+(getting on output) left: 0.07290177 right: -0.06374065
+(driving input) timer: 24.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 24.0
+(getting on output) left: 0.013691975 right: -0.07143846
+(driving input) timer: 25.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 25.0
+(getting on output) left: 0.037389558 right: -0.07089654
+(driving input) timer: 26.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 26.0
+(getting on output) left: 0.033588678 right: -0.079758815
+(driving input) timer: 27.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 27.0
+(getting on output) left: 0.03987877 right: -0.06539105
+(driving input) timer: 28.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 28.0
+(getting on output) left: 0.0473765 right: -0.07800343
+(driving input) timer: 29.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 29.0
+(getting on output) left: 0.019085148 right: -0.05733916
+(driving input) timer: 30.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 30.0
+(getting on output) left: 0.039395474 right: -0.07935016
+(driving input) timer: 31.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 31.0
+(getting on output) left: 0.075060025 right: -0.04226925
+(driving input) timer: 32.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 32.0
+(getting on output) left: 0.06043435 right: -0.10198585
+(driving input) timer: 33.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 33.0
+(getting on output) left: 0.097057 right: -0.08113916
+(driving input) timer: 34.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 34.0
+prereg loss 1.3243695 regularization 3216.8616 reg_novel 457.03268
+loss 4.998264
+beta_power Float32[0.28242943, 0.98806596] eta 0.001
+min grad -5.3229675 max grad 3.5128503
+min mt -0.26878157 max mt 0.34560794
+min vt 2.817091e-11 max vt 0.40723562
+min correction -1.0444056 max correction 1.049823
+min weight -0.82211643 max weight 1.0
+STEP 12 ================================
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 0.0
+(getting on output) left: -0.3175165 right: -0.19169004
+(driving input) timer: 1.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 1.0
+(getting on output) left: 0.02427148 right: -0.16538408
+(driving input) timer: 2.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 2.0
+(getting on output) left: -0.008154936 right: 0.053432386
+(driving input) timer: 3.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 3.0
+(getting on output) left: 0.14422876 right: -0.056448728
+(driving input) timer: 4.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 4.0
+(getting on output) left: 0.2196169 right: -0.122302406
+(driving input) timer: 5.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 5.0
+(getting on output) left: 0.10508107 right: -0.11638479
+(driving input) timer: 6.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 6.0
+(getting on output) left: 0.028521866 right: -0.11770541
+(driving input) timer: 7.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 7.0
+(getting on output) left: 0.03378126 right: -0.074680015
+(driving input) timer: 8.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 8.0
+(getting on output) left: 0.032018483 right: -0.10344422
+(driving input) timer: 9.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 9.0
+(getting on output) left: 0.042193465 right: -0.063627884
+(driving input) timer: 10.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 10.0
+(getting on output) left: 0.014307324 right: -0.0638977
+(driving input) timer: 11.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 11.0
+(getting on output) left: 0.091858305 right: -0.048254214
+(driving input) timer: 12.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 12.0
+(getting on output) left: 0.07708885 right: -0.108651675
+(driving input) timer: 13.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 13.0
+(getting on output) left: 0.07154824 right: -0.069779664
+(driving input) timer: 14.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 14.0
+(getting on output) left: 0.01586915 right: -0.062334947
+(driving input) timer: 15.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 15.0
+(getting on output) left: 0.026403721 right: -0.090150654
+(driving input) timer: 16.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 16.0
+(getting on output) left: 0.04195903 right: -0.07495581
+(driving input) timer: 17.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 17.0
+(getting on output) left: 0.047567487 right: -0.07535066
+(driving input) timer: 18.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 18.0
+(getting on output) left: 0.0265224 right: -0.06785561
+(driving input) timer: 19.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 19.0
+(getting on output) left: 0.023191025 right: -0.072279766
+(driving input) timer: 20.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 20.0
+(getting on output) left: 0.016027024 right: -0.07417575
+(driving input) timer: 21.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 21.0
+(getting on output) left: 0.07088627 right: -0.048177905
+(driving input) timer: 22.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 22.0
+(getting on output) left: 0.037470236 right: -0.10114229
+(driving input) timer: 23.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 23.0
+(getting on output) left: 0.07707925 right: -0.068133466
+(driving input) timer: 24.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 24.0
+(getting on output) left: 0.010554433 right: -0.071088724
+(driving input) timer: 25.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 25.0
+(getting on output) left: 0.036501866 right: -0.07824933
+(driving input) timer: 26.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 26.0
+(getting on output) left: 0.03478384 right: -0.07923429
+(driving input) timer: 27.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 27.0
+(getting on output) left: 0.036786795 right: -0.06782031
+(driving input) timer: 28.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 28.0
+(getting on output) left: 0.03739997 right: -0.078431375
+(driving input) timer: 29.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 29.0
+(getting on output) left: 0.017957803 right: -0.058303215
+(driving input) timer: 30.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 30.0
+(getting on output) left: 0.030334184 right: -0.0828217
+(driving input) timer: 31.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 31.0
+(getting on output) left: 0.06731242 right: -0.041893687
+(driving input) timer: 32.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 32.0
+(getting on output) left: 0.05786396 right: -0.106618345
+(driving input) timer: 33.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 33.0
+(getting on output) left: 0.08735418 right: -0.0780371
+(driving input) timer: 34.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 34.0
+prereg loss 1.3417207 regularization 3208.9502 reg_novel 418.72858
+loss 4.9693995
+beta_power Float32[0.25418648, 0.9870779] eta 0.001
+min grad -5.45808 max grad 3.4608793
+min mt -0.5267051 max mt 0.44211692
+min vt 3.241331e-11 max vt 0.43661866
+min correction -1.0508497 max correction 1.0584388
+min weight -0.8211825 max weight 1.0
+STEP 13 ================================
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 0.0
+(getting on output) left: -0.3175031 right: -0.19156869
+(driving input) timer: 1.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 1.0
+(getting on output) left: 0.021366924 right: -0.16461709
+(driving input) timer: 2.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 2.0
+(getting on output) left: -0.012802504 right: 0.051392026
+(driving input) timer: 3.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 3.0
+(getting on output) left: 0.14052764 right: -0.05302478
+(driving input) timer: 4.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 4.0
+(getting on output) left: 0.21683472 right: -0.11644312
+(driving input) timer: 5.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 5.0
+(getting on output) left: 0.10192935 right: -0.11581193
+(driving input) timer: 6.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 6.0
+(getting on output) left: 0.023549752 right: -0.11930218
+(driving input) timer: 7.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 7.0
+(getting on output) left: 0.036384985 right: -0.06794467
+(driving input) timer: 8.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 8.0
+(getting on output) left: 0.02596387 right: -0.10118531
+(driving input) timer: 9.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 9.0
+(getting on output) left: 0.04018759 right: -0.06465007
+(driving input) timer: 10.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 10.0
+(getting on output) left: 0.008160319 right: -0.06647886
+(driving input) timer: 11.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 11.0
+(getting on output) left: 0.09029943 right: -0.043251034
+(driving input) timer: 12.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 12.0
+(getting on output) left: 0.071327984 right: -0.10722061
+(driving input) timer: 13.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 13.0
+(getting on output) left: 0.06621238 right: -0.06530827
+(driving input) timer: 14.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 14.0
+(getting on output) left: 0.010760607 right: -0.0648682
+(driving input) timer: 15.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 15.0
+(getting on output) left: 0.02083051 right: -0.08490071
+(driving input) timer: 16.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 16.0
+(getting on output) left: 0.03658016 right: -0.073215194
+(driving input) timer: 17.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 17.0
+(getting on output) left: 0.037992425 right: -0.07179468
+(driving input) timer: 18.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 18.0
+(getting on output) left: 0.022945732 right: -0.065582015
+(driving input) timer: 19.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 19.0
+(getting on output) left: 0.01712764 right: -0.0690255
+(driving input) timer: 20.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 20.0
+(getting on output) left: 0.01201297 right: -0.0709915
+(driving input) timer: 21.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 21.0
+(getting on output) left: 0.06519185 right: -0.046126563
+(driving input) timer: 22.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 22.0
+(getting on output) left: 0.034655686 right: -0.097348265
+(driving input) timer: 23.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 23.0
+(getting on output) left: 0.08041282 right: -0.06765949
+(driving input) timer: 24.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 24.0
+(getting on output) left: 0.0056968406 right: -0.0663937
+(driving input) timer: 25.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 25.0
+(getting on output) left: 0.0343214 right: -0.08103675
+(driving input) timer: 26.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 26.0
+(getting on output) left: 0.036826316 right: -0.07390797
+(driving input) timer: 27.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 27.0
+(getting on output) left: 0.03309551 right: -0.066144906
+(driving input) timer: 28.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 28.0
+(getting on output) left: 0.026589878 right: -0.0754663
+(driving input) timer: 29.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 29.0
+(getting on output) left: 0.014885422 right: -0.056132667
+(driving input) timer: 30.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 30.0
+(getting on output) left: 0.02021277 right: -0.07876048
+(driving input) timer: 31.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 31.0
+(getting on output) left: 0.060644478 right: -0.037628736
+(driving input) timer: 32.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 32.0
+(getting on output) left: 0.052617855 right: -0.105933934
+(driving input) timer: 33.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 33.0
+(getting on output) left: 0.07932652 right: -0.070571706
+(driving input) timer: 34.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 34.0
+prereg loss 1.3329804 regularization 3200.8062 reg_novel 383.41687
+loss 4.917204
+beta_power Float32[0.22876783, 0.98609084] eta 0.001
+min grad -5.3039103 max grad 3.3661292
+min mt -1.0044258 max mt 0.6701231
+min vt 3.708186e-11 max vt 0.46431315
+min correction -1.0571811 max correction 1.0637268
+min weight -0.8202612 max weight 1.0
+STEP 14 ================================
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 0.0
+(getting on output) left: -0.31752825 right: -0.19134402
+(driving input) timer: 1.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 1.0
+(getting on output) left: 0.018231198 right: -0.16315122
+(driving input) timer: 2.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 2.0
+(getting on output) left: -0.017632253 right: 0.051056076
+(driving input) timer: 3.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 3.0
+(getting on output) left: 0.13727294 right: -0.046605
+(driving input) timer: 4.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 4.0
+(getting on output) left: 0.21325375 right: -0.10690947
+(driving input) timer: 5.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 5.0
+(getting on output) left: 0.09770092 right: -0.11214625
+(driving input) timer: 6.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 6.0
+(getting on output) left: 0.018046834 right: -0.11805398
+(driving input) timer: 7.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 7.0
+(getting on output) left: 0.039450616 right: -0.058466613
+(driving input) timer: 8.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 8.0
+(getting on output) left: 0.018343287 right: -0.09512161
+(driving input) timer: 9.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 9.0
+(getting on output) left: 0.036536347 right: -0.060219817
+(driving input) timer: 10.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 10.0
+(getting on output) left: 0.0011158846 right: -0.0652808
+(driving input) timer: 11.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 11.0
+(getting on output) left: 0.08924118 right: -0.03464135
+(driving input) timer: 12.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 12.0
+(getting on output) left: 0.0653166 right: -0.10191049
+(driving input) timer: 13.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 13.0
+(getting on output) left: 0.060234495 right: -0.057134055
+(driving input) timer: 14.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 14.0
+(getting on output) left: 0.004682038 right: -0.063797005
+(driving input) timer: 15.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 15.0
+(getting on output) left: 0.014425851 right: -0.07640094
+(driving input) timer: 16.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 16.0
+(getting on output) left: 0.034788124 right: -0.068010636
+(driving input) timer: 17.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 17.0
+(getting on output) left: 0.026286427 right: -0.06582157
+(driving input) timer: 18.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 18.0
+(getting on output) left: 0.018977216 right: -0.06168041
+(driving input) timer: 19.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 19.0
+(getting on output) left: 0.008843467 right: -0.062149577
+(driving input) timer: 20.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 20.0
+(getting on output) left: 0.008617677 right: -0.06471044
+(driving input) timer: 21.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 21.0
+(getting on output) left: 0.058227897 right: -0.04033262
+(driving input) timer: 22.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 22.0
+(getting on output) left: 0.0306459 right: -0.089102425
+(driving input) timer: 23.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 23.0
+(getting on output) left: 0.08697638 right: -0.06439997
+(driving input) timer: 24.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 24.0
+(getting on output) left: -0.0008500628 right: -0.058277704
+(driving input) timer: 25.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 25.0
+(getting on output) left: 0.03249548 right: -0.08133191
+(driving input) timer: 26.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 26.0
+(getting on output) left: 0.03866439 right: -0.0645061
+(driving input) timer: 27.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 27.0
+(getting on output) left: 0.035109557 right: -0.060067788
+(driving input) timer: 28.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 28.0
+(getting on output) left: 0.020679107 right: -0.070631035
+(driving input) timer: 29.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 29.0
+(getting on output) left: 0.01096613 right: -0.05399576
+(driving input) timer: 30.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 30.0
+(getting on output) left: 0.015052304 right: -0.07277597
+(driving input) timer: 31.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 31.0
+(getting on output) left: 0.058415353 right: -0.029560015
+(driving input) timer: 32.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 32.0
+(getting on output) left: 0.04414483 right: -0.101984344
+(driving input) timer: 33.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 33.0
+(getting on output) left: 0.071776986 right: -0.058878124
+(driving input) timer: 34.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 34.0
+prereg loss 1.3121157 regularization 3192.4255 reg_novel 350.8905
+loss 4.855432
+beta_power Float32[0.20589104, 0.98510474] eta 0.001
+min grad -4.9425573 max grad 2.9917562
+min mt -1.398239 max mt 0.8527155
+min vt 4.190241e-11 max vt 0.48827738
+min correction -1.0643992 max correction 1.0684007
+min weight -0.8193537 max weight 1.0
+STEP 15 ================================
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 0.0
+(getting on output) left: -0.31756452 right: -0.19103803
+(driving input) timer: 1.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 1.0
+(getting on output) left: 0.015015654 right: -0.16113964
+(driving input) timer: 2.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 2.0
+(getting on output) left: -0.022472791 right: 0.0520346
+(driving input) timer: 3.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 3.0
+(getting on output) left: 0.13459826 right: -0.037878733
+(driving input) timer: 4.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 4.0
+(getting on output) left: 0.20936103 right: -0.0946766
+(driving input) timer: 5.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 5.0
+(getting on output) left: 0.09295838 right: -0.106262945
+(driving input) timer: 6.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 6.0
+(getting on output) left: 0.015308548 right: -0.114320956
+(driving input) timer: 7.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 7.0
+(getting on output) left: 0.041865785 right: -0.04711862
+(driving input) timer: 8.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 8.0
+(getting on output) left: 0.011385057 right: -0.088120535
+(driving input) timer: 9.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 9.0
+(getting on output) left: 0.031611215 right: -0.053894177
+(driving input) timer: 10.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 10.0
+(getting on output) left: -0.002275098 right: -0.0592679
+(driving input) timer: 11.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 11.0
+(getting on output) left: 0.0866838 right: -0.023741864
+(driving input) timer: 12.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 12.0
+(getting on output) left: 0.059863634 right: -0.09366321
+(driving input) timer: 13.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 13.0
+(getting on output) left: 0.05890906 right: -0.04700028
+(driving input) timer: 14.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 14.0
+(getting on output) left: -0.0028518327 right: -0.05704774
+(driving input) timer: 15.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 15.0
+(getting on output) left: 0.009450436 right: -0.0678107
+(driving input) timer: 16.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 16.0
+(getting on output) left: 0.034327716 right: -0.059327498
+(driving input) timer: 17.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 17.0
+(getting on output) left: 0.018554544 right: -0.057271667
+(driving input) timer: 18.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 18.0
+(getting on output) left: 0.014548302 right: -0.055665128
+(driving input) timer: 19.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 19.0
+(getting on output) left: 0.0064536333 right: -0.054262005
+(driving input) timer: 20.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 20.0
+(getting on output) left: 0.0044239983 right: -0.05576121
+(driving input) timer: 21.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 21.0
+(getting on output) left: 0.05231159 right: -0.031982727
+(driving input) timer: 22.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 22.0
+(getting on output) left: 0.027227905 right: -0.07980617
+(driving input) timer: 23.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 23.0
+(getting on output) left: 0.08894321 right: -0.05547724
+(driving input) timer: 24.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 24.0
+(getting on output) left: -0.007389635 right: -0.049230926
+(driving input) timer: 25.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 25.0
+(getting on output) left: 0.028824795 right: -0.07600795
+(driving input) timer: 26.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 26.0
+(getting on output) left: 0.039646685 right: -0.055209395
+(driving input) timer: 27.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 27.0
+(getting on output) left: 0.031153291 right: -0.050747167
+(driving input) timer: 28.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 28.0
+(getting on output) left: 0.017023202 right: -0.06236897
+(driving input) timer: 29.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 29.0
+(getting on output) left: 0.0047872104 right: -0.04807303
+(driving input) timer: 30.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 30.0
+(getting on output) left: 0.021352246 right: -0.063819975
+(driving input) timer: 31.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 31.0
+(getting on output) left: 0.05134833 right: -0.020541426
+(driving input) timer: 32.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 32.0
+(getting on output) left: 0.041258205 right: -0.0943327
+(driving input) timer: 33.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 33.0
+(getting on output) left: 0.07526858 right: -0.048053123
+(driving input) timer: 34.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 34.0
+prereg loss 1.2646813 regularization 3183.8496 reg_novel 320.96182
+loss 4.769493
+beta_power Float32[0.18530193, 0.98411965] eta 0.001
+min grad -4.423411 max grad 2.4355881
+min mt -1.7007563 max mt 0.98761064
+min vt 4.6995435e-11 max vt 0.5073554
+min correction -1.0772293 max correction 1.0719676
+min weight -0.8184613 max weight 1.0
+STEP 16 ================================
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 0.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 0.0
+(getting on output) left: -0.31759232 right: -0.19067106
+(driving input) timer: 1.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 1.0
+(getting on output) left: 0.011830933 right: -0.1587069
+(driving input) timer: 2.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 2.0
+(getting on output) left: -0.027198806 right: 0.054031774
+(driving input) timer: 3.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 3.0
+(getting on output) left: 0.13243991 right: -0.027460624
+(driving input) timer: 4.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 4.0
+(getting on output) left: 0.20538418 right: -0.08061723
+(driving input) timer: 5.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 5.0
+(getting on output) left: 0.08802651 right: -0.09871651
+(driving input) timer: 6.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 6.0
+(getting on output) left: 0.013591796 right: -0.10884093
+(driving input) timer: 7.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 7.0
+(getting on output) left: 0.044234954 right: -0.034338742
+(driving input) timer: 8.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 8.0
+(getting on output) left: 0.0047094375 right: -0.079955615
+(driving input) timer: 9.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 9.0
+(getting on output) left: 0.026184425 right: -0.0460935
+(driving input) timer: 10.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 10.0
+(getting on output) left: 0.0057220533 right: -0.05030909
+(driving input) timer: 11.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 11.0
+(getting on output) left: 0.080254406 right: -0.012343038
+(driving input) timer: 12.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 12.0
+(getting on output) left: 0.0577152 right: -0.08578576
+(driving input) timer: 13.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 13.0
+(getting on output) left: 0.06521298 right: -0.035240054
+(driving input) timer: 14.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 14.0
+(getting on output) left: -0.01112254 right: -0.047711395
+(driving input) timer: 15.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 15.0
+(getting on output) left: 0.0060136802 right: -0.05964773
+(driving input) timer: 16.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 16.0
+(getting on output) left: 0.035013836 right: -0.047662377
+(driving input) timer: 17.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 17.0
+(getting on output) left: 0.013450282 right: -0.047364622
+(driving input) timer: 18.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 18.0
+(getting on output) left: 0.0098670125 right: -0.046861306
+(driving input) timer: 19.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 19.0
+(getting on output) left: 0.007125236 right: -0.045046166
+(driving input) timer: 20.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 20.0
+(getting on output) left: 0.0024028532 right: -0.044389218
+(driving input) timer: 21.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 21.0
+(getting on output) left: 0.048367143 right: -0.021804072
+(driving input) timer: 22.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 22.0
+(getting on output) left: 0.02507979 right: -0.06965777
+(driving input) timer: 23.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 23.0
+(getting on output) left: 0.0906177 right: -0.042732827
+(driving input) timer: 24.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 24.0
+(getting on output) left: -0.014651593 right: -0.039774604
+(driving input) timer: 25.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 25.0
+(getting on output) left: 0.024168167 right: -0.067379765
+(driving input) timer: 26.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 26.0
+(getting on output) left: 0.03890614 right: -0.045101427
+(driving input) timer: 27.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 27.0
+(getting on output) left: 0.021924617 right: -0.039089434
+(driving input) timer: 28.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 28.0
+(getting on output) left: 0.014109246 right: -0.052351605
+(driving input) timer: 29.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 29.0
+(getting on output) left: -0.0018198453 right: -0.03758456
+(driving input) timer: 30.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 30.0
+(getting on output) left: 0.026635287 right: -0.053263336
+(driving input) timer: 31.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 31.0
+(getting on output) left: 0.043842975 right: -0.010981329
+(driving input) timer: 32.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 32.0
+(getting on output) left: 0.040413044 right: -0.085038625
+(driving input) timer: 33.0
+(getting on output) left: 0.0 right: 0.0
+(driving input) timer: 33.0
+(getting on output) left: 0.08053612 right: -0.03758739
+(driving input) timer: 34.0
+(getting on output) left: 1.0 right: 0.0
+(driving input) timer: 34.0
+prereg loss 1.2151241 regularization 3175.061 reg_novel 293.4462
+loss 4.683632
+beta_power Float32[0.16677174, 0.9831355] eta 0.001
+min grad -3.7975628 max grad 2.1128516
+min mt -1.910437 max mt 1.1001347
+min vt 5.2079674e-11 max vt 0.5212693
+min correction -1.0890751 max correction 1.074092
+min weight -0.8175852 max weight 1.0
+2022-06-10T13:31:10.271
