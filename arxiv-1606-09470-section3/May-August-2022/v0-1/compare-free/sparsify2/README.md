@@ -1,5 +1,7 @@
 # Redo the sparsify experiment
 
+_(Aug 12-17, 2022)_
+
 In the process we discovered that Zygote.jl 0.6.41-0.6.43 does not work for our tasks,
 so we had to revert to v0.6.40 used elsewhere (TODO item: fix the problems with updated Zygote.jl)
 
