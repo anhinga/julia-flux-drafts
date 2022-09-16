@@ -53,10 +53,20 @@ _(Jun 17-18, 2022)_
 
 `feedforward-run-3` - a nice convergence finally, with skip connections and well tuned initialization
 
+_(Jun 19-Jul 4, 2022)_
+
    * `Testing.md` - The model this run produces is capable of some generalization, it's not completely overfit to the training sequence.
+   
+     * _(Jun 23, 2022)_
 
    * `sparsification` - post-feedforward-run-3 sparsification experiments
 
+     * _(Jun 26-Jul 1, 2022)_
+
    * `testing` - testing the resulting models for generalization
    
+     * _(Jun 30-Jul 4, 2022)_
+   
  `compare-free` - a similar experiment without `compare` neurons (in progress)
+ 
+ _(Jul 2-Aug 17, 2022)_
