@@ -1,5 +1,7 @@
 # v0.1
 
+_(Jun 9 - Aug 17, 2022)_ **main results are here**
+
 Compared to `rough-sketches`, I am aiming for more clearly structured code.
 
 Differences between "DMM Lite" (here) and DMM 1.0 (2016-2017, https://github.com/jsa-aerial/DMM):
