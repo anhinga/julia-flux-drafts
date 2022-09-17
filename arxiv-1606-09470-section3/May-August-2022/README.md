@@ -56,11 +56,7 @@ Julia differentiable programming frameworks. In April 2022, the progress
 in differentiable programming ecosystems and in my relationships with those
 ecosystems reached the stage where this project could have been resumed.
 
-I have been temporarily sequestering the code of this stage of the
-_"arxiv-1606-09470-section3"_ project in a private repository in preparation
-to a forthcoming release of this stage to open source so that my org would have an option of 
-taking public relations advantages and/or technological advantages from having
-earlier access to these results (compared to their general availability).
+The work in this subdirectory was done on May 6-Aug 29, 2022 and was open sourced on Sep 16-17, 2022.
 
 ---
 
