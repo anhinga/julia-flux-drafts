@@ -2,6 +2,10 @@ Experiments around a DMM prototyped in Section 3 of "Programming Patterns in Dat
 
 (A version of duplicate characters or duplicate words detector. We think this is a nice toy problem to work as a playground for initial "program synthesis via DMMs" experiments.)
 
+For successful experiments with DMM training, DMM training with sparsification, and very nice generalization results on a tiny training set see [May-August-2022](May-August-2022) subdirectory.
+
+---
+
 ### Failed experiments trying to gradients with respect to variables stored in dictionaries (July 2021) 
 
 The information about experiments which involve taking gradients through dictionaries is now located in the
