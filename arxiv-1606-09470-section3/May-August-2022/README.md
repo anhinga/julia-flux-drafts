@@ -17,7 +17,7 @@ in May-August 2022.
 Efforts have been made to make this **"lab journal"** as reproducible as possible.
 See [reproducibility.md](reproducibility.md) for the details of that.
 
-## What, how, and why
+## What and how
 
 ### What:
 
